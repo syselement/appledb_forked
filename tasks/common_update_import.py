@@ -29,6 +29,8 @@ FILTERED_OUT_DEVICES = ["iProd99,1", "iFPGA", "iSim1,1"]
 VARIANTS = {}
 BOARD_IDS = {}
 
+MULTI_BOARD_DEVICES = {}
+
 for device in Path("deviceFiles").rglob("*.json"):
     device_data = json.load(device.open(encoding="utf-8"))
     name = device_data["name"]
@@ -42,9 +44,13 @@ for device in Path("deviceFiles").rglob("*.json"):
     for identifier in identifiers:
         VARIANTS.setdefault(identifier, set()).add(key)
         if device_data.get('board'):
-            board = device_data['board'][0] if isinstance(device_data['board'], list) else device_data['board']
-            BOARD_IDS.setdefault(board.upper() if device_data.get("type") == "iBridge" else board, set()).add(key)
-
+            if isinstance(device_data['board'], list):
+                for board in device_data['board']:
+                    BOARD_IDS.setdefault(board.upper() if device_data.get("type") == "iBridge" else board, set()).add(key)
+                MULTI_BOARD_DEVICES[key] = device_data['board']
+            else:
+                board = device_data['board']
+                BOARD_IDS.setdefault(board.upper() if device_data.get("type") == "iBridge" else board, set()).add(key)
 
 def augment_with_keys(identifiers):
     new_identifiers = []
@@ -53,12 +59,21 @@ def augment_with_keys(identifiers):
         new_identifiers.extend(VARIANTS.get(identifier, [identifier]))
     return new_identifiers
 
+def get_board_mapping_lower_case(devices):
+    modified_mapping = {k.lower(): v for k,v in BOARD_IDS.items()}
+    identifiers = []
+    for device in devices:
+        device_mappings = list(modified_mapping.get(device, []))
+        if not device_mappings:
+            continue
+        identifiers.extend(augment_with_keys(device_mappings))
+    return identifiers
 
 def get_board_mappings(devices):
     identifiers = []
     bridge_identifiers = []
     for device in devices:
-        device_mappings = list(BOARD_IDS.get(device, {}))
+        device_mappings = list(BOARD_IDS.get(device, []))
         if not device_mappings:
             continue
         if device_mappings[0].startswith("iBridge"):
@@ -67,7 +82,14 @@ def get_board_mappings(devices):
             identifiers.extend(augment_with_keys(device_mappings))
     return identifiers, bridge_identifiers
 
-def create_file(os_str, build, full_self_driving, recommended_version=None, version=None, released=None, beta=None, rc=None, buildtrain=None, rsr=False):
+def all_boards_covered(identifiers, boards):
+    has_boards = True
+    for identifier in identifiers:
+        if MULTI_BOARD_DEVICES.get(identifier):
+            has_boards = has_boards and set(MULTI_BOARD_DEVICES[identifier]).intersection(boards) == set(MULTI_BOARD_DEVICES[identifier])
+    return has_boards
+
+def create_file(os_str, build, full_self_driving, recommended_version=None, version=None, released=None, beta=None, rc=None, buildtrain=None, rsr=False, restore_version=None):
     assert version or recommended_version, "Must have either version or recommended_version"
 
     file_updated = False
@@ -112,7 +134,7 @@ def create_file(os_str, build, full_self_driving, recommended_version=None, vers
             friendly_version = input("\tEnter version (include beta/RC), or press Enter to keep current: ").strip()
             if not friendly_version:
                 friendly_version = version or recommended_version
-        db_data = {"osStr": os_str_override, "version": friendly_version, "build": build, "buildTrain": buildtrain}
+        db_data = {"osStr": os_str_override, "version": friendly_version, "build": build}
 
         web_image = get_image(os_str, friendly_version)
         if web_image:
@@ -121,6 +143,10 @@ def create_file(os_str, build, full_self_driving, recommended_version=None, vers
     if buildtrain and buildtrain != db_data.get('buildTrain'):
         file_updated = True
         db_data['buildTrain'] = buildtrain
+
+    if restore_version and restore_version != db_data.get('restoreVersion'):
+        file_updated = True
+        db_data['restoreVersion'] = restore_version
 
     if not db_data.get("released"):
         file_updated = True
@@ -148,7 +174,7 @@ def create_file(os_str, build, full_self_driving, recommended_version=None, vers
         db_data["rc"] = True
 
     if "releaseNotes" not in db_data and not db_data.get("beta") and not db_data.get("rc"):
-        release_notes_link = get_release_notes_link(db_data["osStr"], db_data["version"])
+        release_notes_link = get_release_notes_link(os_str, db_data["version"])
         if release_notes_link:
             file_updated = True
             db_data["releaseNotes"] = release_notes_link

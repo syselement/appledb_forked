@@ -33,6 +33,29 @@
         "iPhone12,8",
         "iPod9,1"
     ],
+    "basebandVersions": {
+        "iPhone8,1": "8.02.01",
+        "iPhone8,2": "8.02.01",
+        "iPhone8,4": "10.00.02",
+        "iPhone9,1": "8.02.01",
+        "iPhone9,2": "8.02.01",
+        "iPhone9,3": "5.00.00",
+        "iPhone9,4": "5.00.00",
+        "iPhone10,1": "6.02.01",
+        "iPhone10,2": "6.02.01",
+        "iPhone10,3": "6.02.01",
+        "iPhone10,4": "4.00.00",
+        "iPhone10,5": "4.00.00",
+        "iPhone10,6": "4.00.00",
+        "iPhone11,2": "3.00.01",
+        "iPhone11,4": "3.00.01",
+        "iPhone11,6": "3.00.01",
+        "iPhone11,8": "3.00.01",
+        "iPhone12,1": "2.00.01",
+        "iPhone12,3": "2.00.01",
+        "iPhone12,5": "2.00.01",
+        "iPhone12,8": "2.00.01"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -42,10 +65,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45650/D11B5038-5DE2-4101-8A35-962759EB214A/iPhone_4.7_14.0_18A5373a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020SummerSeed/fullrestores/001-45650/D11B5038-5DE2-4101-8A35-962759EB214A/iPhone_4.7_14.0_18A5373a_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -59,6 +78,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/patches/001-45588/0B1B0132-4073-452F-B6E5-8B2A496006F9/com_apple_MobileAsset_SoftwareUpdate/3b48626a247635c8cd5ef4eeb7dbd1edd36d8479.zip",
@@ -71,6 +93,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -86,6 +111,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/patches/001-45771/9F5423D1-F608-4F4E-A374-031EE7333585/com_apple_MobileAsset_SoftwareUpdate/1c4636f7505a9668b9a8a38648cd76d3e7cd13e3.zip",
@@ -99,6 +127,9 @@
             "prerequisiteBuild": "17G5059c",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -114,6 +145,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/patches/001-46236/25DF1D7B-A990-4874-98F7-15642CBCF421/com_apple_MobileAsset_SoftwareUpdate/f7ba2cb6baff45b0a88eafb8ab7e3cede5266ced.zip",
@@ -127,6 +161,9 @@
             "prerequisiteBuild": "18A5369b",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -145,10 +182,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45698/BA1C0896-9F5C-46C1-94E0-4DA1FCF52A7F/iPhone_5.5_14.0_18A5373a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020SummerSeed/fullrestores/001-45698/BA1C0896-9F5C-46C1-94E0-4DA1FCF52A7F/iPhone_5.5_14.0_18A5373a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -160,6 +193,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
             ],
             "links": [
                 {
@@ -173,6 +209,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -188,6 +227,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/patches/001-45695/17ED17A5-5FE4-4781-8293-1C19B2A6A317/com_apple_MobileAsset_SoftwareUpdate/c95796a37eb6a4f17ed6cde5ff52ca930bcab31e.zip",
@@ -201,6 +243,9 @@
             "prerequisiteBuild": "17G5059c",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -216,6 +261,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/patches/001-46280/112DAE25-3BDB-43B5-A21D-1EFEAFCF4CD4/com_apple_MobileAsset_SoftwareUpdate/02d4c2ea70bd8d60da668d103af7cf9e0f5e6680.zip",
@@ -229,6 +277,9 @@
             "prerequisiteBuild": "18A5369b",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -247,10 +298,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45643/50697806-1DFA-449F-9809-AF0E8E31EA1C/iPhone_4.0_64bit_14.0_18A5373a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020SummerSeed/fullrestores/001-45643/50697806-1DFA-449F-9809-AF0E8E31EA1C/iPhone_4.0_64bit_14.0_18A5373a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -262,6 +309,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -275,6 +325,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -290,6 +343,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/patches/001-45816/C1E5CA85-99E7-4DAD-A719-30CAED3EA2F8/com_apple_MobileAsset_SoftwareUpdate/87b4bf711270c274761ff8fd935c0184b810882d.zip",
@@ -303,6 +359,9 @@
             "prerequisiteBuild": "17G5059c",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -318,19 +377,8 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
-            "links": [
-                {
-                    "url": "https://updates.cdn-apple.com/2020SummerSeed/patches/001-46220/304D683F-4213-4348-9507-28CB058690D8/com_apple_MobileAsset_SoftwareUpdate/30cba8afc6bf28f287df06d0056847eab3236f36.zip",
-                    "active": true
-                }
-            ],
-            "size": 81939377
-        },
-        {
-            "type": "ota",
-            "prerequisiteBuild": "18A5369b",
-            "deviceMap": [
-                "iPhone8,4"
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -339,6 +387,23 @@
                 }
             ],
             "size": 81926914
+        },
+        {
+            "type": "ota",
+            "prerequisiteBuild": "18A5369b",
+            "deviceMap": [
+                "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
+            ],
+            "links": [
+                {
+                    "url": "https://updates.cdn-apple.com/2020SummerSeed/patches/001-46220/304D683F-4213-4348-9507-28CB058690D8/com_apple_MobileAsset_SoftwareUpdate/30cba8afc6bf28f287df06d0056847eab3236f36.zip",
+                    "active": true
+                }
+            ],
+            "size": 81939377
         },
         {
             "type": "ipsw",
@@ -351,10 +416,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45665/9406B82F-43AD-486F-A560-8EC044CBA8B4/iPhone_4.7_P3_14.0_18A5373a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020SummerSeed/fullrestores/001-45665/9406B82F-43AD-486F-A560-8EC044CBA8B4/iPhone_4.7_P3_14.0_18A5373a_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -415,10 +476,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45807/69A38FFF-D2EA-479C-87C2-0433E2FEC55D/iPhone_5.5_P3_14.0_18A5373a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020SummerSeed/fullrestores/001-45807/69A38FFF-D2EA-479C-87C2-0433E2FEC55D/iPhone_5.5_P3_14.0_18A5373a_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -642,10 +699,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45658/4AC9136B-6B9F-48B9-B5F4-916049CA9CC0/iPhone10,3,iPhone10,6_14.0_18A5373a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020SummerSeed/fullrestores/001-45658/4AC9136B-6B9F-48B9-B5F4-916049CA9CC0/iPhone10,3,iPhone10,6_14.0_18A5373a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -830,10 +883,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45689/1377515B-08AE-4433-9AB6-C8D2FE4981C1/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.0_18A5373a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020SummerSeed/fullrestores/001-45689/1377515B-08AE-4433-9AB6-C8D2FE4981C1/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.0_18A5373a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -932,10 +981,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45802/94F1FA2B-FA4F-4795-A881-66BDFFF0813A/iPhone11,8,iPhone12,1_14.0_18A5373a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020SummerSeed/fullrestores/001-45802/94F1FA2B-FA4F-4795-A881-66BDFFF0813A/iPhone11,8,iPhone12,1_14.0_18A5373a_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -1117,10 +1162,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45691/341D2BC6-F8DD-4AA7-85EE-9F9CBB50B619/iPhone12,8_14.0_18A5373a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020SummerSeed/fullrestores/001-45691/341D2BC6-F8DD-4AA7-85EE-9F9CBB50B619/iPhone12,8_14.0_18A5373a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -1177,10 +1218,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45809/29EE5BDA-7F66-4BA1-8427-FECDBCBE5BF1/iPodtouch_7_14.0_18A5373a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020SummerSeed/fullrestores/001-45809/29EE5BDA-7F66-4BA1-8427-FECDBCBE5BF1/iPodtouch_7_14.0_18A5373a_Restore.ipsw",
                     "active": true
                 }
             ],

@@ -65,6 +65,46 @@
         "iPhone11,8",
         "iPod7,1"
     ],
+    "basebandVersions": {
+        "iPad4,2": "10.31.00",
+        "iPad4,3": "10.31.00",
+        "iPad4,5": "10.31.00",
+        "iPad4,6": "10.31.00",
+        "iPad4,8": "10.31.00",
+        "iPad4,9": "10.31.00",
+        "iPad5,2": "7.32.00",
+        "iPad5,4": "7.32.00",
+        "iPad6,4": "5.32.00",
+        "iPad6,8": "7.32.00",
+        "iPad6,12": "7.32.00",
+        "iPad7,2": "5.30.00",
+        "iPad7,4": "5.30.00",
+        "iPad7,6": "5.32.00",
+        "iPad8,3": "1.03.05",
+        "iPad8,4": "1.03.05",
+        "iPad8,7": "1.03.05",
+        "iPad8,8": "1.03.05",
+        "iPhone6,1": "10.31.00",
+        "iPhone6,2": "10.31.00",
+        "iPhone7,1": "7.32.00",
+        "iPhone7,2": "7.32.00",
+        "iPhone8,1": "5.32.00",
+        "iPhone8,2": "5.32.00",
+        "iPhone8,4": "7.32.00",
+        "iPhone9,1": "5.30.00",
+        "iPhone9,2": "5.30.00",
+        "iPhone9,3": "3.02.01",
+        "iPhone9,4": "3.02.01",
+        "iPhone10,1": "3.31.00",
+        "iPhone10,2": "3.31.00",
+        "iPhone10,3": "3.31.00",
+        "iPhone10,4": "2.02.51",
+        "iPhone10,5": "2.02.51",
+        "iPhone10,6": "2.02.51",
+        "iPhone11,2": "1.03.05",
+        "iPhone11,6": "1.03.05",
+        "iPhone11,8": "1.03.05"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -79,10 +119,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-26959/FDD59452-0258-11E9-9333-9FE5295240D3/iPad_64bit_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-26959/FDD59452-0258-11E9-9333-9FE5295240D3/iPad_64bit_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -351,10 +387,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-27083/FDCB187E-0258-11E9-A27A-B69125D66CB6/iPad_64bit_TouchID_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-27083/FDCB187E-0258-11E9-A27A-B69125D66CB6/iPad_64bit_TouchID_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -660,10 +692,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-27040/FDEE9114-0258-11E9-ACCC-CFF44A1EE728/iPadPro_9.7_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-27040/FDEE9114-0258-11E9-ACCC-CFF44A1EE728/iPadPro_9.7_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -762,10 +790,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-27037/FDD8B5D8-0258-11E9-952B-C849551C0377/iPadPro_12.9_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-27037/FDD8B5D8-0258-11E9-952B-C849551C0377/iPadPro_12.9_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -868,10 +892,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-27101/FDD04D30-0258-11E9-B835-C983551D6E99/iPad_64bit_TouchID_ASTC_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-27101/FDD04D30-0258-11E9-B835-C983551D6E99/iPad_64bit_TouchID_ASTC_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -883,6 +903,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -896,6 +919,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -911,6 +937,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-26983/FB407DCA-022F-11E9-8AC6-D3557E9D9293/com_apple_MobileAsset_SoftwareUpdate/0c51c96b95a38c317f68df567640019a343b5617.zip",
@@ -924,6 +953,9 @@
             "prerequisiteBuild": "16C5050a",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -939,6 +971,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-27045/71630D6A-0230-11E9-8E52-CED5A6892481/com_apple_MobileAsset_SoftwareUpdate/50611cb18be2ae53bba3c43243493a89ef86d99b.zip",
@@ -953,6 +988,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-26899/73B54AA6-0230-11E9-A69B-9BFC8C0785FB/com_apple_MobileAsset_SoftwareUpdate/12b5017c0ba3c941a10c538703fc4849813249b2.zip",
@@ -966,6 +1004,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-27064/9616D4C0-0230-11E9-B5B5-B07D86E8EC30/com_apple_MobileAsset_SoftwareUpdate/509d04c82c394c5a74be990a9abe2c298d138206.zip",
@@ -978,6 +1019,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -993,6 +1037,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-27103/38CC6FBE-0230-11E9-BED9-DF1F7A8DB5FA/com_apple_MobileAsset_SoftwareUpdate/6c1262f6e373ec4c440c88fb6664141e94fc2926.zip",
@@ -1006,6 +1053,9 @@
             "prerequisiteBuild": "16C5050a",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -1021,6 +1071,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-26875/79041898-0230-11E9-B888-ECD42E15895B/com_apple_MobileAsset_SoftwareUpdate/96d11baa6086410f18087f5e3e80a32898c89372.zip",
@@ -1034,6 +1087,9 @@
             "prerequisiteBuild": "16D5024a",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -1054,10 +1110,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-26964/FDD356E2-0258-11E9-A543-B482E43CBE38/iPad_Pro_HFR_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-26964/FDD356E2-0258-11E9-A543-B482E43CBE38/iPad_Pro_HFR_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -1327,10 +1379,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-26890/FDC116DA-0258-11E9-9B53-F58A027C6905/iPad_Fall_2018_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-26890/FDC116DA-0258-11E9-9B53-F58A027C6905/iPad_Fall_2018_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -1678,10 +1726,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-26975/FDD703FA-0258-11E9-AB37-E792DE3BA017/iPhone_4.0_64bit_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-26975/FDD703FA-0258-11E9-AB37-E792DE3BA017/iPhone_4.0_64bit_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -1781,10 +1825,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-26922/FDF0808C-0258-11E9-95B0-A1CA42DEA9EF/iPhone_5.5_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-26922/FDF0808C-0258-11E9-95B0-A1CA42DEA9EF/iPhone_5.5_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -1843,10 +1883,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-27106/FDE7EBAC-0258-11E9-B566-B0A738F3DCE6/iPhone_4.7_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-27106/FDE7EBAC-0258-11E9-B566-B0A738F3DCE6/iPhone_4.7_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -1900,6 +1936,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-27078/F1CA96F8-0230-11E9-BA50-D3BDF58665E2/com_apple_MobileAsset_SoftwareUpdate/10c8c16967fc22bd1cf06834f76a030dce241109.zip",
@@ -1912,6 +1951,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -1927,6 +1969,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-26876/482F80B8-0230-11E9-8738-EBDC8B773424/com_apple_MobileAsset_SoftwareUpdate/a9ecc62d6aace8fc6f19396a38ae46f8d232350d.zip",
@@ -1940,6 +1985,9 @@
             "prerequisiteBuild": "16C5050a",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -1955,6 +2003,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-27010/91017788-0230-11E9-8DCC-9011BD5B7A34/com_apple_MobileAsset_SoftwareUpdate/433f580caf5dc7ba8d826c2d44797da91f9829f1.zip",
@@ -1969,6 +2020,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-26957/9153E27A-0230-11E9-B9E9-BF40222E5C5B/com_apple_MobileAsset_SoftwareUpdate/8d394c29c02c15200974cb066b7575254ed29d88.zip",
@@ -1982,6 +2036,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-27090/F06A605E-0230-11E9-8CD5-83E26951EEE1/com_apple_MobileAsset_SoftwareUpdate/7d2abeb722f13ca8439b4c45fa6c5c89d67c5bf0.zip",
@@ -1994,6 +2051,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -2009,6 +2069,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-27119/46F938C4-0230-11E9-BAF9-FE5A0A27E734/com_apple_MobileAsset_SoftwareUpdate/463d1f84b86cba8ff6e0ba1292a5224e21f82bb3.zip",
@@ -2022,6 +2085,9 @@
             "prerequisiteBuild": "16C5050a",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -2037,6 +2103,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-26892/8C5B062C-0230-11E9-9107-BE1E5F48AAB7/com_apple_MobileAsset_SoftwareUpdate/120dc95cc6f304a08470a9f6828f8e3696254bec.zip",
@@ -2051,6 +2120,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-27002/8CC419D2-0230-11E9-A88A-BF4CE0F0FC95/com_apple_MobileAsset_SoftwareUpdate/22318bc78b93603fba6eccca32ace1fb1ba77461.zip",
@@ -2064,6 +2136,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-26976/F1A06982-0230-11E9-9AA3-90A0F840F250/com_apple_MobileAsset_SoftwareUpdate/c378df56e4058bc68e8a2c0cc508a7f227a16ab6.zip",
@@ -2076,6 +2151,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -2091,6 +2169,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-27058/47F02F9E-0230-11E9-ADC4-C0B348D08BE4/com_apple_MobileAsset_SoftwareUpdate/47f81068d12fb0f6ad1286b6e1708737b2adc11a.zip",
@@ -2104,6 +2185,9 @@
             "prerequisiteBuild": "16C5050a",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -2119,6 +2203,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/patches/041-26928/8DA2A76A-0230-11E9-86DF-8192AADD393E/com_apple_MobileAsset_SoftwareUpdate/3ba1ebd4d67141c80ca4cfc61e132e9ac3f46509.zip",
@@ -2132,6 +2219,9 @@
             "prerequisiteBuild": "16D5024a",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -2152,10 +2242,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-26897/FDDBB1AC-0258-11E9-BD44-E1EF70262B79/iPhone_4.7_P3_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-26897/FDDBB1AC-0258-11E9-BD44-E1EF70262B79/iPhone_4.7_P3_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -2216,10 +2302,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-26929/FDE6E982-0258-11E9-9F26-9C1FD1B22A8B/iPhone_5.5_P3_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-26929/FDE6E982-0258-11E9-9F26-9C1FD1B22A8B/iPhone_5.5_P3_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -2443,10 +2525,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-26987/FDBF0F7A-0258-11E9-9885-FB8AF23D5921/iPhone10,3,iPhone10,6_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-26987/FDBF0F7A-0258-11E9-9885-FB8AF23D5921/iPhone10,3,iPhone10,6_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -2627,10 +2705,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-26921/FDC6CD96-0258-11E9-8B95-B5F8A3CCA201/iPhone11,2_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-26921/FDC6CD96-0258-11E9-8B95-B5F8A3CCA201/iPhone11,2_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -2687,10 +2761,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-27033/FDD07918-0258-11E9-8A62-8B5643006529/iPhone11,6_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-27033/FDD07918-0258-11E9-8A62-8B5643006529/iPhone11,6_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -2749,10 +2819,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-27019/FE018850-0258-11E9-9B3E-AE9C7B928737/iPhone11,8_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-27019/FE018850-0258-11E9-9B3E-AE9C7B928737/iPhone11,8_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -2809,10 +2875,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-26889/FDD3697A-0258-11E9-AD86-B3ECF598ED93/iPodtouch_12.1.3_16D5032a_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2018FallSeed/fullrestores/041-26889/FDD3697A-0258-11E9-AD86-B3ECF598ED93/iPodtouch_12.1.3_16D5032a_Restore.ipsw",
                     "active": true
                 }
             ],

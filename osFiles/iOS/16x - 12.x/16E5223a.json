@@ -65,6 +65,49 @@
         "iPhone11,8",
         "iPod7,1"
     ],
+    "basebandVersions": {
+        "iPad4,2": "10.56.00",
+        "iPad4,3": "10.56.00",
+        "iPad4,5": "10.56.00",
+        "iPad4,6": "10.56.00",
+        "iPad4,8": "10.56.00",
+        "iPad4,9": "10.56.00",
+        "iPad5,2": "7.55.01",
+        "iPad5,4": "7.55.01",
+        "iPad6,4": "5.55.00",
+        "iPad6,8": "7.55.01",
+        "iPad6,12": "7.55.01",
+        "iPad7,2": "5.55.00",
+        "iPad7,4": "5.55.00",
+        "iPad7,6": "5.55.00",
+        "iPad8,3": "1.04.30",
+        "iPad8,4": "1.04.30",
+        "iPad8,7": "1.04.30",
+        "iPad8,8": "1.04.30",
+        "iPhone6,1": "10.56.00",
+        "iPhone6,2": "10.56.00",
+        "iPhone7,1": "7.55.01",
+        "iPhone7,2": "7.55.01",
+        "iPhone8,1": "5.55.00",
+        "iPhone8,2": "5.55.00",
+        "iPhone8,4": "7.55.01",
+        "iPhone9,1": "5.55.00",
+        "iPhone9,2": "5.55.00",
+        "iPhone9,3": "3.03.05",
+        "iPhone9,4": "3.03.05",
+        "iPhone10,1": "3.55.00",
+        "iPhone10,2": "3.55.00",
+        "iPhone10,3": "3.55.00",
+        "iPhone10,4": "2.03.06",
+        "iPhone10,5": "2.03.06",
+        "iPhone10,6": "2.03.06",
+        "iPhone11,2": "1.04.30",
+        "iPhone11,6": "1.04.30",
+        "iPhone11,8": "1.04.30",
+        "iPad11,2": "1.04.30",
+        "iPad11,4": "1.04.30",
+        "iPhone11,4": "1.04.30"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -79,10 +122,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45829/CE457AC4-42AC-11E9-BBF1-BFA90F7A6332/iPad_64bit_12.2_16E5223a_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45829/CE457AC4-42AC-11E9-BBF1-BFA90F7A6332/iPad_64bit_12.2_16E5223a_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -348,10 +387,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45787/CE43BB6C-42AC-11E9-B7C1-9BD641B4EF79/iPad_64bit_TouchID_12.2_16E5223a_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45787/CE43BB6C-42AC-11E9-B7C1-9BD641B4EF79/iPad_64bit_TouchID_12.2_16E5223a_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -654,10 +689,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45953/CE3FC232-42AC-11E9-B32F-99A8AC443722/iPadPro_9.7_12.2_16E5223a_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45953/CE3FC232-42AC-11E9-B32F-99A8AC443722/iPadPro_9.7_12.2_16E5223a_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 2917046282
@@ -753,10 +784,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-46019/CE375BB0-42AC-11E9-9639-FDB6CB488857/iPadPro_12.9_12.2_16E5223a_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-46019/CE375BB0-42AC-11E9-9639-FDB6CB488857/iPadPro_12.9_12.2_16E5223a_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -856,10 +883,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-46011/CE434326-42AC-11E9-914F-D851876B5A46/iPad_64bit_TouchID_ASTC_12.2_16E5223a_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-46011/CE434326-42AC-11E9-914F-D851876B5A46/iPad_64bit_TouchID_ASTC_12.2_16E5223a_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3076056204
@@ -868,6 +891,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -881,6 +907,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -896,6 +925,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-45883/D8F20A7A-42A5-11E9-9BE9-C9B056E0096B/com_apple_MobileAsset_SoftwareUpdate/c6377cd7bfccf0de3dafe056df598680bc19cf07.zip",
@@ -909,6 +941,9 @@
             "prerequisiteBuild": "16D5039a",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -924,6 +959,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-46271/5C41498C-42A5-11E9-8029-BC5F152F331A/com_apple_MobileAsset_SoftwareUpdate/c3017d0037311223ce5007d8280bed5715d35fa4.zip",
@@ -938,6 +976,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-46253/95B78992-42A5-11E9-BE00-ED4C16055AD0/com_apple_MobileAsset_SoftwareUpdate/8c932dfe11996c9c0ea563d894d58da24563191f.zip",
@@ -951,6 +992,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-45932/AF3CAA74-429A-11E9-B212-E2829BF590C2/com_apple_MobileAsset_SoftwareUpdate/b3b7851c01afd376ef649156cceb24aa4f7c0be5.zip",
@@ -963,6 +1007,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -978,6 +1025,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-45983/02F9376C-42A6-11E9-A2DB-F62ECCEFC510/com_apple_MobileAsset_SoftwareUpdate/27b171aaeec6d128b5135e5dd1a4aa8422678cf4.zip",
@@ -991,6 +1041,9 @@
             "prerequisiteBuild": "16D5039a",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -1006,6 +1059,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-46241/9DF6582C-42A5-11E9-AF0D-8C9D30A58869/com_apple_MobileAsset_SoftwareUpdate/fc0a8fc99ea604d7bbc81584a97c7df540b487b8.zip",
@@ -1019,6 +1075,9 @@
             "prerequisiteBuild": "16E5212f",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -1039,10 +1098,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45789/CE42B140-42AC-11E9-9E33-B58949FC6675/iPad_Pro_HFR_12.2_16E5223a_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45789/CE42B140-42AC-11E9-9E33-B58949FC6675/iPad_Pro_HFR_12.2_16E5223a_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -1309,10 +1364,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45901/CE3CA728-42AC-11E9-B2BE-D3EEC8DF4EEB/iPad_Fall_2018_12.2_16E5223a_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45901/CE3CA728-42AC-11E9-B2BE-D3EEC8DF4EEB/iPad_Fall_2018_12.2_16E5223a_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -1657,10 +1708,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45890/CE3724B0-42AC-11E9-B59E-911059DEF37D/iPhone_4.0_64bit_12.2_16E5223a_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45890/CE3724B0-42AC-11E9-B59E-911059DEF37D/iPhone_4.0_64bit_12.2_16E5223a_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3085059814
@@ -1757,10 +1804,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45816/CE502D8E-42AC-11E9-B02C-8194DC949842/iPhone_5.5_12.2_16E5223a_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45816/CE502D8E-42AC-11E9-B02C-8194DC949842/iPhone_5.5_12.2_16E5223a_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3283268618
@@ -1816,10 +1859,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45968/CE689662-42AC-11E9-B922-F8CB1AAC8E48/iPhone_4.7_12.2_16E5223a_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45968/CE689662-42AC-11E9-B922-F8CB1AAC8E48/iPhone_4.7_12.2_16E5223a_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3128194425
@@ -1870,6 +1909,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-45773/FF25B260-429A-11E9-BDAA-F9EB7F24E264/com_apple_MobileAsset_SoftwareUpdate/2a626f3cdaa25599d011a4b0aa364ba249ad61e1.zip",
@@ -1882,6 +1924,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -1897,6 +1942,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-45783/47006B6A-42A6-11E9-A73F-B187187ED31D/com_apple_MobileAsset_SoftwareUpdate/e5086a1267c0f5d49c096d1737d9fc3f145f4112.zip",
@@ -1910,6 +1958,9 @@
             "prerequisiteBuild": "16D5039a",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -1925,6 +1976,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-46230/A7E39980-42A5-11E9-919E-E158A5AEE01A/com_apple_MobileAsset_SoftwareUpdate/7450d2ac6a049f72019b83a30d77eeb1c138f618.zip",
@@ -1939,6 +1993,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-46240/A83F9834-42A5-11E9-969F-F01B80F471D3/com_apple_MobileAsset_SoftwareUpdate/c41f2cb76a73136b387052fe250564183a055e35.zip",
@@ -1952,6 +2009,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-46008/FD32574C-429A-11E9-9509-F3B424851C4D/com_apple_MobileAsset_SoftwareUpdate/4108ca81ddd3121ed2e8ae00d12789a4c76d8018.zip",
@@ -1964,6 +2024,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -1979,6 +2042,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-45918/44CFB198-42A6-11E9-AC9D-EFAF8118CEA7/com_apple_MobileAsset_SoftwareUpdate/05c46ef8c223ce047a896063be25a08f92ec165d.zip",
@@ -1992,6 +2058,9 @@
             "prerequisiteBuild": "16D5039a",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -2007,6 +2076,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-46217/A77736F0-42A5-11E9-8B4F-F9355D80F368/com_apple_MobileAsset_SoftwareUpdate/ceebe3f267010ebe84d07ab8b8f7e0241c5ae84d.zip",
@@ -2021,6 +2093,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-46248/A7AE6846-42A5-11E9-BBAA-D629CC0EC666/com_apple_MobileAsset_SoftwareUpdate/5f4b238886a4948947da38b0bac8cc7f2a6c012c.zip",
@@ -2034,6 +2109,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-45951/FE7C61D8-429A-11E9-AF7F-D07BA185B3AA/com_apple_MobileAsset_SoftwareUpdate/18291fe064a9c48a5075ba18ae0db9bca24a8f0c.zip",
@@ -2046,6 +2124,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -2061,6 +2142,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-45820/46BAFC1A-42A6-11E9-ADE2-B7CCB309B9F2/com_apple_MobileAsset_SoftwareUpdate/9157cb3a95e30135fc728902ad7a209bb2ccb099.zip",
@@ -2074,6 +2158,9 @@
             "prerequisiteBuild": "16D5039a",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -2089,6 +2176,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/patches/041-46219/A7C7EA8C-42A5-11E9-9CCA-8DC208C48679/com_apple_MobileAsset_SoftwareUpdate/f844281b5fab80be55197db2a6aa1570c82fe38a.zip",
@@ -2102,6 +2192,9 @@
             "prerequisiteBuild": "16E5212f",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -2122,10 +2215,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45811/CE2540CE-42AC-11E9-9CCF-B9AC8E28F955/iPhone_4.7_P3_12.2_16E5223a_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45811/CE2540CE-42AC-11E9-9CCF-B9AC8E28F955/iPhone_4.7_P3_12.2_16E5223a_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -2183,10 +2272,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45988/CE252EFE-42AC-11E9-896C-B70761FB70C4/iPhone_5.5_P3_12.2_16E5223a_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45988/CE252EFE-42AC-11E9-896C-B70761FB70C4/iPhone_5.5_P3_12.2_16E5223a_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -2407,10 +2492,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45959/CE2EEEA8-42AC-11E9-931C-954287C78D61/iPhone10,3,iPhone10,6_12.2_16E5223a_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45959/CE2EEEA8-42AC-11E9-931C-954287C78D61/iPhone10,3,iPhone10,6_12.2_16E5223a_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3587817900
@@ -2588,10 +2669,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45925/CE27419E-42AC-11E9-B04F-ECC6C588A297/iPhone11,2_12.2_16E5223a_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45925/CE27419E-42AC-11E9-B04F-ECC6C588A297/iPhone11,2_12.2_16E5223a_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3648104447
@@ -2645,10 +2722,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45999/CE38DB02-42AC-11E9-AC59-C097DB50F264/iPhone11,6_12.2_16E5223a_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45999/CE38DB02-42AC-11E9-AC59-C097DB50F264/iPhone11,6_12.2_16E5223a_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -2704,10 +2777,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45972/CE4A9E14-42AC-11E9-87F0-DE0018C985C3/iPhone11,8_12.2_16E5223a_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45972/CE4A9E14-42AC-11E9-87F0-DE0018C985C3/iPhone11,8_12.2_16E5223a_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3432100905
@@ -2761,10 +2830,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019WinterSeed/fullrestores/041-45801/CE38DC10-42AC-11E9-AE00-E7EF0F9BD3E9/iPodtouch_12.2_16E5223a_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019WinterSeed/fullrestores/041-45801/CE38DC10-42AC-11E9-AE00-E7EF0F9BD3E9/iPodtouch_12.2_16E5223a_Restore.ipsw",
                     "active": false
                 }
             ],

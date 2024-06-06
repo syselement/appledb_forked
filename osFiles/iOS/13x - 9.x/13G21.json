@@ -55,6 +55,38 @@
         "iPod5,1",
         "iPod7,1"
     ],
+    "basebandVersions": {
+        "iPad2,2": "04.12.09",
+        "iPad2,3": "3.0.04",
+        "iPad2,6": "10.01.00",
+        "iPad2,7": "10.01.00",
+        "iPad3,2": "6.1.00",
+        "iPad3,3": "6.1.00",
+        "iPad3,5": "10.01.00",
+        "iPad3,6": "10.01.00",
+        "iPad4,2": "6.02.00",
+        "iPad4,3": "6.02.00",
+        "iPad4,5": "6.02.00",
+        "iPad4,6": "6.02.00",
+        "iPad4,8": "6.02.00",
+        "iPad4,9": "6.02.00",
+        "iPad5,2": "4.71.00",
+        "iPad5,4": "4.71.00",
+        "iPad6,4": "1.60.00",
+        "iPad6,8": "4.71.00",
+        "iPhone4,1": "6.0.00",
+        "iPhone5,1": "10.01.00",
+        "iPhone5,2": "10.01.00",
+        "iPhone5,3": "6.02.00",
+        "iPhone5,4": "6.02.00",
+        "iPhone6,1": "6.02.00",
+        "iPhone6,2": "6.02.00",
+        "iPhone7,1": "4.71.00",
+        "iPhone7,2": "4.71.00",
+        "iPhone8,1": "1.60.00",
+        "iPhone8,2": "1.60.00",
+        "iPhone8,4": "4.71.00"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -64,10 +96,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63374-20160606-87E19540-2900-11E6-92CD-3415672719FC/iPad2,1_9.3.3_13G21_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63374-20160606-87E19540-2900-11E6-92CD-3415672719FC/iPad2,1_9.3.3_13G21_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -119,10 +147,6 @@
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63356-20160606-82A56D2C-2900-11E6-AA3B-D114672719FC/iPad2,2_9.3.3_13G21_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63356-20160606-82A56D2C-2900-11E6-AA3B-D114672719FC/iPad2,2_9.3.3_13G21_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -172,10 +196,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63386-20160606-88C5AD70-2900-11E6-8CAC-8C15672719FC/iPad2,3_9.3.3_13G21_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63386-20160606-88C5AD70-2900-11E6-8CAC-8C15672719FC/iPad2,3_9.3.3_13G21_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -227,10 +247,6 @@
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63375-20160606-87EB670A-2900-11E6-9F09-3915672719FC/iPad2,4_9.3.3_13G21_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63375-20160606-87EB670A-2900-11E6-9F09-3915672719FC/iPad2,4_9.3.3_13G21_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -280,10 +296,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63333-20160606-781D6AC6-2900-11E6-AA93-7114672719FC/iPad2,5_9.3.3_13G21_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63333-20160606-781D6AC6-2900-11E6-AA93-7114672719FC/iPad2,5_9.3.3_13G21_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -335,10 +347,6 @@
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63339-20160606-781D6AC6-2900-11E6-AA93-7714672719FC/iPad2,6_9.3.3_13G21_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63339-20160606-781D6AC6-2900-11E6-AA93-7714672719FC/iPad2,6_9.3.3_13G21_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -388,10 +396,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63296-20160606-DEF66F8C-28FF-11E6-98E6-4411672719FC/iPad2,7_9.3.3_13G21_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63296-20160606-DEF66F8C-28FF-11E6-98E6-4411672719FC/iPad2,7_9.3.3_13G21_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -443,10 +447,6 @@
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63287-20160606-DEF688A0-28FF-11E6-BEE7-4011672719FC/iPad3,1_9.3.3_13G21_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63287-20160606-DEF688A0-28FF-11E6-BEE7-4011672719FC/iPad3,1_9.3.3_13G21_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -496,10 +496,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63259-20160606-DEF37C96-28FF-11E6-B042-2911672719FC/iPad3,2_9.3.3_13G21_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63259-20160606-DEF37C96-28FF-11E6-B042-2911672719FC/iPad3,2_9.3.3_13G21_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -551,10 +547,6 @@
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63380-20160606-87F06FAC-2900-11E6-937B-3B15672719FC/iPad3,3_9.3.3_13G21_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63380-20160606-87F06FAC-2900-11E6-937B-3B15672719FC/iPad3,3_9.3.3_13G21_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -604,10 +596,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63285-20160606-DEF50066-28FF-11E6-8A95-3E11672719FC/iPad3,4_9.3.3_13G21_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63285-20160606-DEF50066-28FF-11E6-8A95-3E11672719FC/iPad3,4_9.3.3_13G21_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -659,10 +647,6 @@
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63369-20160606-878F2328-2900-11E6-83F2-2D15672719FC/iPad3,5_9.3.3_13G21_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63369-20160606-878F2328-2900-11E6-83F2-2D15672719FC/iPad3,5_9.3.3_13G21_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -712,10 +696,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63344-20160606-781D6AC6-2900-11E6-AA93-8614672719FC/iPad3,6_9.3.3_13G21_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63344-20160606-781D6AC6-2900-11E6-AA93-8614672719FC/iPad3,6_9.3.3_13G21_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -1682,10 +1662,6 @@
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63365-20160606-8668BB9E-2900-11E6-84E0-1315672719FC/iPhone4,1_9.3.3_13G21_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63365-20160606-8668BB9E-2900-11E6-84E0-1315672719FC/iPhone4,1_9.3.3_13G21_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -1735,10 +1711,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63258-20160606-DEF39726-28FF-11E6-9B38-2711672719FC/iPhone5,1_9.3.3_13G21_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63258-20160606-DEF39726-28FF-11E6-9B38-2711672719FC/iPhone5,1_9.3.3_13G21_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -1790,10 +1762,6 @@
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63381-20160606-87F07600-2900-11E6-9D65-3C15672719FC/iPhone5,2_9.3.3_13G21_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63381-20160606-87F07600-2900-11E6-9D65-3C15672719FC/iPhone5,2_9.3.3_13G21_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -1844,10 +1812,6 @@
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63315-20160606-DEFDFAF4-28FF-11E6-9DFB-5011672719FC/iPhone5,3_9.3.3_13G21_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63315-20160606-DEFDFAF4-28FF-11E6-9DFB-5011672719FC/iPhone5,3_9.3.3_13G21_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -1897,10 +1861,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63327-20160606-64F9FA40-2900-11E6-850C-2D14672719FC/iPhone5,4_9.3.3_13G21_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63327-20160606-64F9FA40-2900-11E6-850C-2D14672719FC/iPhone5,4_9.3.3_13G21_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -2185,6 +2145,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63354-20160606-477B726E-290A-11E6-A13E-FF1C672719FC/com_apple_MobileAsset_SoftwareUpdate/9b06d9459fef0e2b03cb51eb47af09254b077f59.zip",
@@ -2200,6 +2163,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -2218,6 +2184,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63405-20160606-57F59ED8-290C-11E6-8603-EA1F672719FC/com_apple_MobileAsset_SoftwareUpdate/611159b534ede2e037ca5e05ab3beb6a65cb0417.zip",
@@ -2234,6 +2203,9 @@
             "prerequisiteBuild": "13G12",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -2272,6 +2244,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63331-20160606-32A05EAE-290A-11E6-BC8D-061C672719FC/com_apple_MobileAsset_SoftwareUpdate/c6dab8dd553e16fe8f58c7d936b3842179094402.zip",
@@ -2287,6 +2262,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -2305,6 +2283,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63434-20160606-65105946-290C-11E6-AF2E-0F23672719FC/com_apple_MobileAsset_SoftwareUpdate/6650e990baf87250ef66e4ee6988ccc499bf31ba.zip",
@@ -2321,6 +2302,9 @@
             "prerequisiteBuild": "13G12",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -2359,6 +2343,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63372-20160606-4F73DE2A-290A-11E6-93B0-7B1D672719FC/com_apple_MobileAsset_SoftwareUpdate/1b823e21a7734999e632f4b4ca9fd18cd1195415.zip",
@@ -2374,6 +2361,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -2392,6 +2382,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63404-20160606-57F563AA-290C-11E6-9966-E81F672719FC/com_apple_MobileAsset_SoftwareUpdate/e7f09b5c2e5bf38c17d88c6df29b232f27555456.zip",
@@ -2408,6 +2401,9 @@
             "prerequisiteBuild": "13G12",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -2428,10 +2424,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63364-20160606-829E7DFA-2900-11E6-9597-DE14672719FC/iPod5,1_9.3.3_13G21_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63364-20160606-829E7DFA-2900-11E6-9597-DE14672719FC/iPod5,1_9.3.3_13G21_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -2482,10 +2474,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-63363-20160606-82A56D04-2900-11E6-AA3B-DC14672719FC/iPod7,1_9.3.3_13G21_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/iOS9.3.3Seed/031-63363-20160606-82A56D04-2900-11E6-AA3B-DC14672719FC/iPod7,1_9.3.3_13G21_Restore.ipsw",
                     "active": true
                 }
             ],

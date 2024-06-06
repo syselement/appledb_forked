@@ -6,6 +6,11 @@
     "released": "2017-12-13",
     "releaseNotes": "https://support.apple.com/HT208067#113",
     "securityNotes": "https://support.apple.com/HT208357",
+    "ipd": {
+        "iPad": "http://appldnld.apple.com/ios11.2.1/091-56153-20171213-AC5D6892-DF73-11E7-912A-5A0F1E4B8CED/iPadiTunesUpdateReadMe.ipd",
+        "iPhone": "https://secure-appldnld.apple.com/ios11.2.1/091-56152-20171213-AC5CB9A6-DF73-11E7-99DE-5B0F1E4B8CED/iPhoneiTunesUpdateReadMe.ipd",
+        "iPod": "http://appldnld.apple.com/ios11.2.1/091-56151-20171213-AC5E6A58-DF73-11E7-A76A-5C0F1E4B8CED/iPodtouchiTunesUpdateReadMe.ipd"
+    },
     "appledbWebImage": {
         "id": "ios11",
         "align": "left"
@@ -53,6 +58,38 @@
         "iPhone10,6",
         "iPod7,1"
     ],
+    "basebandVersions": {
+        "iPad4,2": "8.30.01",
+        "iPad4,3": "8.30.01",
+        "iPad4,5": "8.30.01",
+        "iPad4,6": "8.30.01",
+        "iPad4,8": "8.30.01",
+        "iPad4,9": "8.30.01",
+        "iPad5,2": "6.30.04",
+        "iPad5,4": "6.30.04",
+        "iPad6,4": "4.30.02",
+        "iPad6,8": "6.30.04",
+        "iPad6,12": "6.30.04",
+        "iPad7,2": "3.42.00",
+        "iPad7,4": "3.42.00",
+        "iPhone6,1": "8.30.01",
+        "iPhone6,2": "8.30.01",
+        "iPhone7,1": "6.30.04",
+        "iPhone7,2": "6.30.04",
+        "iPhone8,1": "4.30.02",
+        "iPhone8,2": "4.30.02",
+        "iPhone8,4": "6.30.04",
+        "iPhone9,1": "3.42.00",
+        "iPhone9,2": "3.42.00",
+        "iPhone9,3": "2.02.04",
+        "iPhone9,4": "2.02.04",
+        "iPhone10,1": "1.62.00",
+        "iPhone10,2": "1.62.00",
+        "iPhone10,3": "1.62.00",
+        "iPhone10,4": "1.03.06",
+        "iPhone10,5": "1.03.06",
+        "iPhone10,6": "1.03.06"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -76,6 +113,7 @@
             ],
             "hashes": {
                 "md5": "fed9a02455ecbba7c3702399a7d65222",
+                "sha1": "98008b7a930d13fac33bb97a7fdb62c308c61408",
                 "sha2-256": "1a8e0a11f7052f4f7379efb976d1b2139a8bedf33d3b9a3f25fb19d430c3b551"
             },
             "size": 2516092186
@@ -1939,6 +1977,7 @@
             ],
             "hashes": {
                 "md5": "2f5a8e21aa41456111aea8555536482e",
+                "sha1": "5a673cb851a7c6b94c3a16cde0f780bbfed5f11f",
                 "sha2-256": "d22407b8ca84c30bc8ae54c6e00e3b85991bdb8ed96a3cc968081f9feeb6dc99"
             },
             "size": 2620625261
@@ -3864,6 +3903,7 @@
             ],
             "hashes": {
                 "md5": "9da0bf01341414a6c4087de38144967c",
+                "sha1": "cb2ff059e91f2d10ae203580316d3b77a7551473",
                 "sha2-256": "379b6e9900d95a477ade32e1b27988495a42310dde6036b09c2e5bb01f7c5cb6"
             },
             "size": 2518127664
@@ -4312,6 +4352,7 @@
             ],
             "hashes": {
                 "md5": "aa33d07c5a711068bc112273c591967b",
+                "sha1": "e995052af967f4184ff07ec006c67bdb3324ebd4",
                 "sha2-256": "9682ae919a6ea8513920ed4dc635c223cb18914200f72c5a3f32a3b43f23bb8a"
             },
             "size": 2576607678
@@ -4804,6 +4845,7 @@
             ],
             "hashes": {
                 "md5": "c55f447137f903a578338d0ecd189157",
+                "sha1": "67eedd78b86cc76a381d75bfe14c493284a70f5d",
                 "sha2-256": "bf7eb64c2b2eb0b4e615e5ff2ccafd7e79bab263049728007fa0bda288feee0c"
             },
             "size": 2520088497
@@ -4812,6 +4854,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -4828,6 +4873,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -4850,6 +4898,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-55033-20171213-07A671A2-DE21-11E7-A6B0-2E2BF6A180E7/com_apple_MobileAsset_SoftwareUpdate/4426e34491755fc0ee2d5be5ab3780fefe73ecc3.zip",
@@ -4866,6 +4917,9 @@
             "prerequisiteBuild": "14F90",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -4884,6 +4938,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54825-20171213-017F4FAC-DE11-11E7-8951-C902FC2783B2/com_apple_MobileAsset_SoftwareUpdate/1b744010f227dcc46e622d77eb31f7ba21302b17.zip",
@@ -4900,6 +4957,9 @@
             "prerequisiteBuild": "14G58",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -4918,6 +4978,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54804-20171213-A3412DB6-DE10-11E7-B96D-7DFDFB2783B2/com_apple_MobileAsset_SoftwareUpdate/928854ccd7bf4d895e31c14d039e29e49f510fa7.zip",
@@ -4934,6 +4997,9 @@
             "prerequisiteBuild": "14G60",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -4957,6 +5023,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54812-20171213-A3437724-DE10-11E7-882F-89FDFB2783B2/com_apple_MobileAsset_SoftwareUpdate/49a0bc19afb4eed5a6f9eefaf8338379558b1415.zip",
@@ -4979,6 +5048,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54803-20171213-A3427D38-DE10-11E7-AEA1-7BFDFB2783B2/com_apple_MobileAsset_SoftwareUpdate/d9311117f57df63cdeebd690caa3cc662d08a475.zip",
@@ -4995,6 +5067,9 @@
             "prerequisiteBuild": "15B92",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -5013,6 +5088,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54713-20171213-795E5DB4-DE08-11E7-A35D-B3EB3E58CDD2/com_apple_MobileAsset_SoftwareUpdate/c4dcf1bd8adaac24108905ae18e1722578c46c6a.zip",
@@ -5029,6 +5107,9 @@
             "prerequisiteBuild": "15B93",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -5047,6 +5128,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-55215-20171213-522ECEF0-DE20-11E7-9428-983896F5E937/com_apple_MobileAsset_SoftwareUpdate/4790c109fd127c1f95dc45342a9dee9b5ec46052.zip",
@@ -5063,6 +5147,9 @@
             "prerequisiteBuild": "15B150",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -5081,6 +5168,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-55124-20171213-BFEBC75C-DE18-11E7-83BD-7E2596F5E937/com_apple_MobileAsset_SoftwareUpdate/93f80d701e6a3a4734bfa981e11abe6be2b283f9.zip",
@@ -5097,6 +5187,9 @@
             "prerequisiteBuild": "15B202",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -5115,6 +5208,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54889-20171213-468CE252-DE17-11E7-90AC-F00CF6A180E7/com_apple_MobileAsset_SoftwareUpdate/36fb06ef16efcf69a7bcedc149eedc7454f6f950.zip",
@@ -5131,6 +5227,9 @@
             "prerequisiteBuild": "15C114",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -5149,6 +5248,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-55167-20171213-7DE073B6-DE19-11E7-B038-932D96F5E937/com_apple_MobileAsset_SoftwareUpdate/1840770c313d5d2e51063c08583f65b0e819f52a.zip",
@@ -5165,6 +5267,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54699-20171213-083E813A-DDFF-11E7-8B48-85DF3E58CDD2/com_apple_MobileAsset_SoftwareUpdate/7a15d6ab125ac3ebb186ba6c0ce5e77da1e4b70d.zip",
@@ -5180,6 +5285,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -5202,6 +5310,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54701-20171213-795A4E9A-DE08-11E7-90F9-9DEB3E58CDD2/com_apple_MobileAsset_SoftwareUpdate/0ab00886925660a5e7a91df32558717af31d19ef.zip",
@@ -5218,6 +5329,9 @@
             "prerequisiteBuild": "14F90",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72sAP"
             ],
             "links": [
                 {
@@ -5236,6 +5350,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54944-20171213-3051A288-DE18-11E7-A67A-A618F6A180E7/com_apple_MobileAsset_SoftwareUpdate/010affba8898cebaea438be47f4f52daf74a4a46.zip",
@@ -5252,6 +5369,9 @@
             "prerequisiteBuild": "14G58",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72sAP"
             ],
             "links": [
                 {
@@ -5270,6 +5390,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54759-20171213-26632D1C-DE0B-11E7-AD39-9FFCFB2783B2/com_apple_MobileAsset_SoftwareUpdate/88f6eb66ad005ff7da1067de97e08c84492b6ef6.zip",
@@ -5286,6 +5409,9 @@
             "prerequisiteBuild": "14G60",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -5309,6 +5435,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54872-20171213-53059A66-DE11-11E7-BB76-E9FA3E58CDD2/com_apple_MobileAsset_SoftwareUpdate/f974e31ce6e161521beeffff2274fdacaa15ef60.zip",
@@ -5331,6 +5460,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-55040-20171213-CC8C8F78-DE22-11E7-9A69-1E2DF6A180E7/com_apple_MobileAsset_SoftwareUpdate/182eca993f2305235e53442e5bec626b5d8224ec.zip",
@@ -5347,6 +5479,9 @@
             "prerequisiteBuild": "15B92",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72sAP"
             ],
             "links": [
                 {
@@ -5365,6 +5500,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54739-20171213-E98D09C2-DE09-11E7-A3FF-B1F23E58CDD2/com_apple_MobileAsset_SoftwareUpdate/be805ebfa5cd20a4f76fa22eb68ed986806c74fd.zip",
@@ -5381,6 +5519,9 @@
             "prerequisiteBuild": "15B93",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72sAP"
             ],
             "links": [
                 {
@@ -5399,6 +5540,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54903-20171213-468CE4FA-DE17-11E7-8F05-080DF6A180E7/com_apple_MobileAsset_SoftwareUpdate/3dcc6e0bd205f09f723ae2b484f24538a66c78c5.zip",
@@ -5415,6 +5559,9 @@
             "prerequisiteBuild": "15B150",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72sAP"
             ],
             "links": [
                 {
@@ -5433,6 +5580,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-55182-20171213-EC08B05A-DE1A-11E7-ABF7-0E3196F5E937/com_apple_MobileAsset_SoftwareUpdate/e9a4a272317db6c7d3590e014f7515c81a1a9b6e.zip",
@@ -5449,6 +5599,9 @@
             "prerequisiteBuild": "15B202",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72sAP"
             ],
             "links": [
                 {
@@ -5467,6 +5620,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-55058-20171213-B483F1F8-DE24-11E7-A789-6330F6A180E7/com_apple_MobileAsset_SoftwareUpdate/4ca7a9ed39f843e9405a4a41e78177d7ac5ee1c7.zip",
@@ -5484,6 +5640,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios11.2.1/091-54884-20171213-5C0ADE76-DE13-11E7-AAE2-4BFD3E58CDD2/com_apple_MobileAsset_SoftwareUpdate/bc954b68cd40c6e7be129cdc9de7495c3d68d455.zip",
@@ -5500,6 +5659,9 @@
             "prerequisiteBuild": "15C114",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -5532,6 +5694,7 @@
             ],
             "hashes": {
                 "md5": "b3de98b6515fffa060315f1b4cbf7129",
+                "sha1": "07eb0f23acd39e65f4a51bcc7324843c9d2f266d",
                 "sha2-256": "53f6a0b4c9ad4d002b533dd39ad416b31a2d5beb3112c66eff9bb18c46a5b894"
             },
             "size": 2800040158
@@ -6251,6 +6414,7 @@
             ],
             "hashes": {
                 "md5": "65cc098c56bd4ebc9aeb518f74d9b071",
+                "sha1": "85124b66bb039b0740d7c8b61257abf1c1d07319",
                 "sha2-256": "abe2df1486b1e3f1480d6ba1029771a48665d4454e788a0d6abb8cd580e164be"
             },
             "size": 2610031602
@@ -6885,6 +7049,7 @@
             ],
             "hashes": {
                 "md5": "b7b7ca626eea70cc44a95ad303e8bc1d",
+                "sha1": "62309429f83eb96041d5f3ddbae3a7580d13ee91",
                 "sha2-256": "afbc7353b41a844b77a9f25e87f0ccb2cf7ba11a9d33524b8059d43ce8cc64cd"
             },
             "size": 2806391231
@@ -7192,6 +7357,7 @@
             ],
             "hashes": {
                 "md5": "d2ad5a1613a62b5170615d97d3de29b2",
+                "sha1": "202b14e1e0f2cdbffc9a08c3aff9a75a4d9c1eee",
                 "sha2-256": "a50333cdc2199845c9e4ccc080bc68c0f30a5b22cc87ff30765d2594781e7cb7"
             },
             "size": 2655891730
@@ -7486,6 +7652,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54863-20171213-0849A3D0-DDFF-11E7-9399-A5DF3E58CDD2/com_apple_MobileAsset_SoftwareUpdate/167c493fece1a133f91c37f9843baf305af202b9.zip",
@@ -7501,6 +7670,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -7527,6 +7699,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55022-20171213-5553FD9A-DE1F-11E7-ADE3-8128F6A180E7/com_apple_MobileAsset_SoftwareUpdate/7c9c9c3cdf064648746b92c05c2600c38ea21548.zip",
@@ -7552,6 +7727,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55024-20171213-B2ABBA96-DE1F-11E7-9406-2C29F6A180E7/com_apple_MobileAsset_SoftwareUpdate/6a6532c9ddc6d6ac874af09cbb14c98f5058835e.zip",
@@ -7575,6 +7753,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71AP"
             ],
             "links": [
                 {
@@ -7600,6 +7781,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54932-20171213-DB239F28-DE17-11E7-9626-6115F6A180E7/com_apple_MobileAsset_SoftwareUpdate/6d3c1754410f43d92ef05abc9d45adfa7699f84e.zip",
@@ -7623,6 +7807,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71AP"
             ],
             "links": [
                 {
@@ -7648,6 +7835,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54770-20171213-EA0EE662-DE05-11E7-994B-5DF3FB2783B2/com_apple_MobileAsset_SoftwareUpdate/9137bd2fab79300acbcbb7d8ae7a557c37c3eab9.zip",
@@ -7671,6 +7861,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71AP"
             ],
             "links": [
                 {
@@ -7696,6 +7889,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54994-20171213-692F44F8-DE1C-11E7-A215-E322F6A180E7/com_apple_MobileAsset_SoftwareUpdate/4387295382a7e7ec0a9446515ea255972a3850f9.zip",
@@ -7713,6 +7909,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55089-20171213-FC2481CE-DE17-11E7-B7FB-491C96F5E937/com_apple_MobileAsset_SoftwareUpdate/147128fb16d384c5e03cfa026a5f7255e8a1f674.zip",
@@ -7729,6 +7928,9 @@
             "prerequisiteBuild": "14G57",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -7752,6 +7954,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54724-20171213-DB9CB07A-DE08-11E7-BEA6-67F03E58CDD2/com_apple_MobileAsset_SoftwareUpdate/ef081f4a0d03c212f5481b1ff0d20e5bc9ea7e74.zip",
@@ -7774,6 +7979,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54659-20171213-AA01D390-DE00-11E7-8932-C6E7FB2783B2/com_apple_MobileAsset_SoftwareUpdate/c89aa8456c0f052d09d047d06eba0228c394e5c6.zip",
@@ -7790,6 +7998,9 @@
             "prerequisiteBuild": "15B92",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71AP"
             ],
             "links": [
                 {
@@ -7808,6 +8019,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54769-20171213-E9642BA0-DE05-11E7-8473-A7F2FB2783B2/com_apple_MobileAsset_SoftwareUpdate/b1757558ec5ed99e31dc09d421398ca4554b8923.zip",
@@ -7824,6 +8038,9 @@
             "prerequisiteBuild": "15B93",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71AP"
             ],
             "links": [
                 {
@@ -7842,6 +8059,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55059-20171213-BC6AD896-DE24-11E7-86C4-BC30F6A180E7/com_apple_MobileAsset_SoftwareUpdate/323945ec9b9609a5b489494e1345101a734b851b.zip",
@@ -7858,6 +8078,9 @@
             "prerequisiteBuild": "15B150",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71AP"
             ],
             "links": [
                 {
@@ -7876,6 +8099,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54688-20171213-F2B10B64-DE01-11E7-9FFA-17EEFB2783B2/com_apple_MobileAsset_SoftwareUpdate/e651899578ee4ffd15eaa5fbd8c240eacf3d66b0.zip",
@@ -7892,6 +8118,9 @@
             "prerequisiteBuild": "15B202",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71AP"
             ],
             "links": [
                 {
@@ -7910,6 +8139,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54651-20171213-AA003D0A-DE00-11E7-8A85-B6E7FB2783B2/com_apple_MobileAsset_SoftwareUpdate/4352820a706bbad386e9e1bb703622f579791c19.zip",
@@ -7926,6 +8158,9 @@
             "prerequisiteBuild": "15C114",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71AP"
             ],
             "links": [
                 {
@@ -7944,6 +8179,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54836-20171213-6D1EEA10-DE11-11E7-B51E-C004FC2783B2/com_apple_MobileAsset_SoftwareUpdate/731be1515f93305009f22c8ba37c0f16613c12c6.zip",
@@ -7960,6 +8198,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55094-20171213-CE32742C-DE00-11E7-83E7-B7E63E58CDD2/com_apple_MobileAsset_SoftwareUpdate/2b5749489c12b9f37d61da7d77203e36b67160c6.zip",
@@ -7975,6 +8216,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -8001,6 +8245,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54870-20171213-257C63A4-DE11-11E7-98C2-A5FA3E58CDD2/com_apple_MobileAsset_SoftwareUpdate/36e5e55621493530302dc1a0266f00e4a7d6189a.zip",
@@ -8026,6 +8273,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54735-20171213-4EAB8C80-DE09-11E7-88E4-E5F13E58CDD2/com_apple_MobileAsset_SoftwareUpdate/92a03e1e4e221d8566a2dcf66a1be92efeb627d6.zip",
@@ -8049,6 +8299,9 @@
             ],
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
             ],
             "links": [
                 {
@@ -8074,6 +8327,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55045-20171213-9AC928C4-DE23-11E7-AB82-B02EF6A180E7/com_apple_MobileAsset_SoftwareUpdate/300e49871064b81875fe99104b8b48a86848bfc3.zip",
@@ -8097,6 +8353,9 @@
             ],
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
             ],
             "links": [
                 {
@@ -8122,6 +8381,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54775-20171213-663CE392-DE06-11E7-9282-9DF7FB2783B2/com_apple_MobileAsset_SoftwareUpdate/56a2b5a0cb145fbebe02a672ca5b71db3e6b1994.zip",
@@ -8145,6 +8407,9 @@
             ],
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
             ],
             "links": [
                 {
@@ -8170,6 +8435,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54966-20171213-B7959880-DE18-11E7-B869-C71CF6A180E7/com_apple_MobileAsset_SoftwareUpdate/db674ffc939da92cc09241e128be1115b7094ef3.zip",
@@ -8187,6 +8455,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54860-20171213-B8956CE0-DE10-11E7-A3FF-57F63E58CDD2/com_apple_MobileAsset_SoftwareUpdate/4f7a206387f078d85a3e60d79061a2e7b4e5484c.zip",
@@ -8203,6 +8474,9 @@
             "prerequisiteBuild": "14G57",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -8226,6 +8500,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55047-20171213-A1E61C5C-DE23-11E7-BF48-F52EF6A180E7/com_apple_MobileAsset_SoftwareUpdate/0ff441bdc554c651987b7a9c530cb6cc04eb8811.zip",
@@ -8248,6 +8525,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55168-20171213-7E854832-DE19-11E7-BD8E-A72D96F5E937/com_apple_MobileAsset_SoftwareUpdate/3c053213c575c2266747c3ba590a41d56408572e.zip",
@@ -8264,6 +8544,9 @@
             "prerequisiteBuild": "15B92",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
             ],
             "links": [
                 {
@@ -8282,6 +8565,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54668-20171213-AA20892A-DE00-11E7-98B0-D6E7FB2783B2/com_apple_MobileAsset_SoftwareUpdate/4115a7f9f230439c99259266a579479d947b92d2.zip",
@@ -8298,6 +8584,9 @@
             "prerequisiteBuild": "15B93",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
             ],
             "links": [
                 {
@@ -8316,6 +8605,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54720-20171213-79645DD6-DE08-11E7-94DD-BFEB3E58CDD2/com_apple_MobileAsset_SoftwareUpdate/bdf4189c5ef6bc838b9a49ad1148613f6688dd38.zip",
@@ -8332,6 +8624,9 @@
             "prerequisiteBuild": "15B150",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
             ],
             "links": [
                 {
@@ -8350,6 +8645,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54808-20171213-A341D748-DE10-11E7-9997-83FDFB2783B2/com_apple_MobileAsset_SoftwareUpdate/699cd4e5bd8efadb2af9a518dacf31cfdafe3e93.zip",
@@ -8366,6 +8664,9 @@
             "prerequisiteBuild": "15B202",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
             ],
             "links": [
                 {
@@ -8384,6 +8685,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54934-20171213-DF020792-DE17-11E7-B6B0-AC15F6A180E7/com_apple_MobileAsset_SoftwareUpdate/cc9fdf7ab50b0ff5b9fae158723b53d06cba443a.zip",
@@ -8400,6 +8704,9 @@
             "prerequisiteBuild": "15C114",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
             ],
             "links": [
                 {
@@ -8418,6 +8725,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54678-20171213-D236692A-DE00-11E7-A1DD-60EBFB2783B2/com_apple_MobileAsset_SoftwareUpdate/9a82c06ccf5af15ea9dd8ccf2c3ca807d518adc4.zip",
@@ -8434,6 +8744,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54824-20171213-08458250-DDFF-11E7-9308-A1DF3E58CDD2/com_apple_MobileAsset_SoftwareUpdate/0127439f3c3b527643017138d48caa3f0e820f68.zip",
@@ -8449,6 +8762,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -8474,6 +8790,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55153-20171213-1C918EB0-DE19-11E7-A46B-0C2A96F5E937/com_apple_MobileAsset_SoftwareUpdate/0839fa014e9e9816950cfae208e83b2389dd8cff.zip",
@@ -8497,6 +8816,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -8522,6 +8844,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55192-20171213-048BBCD0-DE1B-11E7-89C6-7D3296F5E937/com_apple_MobileAsset_SoftwareUpdate/e8a46db6975406e7d5ea2244781105d2e1d43798.zip",
@@ -8545,6 +8870,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -8570,6 +8898,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54854-20171213-B893531A-DE10-11E7-A8A0-4CF63E58CDD2/com_apple_MobileAsset_SoftwareUpdate/35efe218ab55ecdd9fbf231db1a59a6142f59df9.zip",
@@ -8594,6 +8925,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54996-20171213-9272954A-DE1C-11E7-AFCF-7623F6A180E7/com_apple_MobileAsset_SoftwareUpdate/a62ae367617dc9562095e2640cbf180a9886cd0f.zip",
@@ -8611,6 +8945,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54883-20171213-9979DACE-DE12-11E7-8A30-04FD3E58CDD2/com_apple_MobileAsset_SoftwareUpdate/c17fd9fce9b735f6e0fb7f7d10e63881f8433bad.zip",
@@ -8627,6 +8964,9 @@
             "prerequisiteBuild": "14G57",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -8650,6 +8990,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54916-20171213-AC4E5CF6-DE17-11E7-8950-7312F6A180E7/com_apple_MobileAsset_SoftwareUpdate/77ec8f4360e8a55ca6dcc9bddcf3e4623af06450.zip",
@@ -8672,6 +9015,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55176-20171213-D2D9ACD8-DE1A-11E7-8FDB-3E3096F5E937/com_apple_MobileAsset_SoftwareUpdate/18fae9606c5c9fcf75a1829492dc9837a4ce6c8f.zip",
@@ -8688,6 +9034,9 @@
             "prerequisiteBuild": "15B92",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -8706,6 +9055,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55187-20171213-0320D4FC-DE1B-11E7-BCAB-2F3296F5E937/com_apple_MobileAsset_SoftwareUpdate/707a580168f8e5a4408c2bff1d605439d46cb645.zip",
@@ -8722,6 +9074,9 @@
             "prerequisiteBuild": "15B93",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -8740,6 +9095,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54911-20171213-468D88CE-DE17-11E7-B0D6-150DF6A180E7/com_apple_MobileAsset_SoftwareUpdate/f33668b51f30359fc5d96b652f1cc887f26cba7d.zip",
@@ -8756,6 +9114,9 @@
             "prerequisiteBuild": "15B150",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -8774,6 +9135,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-54909-20171213-468F2A80-DE17-11E7-9F6E-120DF6A180E7/com_apple_MobileAsset_SoftwareUpdate/275ea4ccfc4873c764ba87d0e49b98774e1a59d6.zip",
@@ -8790,6 +9154,9 @@
             "prerequisiteBuild": "15B202",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -8808,6 +9175,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55105-20171213-5BA5C248-DE18-11E7-93D7-872196F5E937/com_apple_MobileAsset_SoftwareUpdate/825daf53f4cd86e9f7b9c3904c6ffa68f85e237f.zip",
@@ -8825,6 +9195,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.2.1/091-55209-20171213-CB01EECC-DE1E-11E7-9BED-2F3796F5E937/com_apple_MobileAsset_SoftwareUpdate/8e83585db00aaa6506809840247e41888bbd9e88.zip",
@@ -8841,6 +9214,9 @@
             "prerequisiteBuild": "15C114",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -8873,6 +9249,7 @@
             ],
             "hashes": {
                 "md5": "60e9f1e059cf412002ea243a05c2276a",
+                "sha1": "8f83e7c2e01b87a98437434574e943a733bb1c42",
                 "sha2-256": "c0d83f6178b90f8a1420d7d1f85e3a88a9f1e328bbebdac6d55c852ad2ef1b36"
             },
             "size": 2799197266
@@ -9087,6 +9464,7 @@
             ],
             "hashes": {
                 "md5": "558b63c89cf43e130d8aac6c33489f55",
+                "sha1": "9227b1fa07cd17456f435a51dcff3dccb8238a67",
                 "sha2-256": "dbcf24889a0fd1263acbac45794a2ce41bda4964b73d6d987778e57c7e16e074"
             },
             "size": 2948399288
@@ -9925,6 +10303,7 @@
             ],
             "hashes": {
                 "md5": "aea307e1421b616bd5c3607240ba5b29",
+                "sha1": "16bb3a030157cfde5dce3c5af1682531cac802eb",
                 "sha2-256": "d91cfa66eedda82c9284a5e5bd361bbccb624c1285bfdf316cda8dce6f71a724"
             },
             "size": 2961032873
@@ -10394,6 +10773,7 @@
             ],
             "hashes": {
                 "md5": "0c7aafbf6e451eabb77261bcedfb0126",
+                "sha1": "1b9805d44730a4bc5e6dfb76b55a1d248118ffb2",
                 "sha2-256": "64597730362fa7168ecabfb1e387126dfa3ad10f640ead54f54f18678c87b5fb"
             },
             "size": 2364392747

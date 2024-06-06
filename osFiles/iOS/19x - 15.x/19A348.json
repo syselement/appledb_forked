@@ -46,6 +46,37 @@
         "iPhone14,5",
         "iPod9,1"
     ],
+    "basebandVersions": {
+        "iPhone8,1": "9.01.00",
+        "iPhone8,2": "9.01.00",
+        "iPhone8,4": "11.01.02",
+        "iPhone9,1": "9.01.00",
+        "iPhone9,2": "9.01.00",
+        "iPhone9,3": "6.00.00",
+        "iPhone9,4": "6.00.00",
+        "iPhone10,1": "7.02.00",
+        "iPhone10,2": "7.02.00",
+        "iPhone10,3": "7.02.00",
+        "iPhone10,4": "5.00.00",
+        "iPhone10,5": "5.00.00",
+        "iPhone10,6": "5.00.00",
+        "iPhone11,2": "4.00.00",
+        "iPhone11,4": "4.00.00",
+        "iPhone11,6": "4.00.00",
+        "iPhone11,8": "4.00.00",
+        "iPhone12,1": "3.00.00",
+        "iPhone12,3": "3.00.00",
+        "iPhone12,5": "3.00.00",
+        "iPhone12,8": "3.00.00",
+        "iPhone13,1": "2.09.10",
+        "iPhone13,2": "2.09.10",
+        "iPhone13,3": "2.09.10",
+        "iPhone13,4": "2.09.10",
+        "iPhone14,2": "1.00.03",
+        "iPhone14,3": "1.00.03",
+        "iPhone14,4": "1.00.03",
+        "iPhone14,5": "1.00.03"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -56,13 +87,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09567/0AD49819-F4C2-4262-890E-49F7BABCD4AA/iPhone_4.7_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09567/0AD49819-F4C2-4262-890E-49F7BABCD4AA/iPhone_4.7_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "aa785f3414fa05365f10f0ffb1e7a132",
                 "sha1": "7aee713741e99e6d5f2913e6ad134c7d1a8a158e",
                 "sha2-256": "35ad939936c039887971a9617495c5d3954760d91c1c8fd729c174e5a61bcbcb"
             },
@@ -91,6 +119,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09306/A7A4D301-3A9A-4CE2-8F98-98E3C13F3804/com_apple_MobileAsset_SoftwareUpdate/b5c875c97f1c444327cf365bf7f0960129984cc2.zip",
@@ -108,6 +139,9 @@
             "prerequisiteBuild": "17A577",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -132,6 +166,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09829/1B046934-7B9A-4642-8B5E-68C034AE0C8A/com_apple_MobileAsset_SoftwareUpdate/1d58fd3bf827005c6d7696d681a4463f0a963773.zip",
@@ -155,6 +192,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09601/CB324CEA-ECCE-44E0-AECC-BDE26323128C/com_apple_MobileAsset_SoftwareUpdate/397095f60db8b0335e6fe062de7625cd01d36d67.zip",
@@ -177,6 +217,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09908/14B68457-36D6-4813-9CC0-E26A7C9026D3/com_apple_MobileAsset_SoftwareUpdate/57e5d1b062b6491bde4e71dbf0a2d02ae62933e7.zip",
@@ -198,6 +241,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -222,6 +268,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09573/6BC015FE-7CC7-4B87-B30F-C9E86E36667B/com_apple_MobileAsset_SoftwareUpdate/01e7cfd661bf6fc3551a10921266102a44c681e9.zip",
@@ -245,6 +294,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09756/35E41AC6-EBAC-480D-A6F9-E2E2D62B56FB/com_apple_MobileAsset_SoftwareUpdate/14425c741bb9aca94cd8f5683cabd510f9798820.zip",
@@ -266,6 +318,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09558/D4C5E70F-EC20-4150-822D-69B8CDE34D54/com_apple_MobileAsset_SoftwareUpdate/b45b4e93b81b6b823c525572f253bd7205aabbac.zip",
@@ -286,6 +341,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -309,6 +367,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09256/9A9D7BF3-7477-492B-9C87-9BCE1CB28ECC/com_apple_MobileAsset_SoftwareUpdate/34cb6da14258bfde20cacae3462e19d500799917.zip",
@@ -330,6 +391,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -354,6 +418,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09881/9CFD3E3F-9FFD-48C4-A987-C4FD13B58A75/com_apple_MobileAsset_SoftwareUpdate/13b4ad92a28106ad102319bd1de395c3e86733ca.zip",
@@ -376,6 +443,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -400,6 +470,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09678/6A00A01E-0F01-4DB1-B265-46D5D6E40DDA/com_apple_MobileAsset_SoftwareUpdate/4e46e6d5a5beb497a8e30af44075d7a351f183e5.zip",
@@ -423,6 +496,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09662/FD83B012-411F-4047-BBA9-1D3E7C1BEA6F/com_apple_MobileAsset_SoftwareUpdate/d35f8436329cd6e203d7974071944f8d5a6e4e73.zip",
@@ -445,6 +521,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09444/1661A4DF-4902-4567-BA0E-F6639EE4C0D5/com_apple_MobileAsset_SoftwareUpdate/6479c218b12819713d01d296dd7acf636eda9838.zip",
@@ -466,6 +545,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -490,6 +572,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09156/4A8DFC51-935B-451B-956E-77DA58C52CE8/com_apple_MobileAsset_SoftwareUpdate/bb3ab057f87aa417ea4af492578df302121da076.zip",
@@ -513,6 +598,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09616/53F336C6-A3C7-4350-A9FF-ECBF66819EE1/com_apple_MobileAsset_SoftwareUpdate/9d276061fa411bc8370f47e7139291086132386c.zip",
@@ -534,6 +622,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71AP"
             ],
             "links": [
                 {
@@ -557,6 +648,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09944/A2599879-D698-45BB-BBE6-2C0E85681439/com_apple_MobileAsset_SoftwareUpdate/2e7b3bce767545003d8d4460401ba2f62b950c4a.zip",
@@ -578,13 +672,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09648/00073722-F4EC-485F-8C2C-9F4467D4C614/iPhone_5.5_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09648/00073722-F4EC-485F-8C2C-9F4467D4C614/iPhone_5.5_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "4ec1efbacde8b5c43e2c71cfe10609f4",
                 "sha1": "c7d773b17f52357428fa4ce2ee310d51d77be73f",
                 "sha2-256": "518ddc01121feb922b9e7a3aadfb1c263d10b913cc7fe091adec86ac1b79487c"
             },
@@ -613,6 +704,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09305/11CB4CFE-7340-4328-B834-BC4B4C0330BD/com_apple_MobileAsset_SoftwareUpdate/e6ad85cfae87fd55c11f41c7ab6f74f3c240ced4.zip",
@@ -630,6 +724,9 @@
             "prerequisiteBuild": "17A577",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -654,6 +751,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09443/7A60938A-BAF2-4577-917E-5E78054996CF/com_apple_MobileAsset_SoftwareUpdate/6ad8dddc25030bc5be0f47250fa54c0c70bb649a.zip",
@@ -677,6 +777,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09840/6C18DAE2-B334-4743-8C6F-AD45E5CF8CBA/com_apple_MobileAsset_SoftwareUpdate/bfbecaf955c7f0689baf45b567aaf5f5e36b5878.zip",
@@ -699,6 +802,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09227/0982E9B0-D998-4637-9173-A55085654959/com_apple_MobileAsset_SoftwareUpdate/b8615429d3e79b3d5a5b9b65cd37b98344d8967c.zip",
@@ -720,6 +826,9 @@
             ],
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -744,6 +853,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09722/AB8D8501-2289-4FAA-BB27-5757BEFB8527/com_apple_MobileAsset_SoftwareUpdate/ff16e7464f6b17bc94433c3bf89ffb34edc00cf0.zip",
@@ -767,6 +879,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09159/C18864C6-6667-4779-9C15-D592166A36DC/com_apple_MobileAsset_SoftwareUpdate/40ef818ef1816bce4dfa2e0aa9421c9424ee9ebf.zip",
@@ -788,6 +903,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09847/10EEDAEF-C4A0-4FC5-9201-809A2868245E/com_apple_MobileAsset_SoftwareUpdate/6f41c8285ddd5b4e637c4576dd8dd29086336f00.zip",
@@ -808,6 +926,9 @@
             ],
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -831,6 +952,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09458/4D7F73CE-5E85-4AC9-A188-7930E085A5DE/com_apple_MobileAsset_SoftwareUpdate/0e8a7132ce544f45f63b428ac7326bb2b525e13d.zip",
@@ -852,6 +976,9 @@
             ],
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -876,6 +1003,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09704/6A6F090D-E648-49A5-963F-B0E54CA24FCE/com_apple_MobileAsset_SoftwareUpdate/76cefb929e01a8d6dbaecb62eaffb8596a96a90d.zip",
@@ -898,6 +1028,9 @@
             ],
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -922,6 +1055,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09293/44B94C53-9804-46F6-83B3-9A05E5353AB2/com_apple_MobileAsset_SoftwareUpdate/bc2a22a2ebf388773819f487b40528693c2a0ab9.zip",
@@ -945,6 +1081,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09270/32BF9AF6-C2F7-498C-89C8-EAF1A8B56463/com_apple_MobileAsset_SoftwareUpdate/e5aa4a19a7fb837a45600a2b4df661d01d54d1a2.zip",
@@ -967,6 +1106,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09853/69451C2D-5611-44A1-953D-268E28D68EC2/com_apple_MobileAsset_SoftwareUpdate/ac8a326ba27783658c1f398e3e5e779fb258d8b2.zip",
@@ -988,6 +1130,9 @@
             ],
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -1012,6 +1157,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09717/466AAA99-ACE9-48D8-A6B9-DA3D0AA2903F/com_apple_MobileAsset_SoftwareUpdate/2e7c32d167dab3a5489c2513a399a654c58c6244.zip",
@@ -1035,6 +1183,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09495/D15014F1-CDD6-4872-8DB0-54F52CE7DC58/com_apple_MobileAsset_SoftwareUpdate/7ed50cbabc4cafdb6a854ddcd03d0acb997766a6.zip",
@@ -1056,6 +1207,9 @@
             ],
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
             ],
             "links": [
                 {
@@ -1079,6 +1233,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09980/3EDE94D4-4053-4673-8B99-99AEE1F5A06C/com_apple_MobileAsset_SoftwareUpdate/d36b2908de5c3df7a700fe4db8c66337c0fe4208.zip",
@@ -1100,13 +1257,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09346/E4C245A3-F2B1-410F-88B5-D1248685E740/iPhone_4.0_64bit_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09346/E4C245A3-F2B1-410F-88B5-D1248685E740/iPhone_4.0_64bit_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "341334cf305b608ed3cf2f5f4697493c",
                 "sha1": "3e43cdc95adf04fe36f6ae9e78fe5396688d553f",
                 "sha2-256": "5f99518217bafda3037590e50398f1953eced02675823e02c7ee7232bb268f4d"
             },
@@ -1135,6 +1289,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09315/21232F88-3A09-404F-B7EC-F5CC1E6C6CFF/com_apple_MobileAsset_SoftwareUpdate/28fa0419771b514b5001e76145ab911d868b5cd0.zip",
@@ -1152,6 +1309,9 @@
             "prerequisiteBuild": "17A577",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -1176,6 +1336,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09338/E87C446C-7FC4-484B-9951-7110AE29AAF9/com_apple_MobileAsset_SoftwareUpdate/16b9ebb8781e8d502552e3aed835da99dbaa4679.zip",
@@ -1199,6 +1362,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09667/6C1239C3-C4D9-490C-84F0-BC26D02D4D96/com_apple_MobileAsset_SoftwareUpdate/7944d59521a099e61615433016cfc4a9765122f9.zip",
@@ -1221,6 +1387,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09456/020FEEA3-581F-41CD-9F12-2C65D373BAE9/com_apple_MobileAsset_SoftwareUpdate/70274335b95cf4084a0e58535063a1bf77c79ccb.zip",
@@ -1242,6 +1411,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -1266,6 +1438,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09762/DE40F444-6A67-4A28-A073-8114868AC631/com_apple_MobileAsset_SoftwareUpdate/a6231fb0c68c17a4a0f46fb3a779662cfb71270b.zip",
@@ -1289,6 +1464,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09512/05791B55-0EA3-40C9-842B-0BE067BBFCD0/com_apple_MobileAsset_SoftwareUpdate/0805100a6c67c1726e8a577676f947f410765dfe.zip",
@@ -1310,6 +1488,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09844/DD9861E4-E13D-49B2-84E8-81B7866C67AD/com_apple_MobileAsset_SoftwareUpdate/d8d7f3559708629584a4887c93a342bf1cc3c226.zip",
@@ -1330,6 +1511,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -1353,6 +1537,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09345/14EB915F-535B-4912-8E42-DAAE88A62673/com_apple_MobileAsset_SoftwareUpdate/c7e7380607f49e183c64da32e95302ad10f5b254.zip",
@@ -1374,6 +1561,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -1398,28 +1588,8 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
-            "links": [
-                {
-                    "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09921/5BE8048C-F967-4885-ACC0-CD95E6E84FB8/com_apple_MobileAsset_SoftwareUpdate/2cf66295b6fe9682519646c09f59672ccfaf92b0.zip",
-                    "active": true
-                }
-            ],
-            "hashes": {
-                "sha1": "b74adcc7c80e4e1e624163b5fd34563ec521bcf7",
-                "sha2-256": "17c177af9f34c0327146e4ee31fcd93b6ec01095f61888abd1fabba3952e429a"
-            },
-            "size": 2711460280
-        },
-        {
-            "type": "ota",
-            "prerequisiteBuild": [
-                "18A373",
-                "18A393",
-                "18A8395",
-                "18B92"
-            ],
-            "deviceMap": [
-                "iPhone8,4"
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -1436,25 +1606,28 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "18C66",
-                "18D52",
-                "18D61",
-                "18D70"
+                "18A373",
+                "18A393",
+                "18A8395",
+                "18B92"
             ],
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09850/1C8E5267-C54F-4876-88BB-33F20D98A6CF/com_apple_MobileAsset_SoftwareUpdate/31a19e376c0400c3637b25d53fa21656bf3bb0e2.zip",
+                    "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09921/5BE8048C-F967-4885-ACC0-CD95E6E84FB8/com_apple_MobileAsset_SoftwareUpdate/2cf66295b6fe9682519646c09f59672ccfaf92b0.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "fcfade832578e18c2b33672fc6d78db2c7f4fb30",
-                "sha2-256": "bd5b17ea942c640cb76415768f0eb1714eea6680cd4e2896e368665bc5a8fae6"
+                "sha1": "b74adcc7c80e4e1e624163b5fd34563ec521bcf7",
+                "sha2-256": "17c177af9f34c0327146e4ee31fcd93b6ec01095f61888abd1fabba3952e429a"
             },
-            "size": 2592444883
+            "size": 2711460280
         },
         {
             "type": "ota",
@@ -1466,6 +1639,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -1482,24 +1658,28 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "18E199",
-                "18E212",
-                "18F72"
+                "18C66",
+                "18D52",
+                "18D61",
+                "18D70"
             ],
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09445/37119432-DA81-4395-9C2E-B479B4B3A2A2/com_apple_MobileAsset_SoftwareUpdate/54178daf525e8698dc1becaa20c0bf60c20c610a.zip",
+                    "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09850/1C8E5267-C54F-4876-88BB-33F20D98A6CF/com_apple_MobileAsset_SoftwareUpdate/31a19e376c0400c3637b25d53fa21656bf3bb0e2.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "58aed5d1ef1631587126bb5ac59d171bb44f11c1",
-                "sha2-256": "8057cb9502b39f5dd0e37bb92040e8e3bc2fdc4ab0880f0bb69c48618f559279"
+                "sha1": "fcfade832578e18c2b33672fc6d78db2c7f4fb30",
+                "sha2-256": "bd5b17ea942c640cb76415768f0eb1714eea6680cd4e2896e368665bc5a8fae6"
             },
-            "size": 2518013523
+            "size": 2592444883
         },
         {
             "type": "ota",
@@ -1510,6 +1690,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -1526,25 +1709,27 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "18G69",
-                "18G82",
-                "18G90",
-                "18H17"
+                "18E199",
+                "18E212",
+                "18F72"
             ],
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09155/E7A60EB4-F5F9-4A52-95D9-C2671495C736/com_apple_MobileAsset_SoftwareUpdate/1862033184631c014b1cca0aad7e9e3d3e01098e.zip",
+                    "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09445/37119432-DA81-4395-9C2E-B479B4B3A2A2/com_apple_MobileAsset_SoftwareUpdate/54178daf525e8698dc1becaa20c0bf60c20c610a.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "7bae524a83bbd02c40a4107719e328d9ff858191",
-                "sha2-256": "fc51ece7b6dae5d116e589407b3471a4f59e4d49d7ab6a4f2d3f9914054d87cb"
+                "sha1": "58aed5d1ef1631587126bb5ac59d171bb44f11c1",
+                "sha2-256": "8057cb9502b39f5dd0e37bb92040e8e3bc2fdc4ab0880f0bb69c48618f559279"
             },
-            "size": 2490894551
+            "size": 2518013523
         },
         {
             "type": "ota",
@@ -1556,6 +1741,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -1572,24 +1760,28 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "19A340",
-                "19A344",
-                "19A346"
+                "18G69",
+                "18G82",
+                "18G90",
+                "18H17"
             ],
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09957/ED5F04F1-9807-4343-B11F-83D4CE9073C2/com_apple_MobileAsset_SoftwareUpdate/dc59a74797bfa7043bee0a53bd9a3ae07cdc4572.zip",
+                    "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09155/E7A60EB4-F5F9-4A52-95D9-C2671495C736/com_apple_MobileAsset_SoftwareUpdate/1862033184631c014b1cca0aad7e9e3d3e01098e.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "d8df46d9464621c81dee6351b0f75052e20230cb",
-                "sha2-256": "9a81860980c67bffb9a820aa1bf29a71785caa1796273595a41dec767342a113"
+                "sha1": "7bae524a83bbd02c40a4107719e328d9ff858191",
+                "sha2-256": "fc51ece7b6dae5d116e589407b3471a4f59e4d49d7ab6a4f2d3f9914054d87cb"
             },
-            "size": 479524590
+            "size": 2490894551
         },
         {
             "type": "ota",
@@ -1600,6 +1792,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -1614,6 +1809,31 @@
             "size": 484030187
         },
         {
+            "type": "ota",
+            "prerequisiteBuild": [
+                "19A340",
+                "19A344",
+                "19A346"
+            ],
+            "deviceMap": [
+                "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
+            ],
+            "links": [
+                {
+                    "url": "https://updates.cdn-apple.com/2021FallFCS/patches/002-09957/ED5F04F1-9807-4343-B11F-83D4CE9073C2/com_apple_MobileAsset_SoftwareUpdate/dc59a74797bfa7043bee0a53bd9a3ae07cdc4572.zip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "d8df46d9464621c81dee6351b0f75052e20230cb",
+                "sha2-256": "9a81860980c67bffb9a820aa1bf29a71785caa1796273595a41dec767342a113"
+            },
+            "size": 479524590
+        },
+        {
             "type": "ipsw",
             "deviceMap": [
                 "iPhone9,1",
@@ -1625,13 +1845,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09767/A7DA9750-5D5B-4167-9259-5663B95EC076/iPhone_4.7_P3_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09767/A7DA9750-5D5B-4167-9259-5663B95EC076/iPhone_4.7_P3_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "7c4efce5fe18458520ebd4b79e85ad46",
                 "sha1": "ef7d6b088128c862e0841ec8ed28f9efc3bc59c4",
                 "sha2-256": "33d73682c44831ee08bcf0644d4c1374b0695f9000554a19274a6c61eabb1d70"
             },
@@ -1911,13 +2128,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09466/37DF4527-4C38-41D7-8CD5-D5FB7C2E3819/iPhone_5.5_P3_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09466/37DF4527-4C38-41D7-8CD5-D5FB7C2E3819/iPhone_5.5_P3_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "17163c6c862b97da11649cb5800bac61",
                 "sha1": "ff8c7f4b4e4ae3674ebf43efb5cc6264d89206f0",
                 "sha2-256": "edc0dafa97c80f09e7cce6b2662d9f06df6b38e2bcc06b5cf6ad3aa8a57df80c"
             },
@@ -3163,13 +3377,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09274/74DE6F56-D1F8-4961-B3C5-66F1B3B0D55B/iPhone10,3,iPhone10,6_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09274/74DE6F56-D1F8-4961-B3C5-66F1B3B0D55B/iPhone10,3,iPhone10,6_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "7880a430054f25f3b24f076455e200a1",
                 "sha1": "7d30ee4e49c62cc84332cbdf4b1ce4a60797b968",
                 "sha2-256": "2b141db71141863b2607865cde7bce28a47b93cf2caedfed92cb45cef935a498"
             },
@@ -4174,13 +4385,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09697/1E3852B9-19BB-4284-AC64-2040CCB4ED0A/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09697/1E3852B9-19BB-4284-AC64-2040CCB4ED0A/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "448a8f8dfcab4d8daf17550d3006f4e9",
                 "sha1": "1f95062d36c7016d0d7829017941a81e89ecfb51",
                 "sha2-256": "6a8a17aa0284f2c459a82b04c5d115f51dada8a32617fefa7325961e1ca090bf"
             },
@@ -4701,13 +4909,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09675/DBC6B35E-2685-48E0-B8F1-7523D2851BC5/iPhone11,8,iPhone12,1_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09675/DBC6B35E-2685-48E0-B8F1-7523D2851BC5/iPhone11,8,iPhone12,1_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "17bc0df116872a589ff6cdbf20284324",
                 "sha1": "eb2118fcc46bdb68992a8559eb33656b51eed755",
                 "sha2-256": "a2d81f13a605597fca96049e41efe61c5f75a772535199ecdafee507f166e326"
             },
@@ -5708,13 +5913,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09890/A0FBAC46-7824-45FE-A82D-131E361BE65F/iPhone12,8_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09890/A0FBAC46-7824-45FE-A82D-131E361BE65F/iPhone12,8_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "ba082dc528b78d5ace9143d25c4f4f5d",
                 "sha1": "1a1a5f236f3ba6b9ca9b71f78ae10f3bd9764c27",
                 "sha2-256": "f95afa907ae418828aae5f5e584468a4b3cd01a6cc03e3475d56b647a6d219b4"
             },
@@ -5923,13 +6125,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09190/3B3640A6-6D7C-4409-998B-371905CBC665/iPhone13,1_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09190/3B3640A6-6D7C-4409-998B-371905CBC665/iPhone13,1_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "7ce48e16d7ea824eb85ac031a64545a9",
                 "sha1": "70997c07755f2eafdddf3b4e491ba2097bfd239f",
                 "sha2-256": "f364139586926a97ace73636386fab668f861e986e04e62c6a8845e9e67338f0"
             },
@@ -6076,13 +6275,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09836/AAC1F9EE-782C-4F07-89F6-F954AC464C98/iPhone13,2,iPhone13,3_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09836/AAC1F9EE-782C-4F07-89F6-F954AC464C98/iPhone13,2,iPhone13,3_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "78c2dda24d7f486ba64759f2a48a8895",
                 "sha1": "e9d9516aeeb06bbd2739662e1da654826c004303",
                 "sha2-256": "9edce6ad7560573400d17342052aefba2bce07159e2b5ce0c4ff90f75c03efb2"
             },
@@ -6343,13 +6539,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09731/FEDB1889-0886-4954-AD68-F0131F6AB5F6/iPhone13,4_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09731/FEDB1889-0886-4954-AD68-F0131F6AB5F6/iPhone13,4_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "5f2f2442e77131f14887b7aa2218ff29",
                 "sha1": "8914aec62803e6a98e24191b17c73c2faec8fa8c",
                 "sha2-256": "48703f2dcd4e2139b7caab6f089ca8788e45f5b9aa91aa2cb32c7221ad7d1cc1"
             },
@@ -6495,13 +6688,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09363/F489360E-C0A9-4A6F-A2F8-961BDEB2F3C9/iPhone14,2_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09363/F489360E-C0A9-4A6F-A2F8-961BDEB2F3C9/iPhone14,2_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "6675349400d8770c2fc31d86822cad31",
                 "sha1": "66dff30f304d67adee114218470793c0c2431bf1",
                 "sha2-256": "a7c8294d85d4cc260822b0b87e11f90186f7034b8484ec659d50c9b90e19800f"
             },
@@ -6556,13 +6746,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09810/B546844C-2D62-4248-A427-F55EE080F10A/iPhone14,3_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09810/B546844C-2D62-4248-A427-F55EE080F10A/iPhone14,3_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "0a0fab606afef023cd5628091fcd3df1",
                 "sha1": "a2c914550a70f285a3b9934c4fe4843a490bed9a",
                 "sha2-256": "955d9aa94d952982a4de62c0a415010b317b091d7a56d819307c9033d84b9057"
             },
@@ -6617,13 +6804,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09585/7684C03E-8D5A-435A-8B46-87F3A6A3F3BD/iPhone14,4_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09585/7684C03E-8D5A-435A-8B46-87F3A6A3F3BD/iPhone14,4_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "eef126a1af315c542759eb9e8ea22b1c",
                 "sha1": "e2d672ec6fd8731901d8db77af66caae0311a603",
                 "sha2-256": "43006a244e840bd8347f55f5d930e268b2424d18cb790f99b10cb709e90eb8bc"
             },
@@ -6678,13 +6862,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09688/07029187-8FB6-4F93-9429-128201E13265/iPhone14,5_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09688/07029187-8FB6-4F93-9429-128201E13265/iPhone14,5_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "458529e238549d185526974f895084f4",
                 "sha1": "04ba74b959472a2c8f0762cdf9b1367232df5153",
                 "sha2-256": "0d434ba076e3085c598d17acf975ed940eee50cd67ee583fc9f738f5467b7208"
             },
@@ -6739,13 +6920,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-09191/3E06427F-BC1B-4043-A35C-B853D8C6CC71/iPodtouch_7_15.0.1_19A348_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FallFCS/fullrestores/002-09191/3E06427F-BC1B-4043-A35C-B853D8C6CC71/iPodtouch_7_15.0.1_19A348_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "959aee00d35f8bd60c6207b976d7c82e",
                 "sha1": "3b73d5e231cd73fac6ff76aafccb8edef9747e74",
                 "sha2-256": "62cbdd6e347a3b0cd540b65eaa067c84bdb3232c2aeedbb908a240f3580182d9"
             },

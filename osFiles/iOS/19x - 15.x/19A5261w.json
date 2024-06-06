@@ -37,6 +37,33 @@
         "iPhone13,4",
         "iPod9,1"
     ],
+    "basebandVersions": {
+        "iPhone8,1": "8.71.00",
+        "iPhone8,2": "8.71.00",
+        "iPhone8,4": "10.71.00",
+        "iPhone9,1": "9.00.00",
+        "iPhone9,2": "9.00.00",
+        "iPhone9,3": "5.50.01",
+        "iPhone9,4": "5.50.01",
+        "iPhone10,1": "7.00.00",
+        "iPhone10,2": "7.00.00",
+        "iPhone10,3": "7.00.00",
+        "iPhone10,4": "4.50.01",
+        "iPhone10,5": "4.50.01",
+        "iPhone10,6": "4.50.01",
+        "iPhone11,2": "3.50.04",
+        "iPhone11,4": "3.50.04",
+        "iPhone11,6": "3.50.04",
+        "iPhone11,8": "3.50.04",
+        "iPhone12,1": "2.50.04",
+        "iPhone12,3": "2.50.04",
+        "iPhone12,5": "2.50.04",
+        "iPhone12,8": "2.50.04",
+        "iPhone13,1": "2.03.01",
+        "iPhone13,2": "2.03.01",
+        "iPhone13,3": "2.03.01",
+        "iPhone13,4": "2.03.01"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -46,7 +73,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPhone_4.7_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -75,7 +102,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPhone_5.5_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -104,7 +131,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPhone_4.0_64bit_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -136,7 +163,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPhone_4.7_P3_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -171,7 +198,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPhone_5.5_P3_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -204,7 +231,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPhone103iPhone106_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -238,7 +265,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPhone112iPhone114iPhone116iPhone123iPhone125_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -271,7 +298,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPhone118iPhone121_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -301,7 +328,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPhone128_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -330,7 +357,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPhone131_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -360,7 +387,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPhone132iPhone133_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -390,7 +417,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPhone134_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -419,7 +446,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iOS_15_beta/iPodtouch_7_15.0_19A5261w_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {

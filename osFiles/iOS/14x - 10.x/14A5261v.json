@@ -43,6 +43,31 @@
         "iPhone8,4",
         "iPod7,1"
     ],
+    "basebandVersions": {
+        "iPad3,5": "11.00.01",
+        "iPad3,6": "11.00.01",
+        "iPad4,2": "7.00.04",
+        "iPad4,3": "7.00.04",
+        "iPad4,5": "7.00.04",
+        "iPad4,6": "7.00.04",
+        "iPad4,8": "7.00.04",
+        "iPad4,9": "7.00.04",
+        "iPad5,2": "5.12.00",
+        "iPad5,4": "5.12.00",
+        "iPad6,4": "2.16.03-1",
+        "iPad6,8": "5.12.00",
+        "iPhone5,1": "11.00.01",
+        "iPhone5,2": "11.00.01",
+        "iPhone5,3": "7.00.04",
+        "iPhone5,4": "7.00.04",
+        "iPhone6,1": "7.00.04",
+        "iPhone6,2": "7.00.04",
+        "iPhone7,1": "5.12.00",
+        "iPhone7,2": "5.12.00",
+        "iPhone8,1": "2.16.03-1",
+        "iPhone8,2": "2.16.03-1",
+        "iPhone8,4": "5.12.00"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -54,7 +79,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2016/iOS_10_beta/iPad_32bit_10.0_14A5261v_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "size": 2037769505
@@ -120,7 +145,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2016/iOS_10_beta/iPad_64bit_10.0_14A5261v_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "size": 2577717245
@@ -235,7 +260,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2016/iOS_10_beta/iPad_64bit_TouchID_10.0_14A5261v_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "size": 2851224599
@@ -361,7 +386,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2016/iOS_10_beta/iPadPro_9.7_10.0_14A5261v_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "size": 2598769041
@@ -407,7 +432,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2016/iOS_10_beta/iPadPro_12.9_10.0_14A5261v_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "size": 2695470898
@@ -455,7 +480,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2016/iOS_10_beta/iPhone_4.0_32bit_10.0_14A5261v_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "size": 1996454535
@@ -533,7 +558,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2016/iOS_10_beta/iPhone_4.0_64bit_10.0_14A5261v_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "size": 2314006629
@@ -579,7 +604,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2016/iOS_10_beta/iPhone_5.5_10.0_14A5261v_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "size": 2926500303
@@ -609,7 +634,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2016/iOS_10_beta/iPhone_4.7_10.0_14A5261v_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "size": 2685142134
@@ -635,6 +660,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/WWDC_2016/iOS10Seed1/031-62883-20160613-30D67FC8-2D91-11E6-A87D-AB9EB96A614B/com_apple_MobileAsset_SoftwareUpdate/89726bbd8e1ebbb9658961f054a55f64c3fa8d64.zip",
@@ -650,6 +678,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -667,6 +698,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/WWDC_2016/iOS10Seed1/031-62895-20160613-D33D6312-2D91-11E6-8A2B-C6A1B96A614B/com_apple_MobileAsset_SoftwareUpdate/65ade8e93639ddd6b74f1e35e316152995e80c97.zip",
@@ -682,6 +716,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -702,7 +739,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2016/iOS_10_beta/iPhoneSE_10.0_14A5261v_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "size": 2445770395
@@ -711,6 +748,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -727,6 +767,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -747,7 +790,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2016/iOS_10_beta/iPodtouch_10.0_14A5261v_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "size": 2190912383

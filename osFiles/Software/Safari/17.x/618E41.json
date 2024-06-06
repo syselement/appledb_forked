@@ -23,7 +23,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/Safari/Safari_17.4_for_macOS_Ventura_and_Safari_17.4_for_macOS_Monterey_beta_4/Safari_17.4_for_macOS_Monterey_beta_4.dmg",
-                    "active": true
+                    "active": false
                 }
             ],
             "size": 155876261
@@ -39,7 +39,7 @@
             "links": [
                 {
                     "url": "https://swcdn.apple.com/content/downloads/48/56/052-57515-A_ZE8Q7KY70R/bsytk6sc4t3tcgebrbssifnbf1t75qs2h5/Safari17.4MontereyAutoSeed.pkg",
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {

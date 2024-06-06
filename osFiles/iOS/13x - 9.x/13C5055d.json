@@ -50,6 +50,35 @@
         "iPod5,1",
         "iPod7,1"
     ],
+    "basebandVersions": {
+        "iPad2,2": "04.12.09",
+        "iPad2,3": "3.0.04",
+        "iPad2,6": "9.00.03",
+        "iPad2,7": "9.00.03",
+        "iPad3,2": "5.2.02",
+        "iPad3,3": "5.2.02",
+        "iPad3,5": "9.00.03",
+        "iPad3,6": "9.00.03",
+        "iPad4,2": "5.00.11",
+        "iPad4,3": "5.00.11",
+        "iPad4,5": "5.00.11",
+        "iPad4,6": "5.00.11",
+        "iPad4,8": "5.00.11",
+        "iPad4,9": "5.00.11",
+        "iPad5,2": "4.50.04",
+        "iPad5,4": "4.50.04",
+        "iPhone4,1": "5.3.03",
+        "iPhone5,1": "9.00.03",
+        "iPhone5,2": "9.00.03",
+        "iPhone5,3": "5.00.11",
+        "iPhone5,4": "5.00.11",
+        "iPhone6,1": "5.00.11",
+        "iPhone6,2": "5.00.11",
+        "iPhone7,1": "4.50.04",
+        "iPhone7,2": "4.50.04",
+        "iPhone8,1": "1.20.06",
+        "iPhone8,2": "1.20.06"
+    },
     "sources": [
         {
             "type": "ota",
@@ -616,6 +645,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios9.2seed/031-39603-20151027-BE1E9046-790A-11E5-B14A-39C0CAB9343C/com_apple_MobileAsset_SoftwareUpdate/6f36090225982e02b24f8fe554b2e8e0c514cb6e.zip",
@@ -631,6 +663,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -648,6 +683,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios9.2seed/031-39571-20151027-1D5C73EE-790A-11E5-92D4-BCBECAB9343C/com_apple_MobileAsset_SoftwareUpdate/a809174f39db9c3d09206c24829d12529e0a470d.zip",
@@ -663,6 +701,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {

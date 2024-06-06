@@ -73,6 +73,33 @@
         "iPad14,1",
         "iPad14,2"
     ],
+    "basebandVersions": {
+        "iPad5,2": "11.01.02",
+        "iPad5,4": "11.01.02",
+        "iPad6,4": "9.01.00",
+        "iPad6,8": "11.01.02",
+        "iPad6,12": "11.01.02",
+        "iPad7,2": "9.01.00",
+        "iPad7,4": "9.01.00",
+        "iPad7,6": "9.01.00",
+        "iPad7,12": "4.02.02",
+        "iPad8,3": "4.02.02",
+        "iPad8,4": "4.02.02",
+        "iPad8,7": "4.02.02",
+        "iPad8,8": "4.02.02",
+        "iPad8,10": "3.01.02",
+        "iPad8,12": "3.01.02",
+        "iPad11,2": "4.02.02",
+        "iPad11,4": "4.02.02",
+        "iPad11,7": "4.02.02",
+        "iPad12,2": "4.02.02",
+        "iPad13,2": "3.01.02",
+        "iPad13,6": "2.23.02",
+        "iPad13,7": "2.23.02",
+        "iPad13,10": "2.23.02",
+        "iPad13,11": "2.23.02",
+        "iPad14,2": "1.32.07"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -86,13 +113,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-91996/1412986D-4F06-4EEC-8F96-C40B030B6657/iPad_64bit_TouchID_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-91996/1412986D-4F06-4EEC-8F96-C40B030B6657/iPad_64bit_TouchID_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "5cc3b6b98a68c5fabb26fe05f5cbd480",
                 "sha1": "4d2ebc3f508ca3e1a4a65daf0a04062f7584c147",
                 "sha2-256": "535ac9ea7c0a1d9374b9e3ced1727ea15e3ce41b2b7927c06e4f77894cf83155"
             },
@@ -1176,13 +1200,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-91974/CD53634E-AC92-49DC-A6F8-29B17E5C8B68/iPadPro_9.7_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-91974/CD53634E-AC92-49DC-A6F8-29B17E5C8B68/iPadPro_9.7_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "7a734bbab0859ab19c1818c7cb881ef5",
                 "sha1": "60ddfa8c5f01acf9f9e03851d7766ce4f9abc857",
                 "sha2-256": "9fa8c0bdc20488a37404fd05bf558498990e5e0342742e929f87c961a3b05bed"
             },
@@ -1740,13 +1761,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-91971/5C53C11B-4B58-405A-B4AC-B47EA103A7CD/iPadPro_12.9_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-91971/5C53C11B-4B58-405A-B4AC-B47EA103A7CD/iPadPro_12.9_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "b8032fb3bbdd17ac7f6e4e9e9bd0a3f0",
                 "sha1": "5555b1ae3948cac22cdc06eb3a6219483605a6cd",
                 "sha2-256": "837adc7f99aac7ac8049ee63e6ef7d9f9df876a5b8280ec91797207f423f0ec6"
             },
@@ -2306,13 +2324,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-92034/E5084F6F-41E1-4741-ADC8-872CBF6DF72A/iPad_64bit_TouchID_ASTC_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-92034/E5084F6F-41E1-4741-ADC8-872CBF6DF72A/iPad_64bit_TouchID_ASTC_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "6590f67890e6716c503499a7750e079b",
                 "sha1": "988bae0c11fc450fa5fc49682e444783ba1db2e1",
                 "sha2-256": "739430941d341f3c693eb36ee2bae4baaed0c81a93ebeacf3beeea4385b9a493"
             },
@@ -2349,6 +2364,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36377/2CE2B0AA-3362-4DEE-BABC-A1474F31DAA9/com_apple_MobileAsset_SoftwareUpdate/f3def7d86ee75a32a00dc87cf5d479a900375c83.zip",
@@ -2372,6 +2390,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36785/8D09BBD5-9CFD-4F0E-9964-BE9F17791518/com_apple_MobileAsset_SoftwareUpdate/194dd11f60850f094ed6062daeb9a64f4b8c56cb.zip",
@@ -2394,6 +2415,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36463/FF87F31B-6C81-46F7-BDBF-6E5F18EC226D/com_apple_MobileAsset_SoftwareUpdate/e51a309597efa27c226e06675cd1df1cdf5969b7.zip",
@@ -2415,6 +2439,9 @@
             ],
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -2439,6 +2466,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36497/80CB756F-2EDB-46BE-B396-D694BEF72537/com_apple_MobileAsset_SoftwareUpdate/a9ec8f9e8e9409682f6e1696011f8c714231b154.zip",
@@ -2462,6 +2492,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36654/F0BBEDB8-BB03-4ED0-947B-18FBBDBAF0C6/com_apple_MobileAsset_SoftwareUpdate/3ee89e9052afaab7f317c067fca51f205de65f8a.zip",
@@ -2483,6 +2516,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36505/EC77F26F-6577-4CF5-8AC8-C29EC66D8AEA/com_apple_MobileAsset_SoftwareUpdate/e85fce2fc4af2373783a7467ef5d5395fcbfb2cb.zip",
@@ -2503,6 +2539,9 @@
             ],
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -2526,6 +2565,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36507/32B0C48E-5BA0-4209-83D3-A45BF6EE33F6/com_apple_MobileAsset_SoftwareUpdate/bdbc81f5b94244e2620d1c2213468ac2d838e017.zip",
@@ -2547,6 +2589,9 @@
             ],
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -2571,6 +2616,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36446/BF436635-934C-4DBC-858E-26C9D35B237C/com_apple_MobileAsset_SoftwareUpdate/6f7d91f404dbec26cf9de8eb8edbe6cfe8ab4f2a.zip",
@@ -2593,6 +2641,9 @@
             ],
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -2617,6 +2668,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36124/C1B08C7F-192A-499E-86CF-DA741B3905F2/com_apple_MobileAsset_SoftwareUpdate/1983fab990a06c75794d33e905b7d07ef9f1b4c9.zip",
@@ -2640,6 +2694,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36684/1D821CF7-8CE3-4656-878B-EC9588F9DD3C/com_apple_MobileAsset_SoftwareUpdate/7dba2a5946180ea1b2ce3ed2416e8a49164f622e.zip",
@@ -2662,6 +2719,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36740/EB620010-529D-4CF7-AE22-E92CDE126592/com_apple_MobileAsset_SoftwareUpdate/fc4b5e7891a5122694d35527fc372580b8f7bc83.zip",
@@ -2683,6 +2743,9 @@
             ],
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -2707,6 +2770,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36624/CCE10E3D-A136-49B8-9A1A-9D6D7ACCD8D7/com_apple_MobileAsset_SoftwareUpdate/48c35b98bb0ab226cafc8108d499d368949f214e.zip",
@@ -2730,6 +2796,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36372/A2745AC6-7478-4E63-B8B2-96FAEE7C7844/com_apple_MobileAsset_SoftwareUpdate/6a4748fabf8ceb729e50132fa0fd35d02648f51b.zip",
@@ -2748,6 +2817,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36797/62C14B0B-9883-4769-B8E0-0FDA069D28E2/com_apple_MobileAsset_SoftwareUpdate/9321f2f9bc7bcfeca1403099045c6cc82aeecf84.zip",
@@ -2765,6 +2837,9 @@
             "prerequisiteBuild": "18H107",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -2790,6 +2865,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36812/9402F43D-184F-425B-B629-9F6D24AC445D/com_apple_MobileAsset_SoftwareUpdate/b08a53bb63c59ff0b563fcbf14d5d10723377dc6.zip",
@@ -2814,6 +2892,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36692/0485B23E-7E19-41D7-B63C-D700C89F37AC/com_apple_MobileAsset_SoftwareUpdate/de7dfa12da0bd26359250f50d6a4719b9a807339.zip",
@@ -2832,6 +2913,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-37664/1E9DF17F-7915-442D-9433-DDF6C91DF937/com_apple_MobileAsset_SoftwareUpdate/8ffd3e2b5a28503760e2b78cebc0a13a9168a3a0.zip",
@@ -2849,6 +2933,9 @@
             "prerequisiteBuild": "19B74",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -2873,6 +2960,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36068/F919B3CA-FFE0-4CF8-8624-078D1BEF6F5C/com_apple_MobileAsset_SoftwareUpdate/70a6022e25e35ab14e10d1e0a4ce3dd9319b2121.zip",
@@ -2896,6 +2986,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36504/251C578F-20EF-4C8C-9265-C6B86AF6391D/com_apple_MobileAsset_SoftwareUpdate/0fe39f7536928dab1ae7c43fa97d9634b76cb867.zip",
@@ -2918,6 +3011,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36420/C59AA8D4-E3E3-4293-9B8A-34BD68FC4B24/com_apple_MobileAsset_SoftwareUpdate/877a5c4cc8eb11ba814336399e952d33c66d5cfd.zip",
@@ -2939,6 +3035,9 @@
             ],
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -2963,6 +3062,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36293/AA7CC5F7-EEC3-4FD1-833A-37D0702EE591/com_apple_MobileAsset_SoftwareUpdate/7060b24fc8d05776b03ae9ab8ad2ef47558fac9a.zip",
@@ -2986,6 +3088,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36585/60B1308E-927D-424F-9086-8353BDB0EE50/com_apple_MobileAsset_SoftwareUpdate/eb2203bfbca9b59ec41c7757afa10059b27d721f.zip",
@@ -3007,6 +3112,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36807/D1C5CE02-E19B-4ECD-A6AF-2C3AE6EB9E6F/com_apple_MobileAsset_SoftwareUpdate/1c25ffa0b71be8b3223ce3fa0872d6c1cb492b1b.zip",
@@ -3027,6 +3135,9 @@
             ],
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -3050,6 +3161,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36159/385DBD8A-F922-42A4-A523-7424F2FFD693/com_apple_MobileAsset_SoftwareUpdate/45d4459b57aa403ee5a8fb03800acbea76583bdf.zip",
@@ -3071,6 +3185,9 @@
             ],
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -3095,6 +3212,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36314/DA999EB6-7D26-4560-B62E-DDA5129EC883/com_apple_MobileAsset_SoftwareUpdate/fc514971a3cbc3c0b75ba2a19c8eab36614920ea.zip",
@@ -3117,6 +3237,9 @@
             ],
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -3141,6 +3264,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36817/15DF831D-5F97-47DA-8531-68C7C5BFB522/com_apple_MobileAsset_SoftwareUpdate/72f59ae9929eb981168128d230af20f1b94991d7.zip",
@@ -3164,6 +3290,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36595/73C82213-E99E-4FE7-89F2-E46B3A70DAC1/com_apple_MobileAsset_SoftwareUpdate/bab795d64f053027ccfa3431dadb1ff8b20eee29.zip",
@@ -3186,6 +3315,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36754/9E132645-5751-4165-90E9-67D9C7C59EC9/com_apple_MobileAsset_SoftwareUpdate/9a45f2286bc8e776d033e3f685fe39163fb25b35.zip",
@@ -3207,6 +3339,9 @@
             ],
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -3231,6 +3366,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36227/DC859F7F-815C-4FEA-AF5F-0EF02A19F44A/com_apple_MobileAsset_SoftwareUpdate/bcb96a17c8be79e690fa169533b6563ca369b89e.zip",
@@ -3254,6 +3392,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36687/29D80C03-D049-4D39-86DA-2B688D17AC55/com_apple_MobileAsset_SoftwareUpdate/adedae1db8b1c27a0b0286bc442d2c6bbb240db6.zip",
@@ -3272,6 +3413,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36240/260576CE-2659-406C-AC97-3C67A6C27B72/com_apple_MobileAsset_SoftwareUpdate/675bc376cfcf042cfb46a704e373e99c1d185654.zip",
@@ -3289,6 +3433,9 @@
             "prerequisiteBuild": "18H107",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -3314,6 +3461,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36513/F6B5126D-E1C6-472D-94B4-A896B3CADBB1/com_apple_MobileAsset_SoftwareUpdate/7da0106cf9c74e9b3985c6b1a4356ed55761c394.zip",
@@ -3338,6 +3488,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-36136/28FF4990-5EF9-4128-BBA1-B95994CD72BC/com_apple_MobileAsset_SoftwareUpdate/c4df25971806f48f60166bc658553dd570f914a7.zip",
@@ -3356,6 +3509,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/patches/002-37694/5144402D-C681-4611-9BE1-47E4688225CF/com_apple_MobileAsset_SoftwareUpdate/7b870fa4299c9bf73ae420110cef246ea69e3a70.zip",
@@ -3373,6 +3529,9 @@
             "prerequisiteBuild": "19B74",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -3398,13 +3557,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-91962/D84DAB65-B638-4586-B39C-57046A6DEE3A/iPad_Pro_HFR_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-91962/D84DAB65-B638-4586-B39C-57046A6DEE3A/iPad_Pro_HFR_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "9a060469034d921b3235f01e4192af43",
                 "sha1": "785436aee6c93cf5807cda42085a9ed55054789e",
                 "sha2-256": "aaac3bc2d87e13212b9e369280e33891d6abfc04dc084ee48d5e353d3ce24397"
             },
@@ -5012,13 +5168,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-91956/84E6B739-9640-486B-980F-8E2E47F55D8A/iPad_10.2_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-91956/84E6B739-9640-486B-980F-8E2E47F55D8A/iPad_10.2_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "cf0433ef12ba4e2591079eb6dd6cc923",
                 "sha1": "fa087185c96583d4eb3e41e50cce109cb9104e4e",
                 "sha2-256": "d42ad634a17d81f5a5d9489f1d807005322020a73e49dccd06ba56d10e20e739"
             },
@@ -5586,13 +5739,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-91972/6A383141-DA2C-44C3-B92E-5F0B445C963E/iPad_Pro_A12X_A12Z_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-91972/6A383141-DA2C-44C3-B92E-5F0B445C963E/iPad_Pro_A12X_A12Z_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "660e2640eee4129eff422ae3dddc387b",
                 "sha1": "3b924f3ad08bfcf39f8328ecb7d362ad4b4093b4",
                 "sha2-256": "5684bf022ec26a6dbac6a2de1f4bd40174e80e4a20ea28e7f6d7856affb778cb"
             },
@@ -8594,13 +8744,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-91929/ADA554AB-2504-4FD7-8750-1F86BB34908E/iPad_Spring_2019_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-91929/ADA554AB-2504-4FD7-8750-1F86BB34908E/iPad_Spring_2019_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "2d51463e3ba919ae924be69473b6a3a2",
                 "sha1": "e5aed08a4ca857a0fca97625856ecdeccf95adf8",
                 "sha2-256": "3c3259d127d18d3b359403ac525fbcd8c7d482d18c17c9cc81acbcd7908730c8"
             },
@@ -9684,13 +9831,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-92064/878DBDE0-1038-4A4C-9BC2-A5F161F642A5/iPad_10.2_2020_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-92064/878DBDE0-1038-4A4C-9BC2-A5F161F642A5/iPad_10.2_2020_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "6af7ffa607f8e237261b23373f7bdfce",
                 "sha1": "ecb7d3e7d1bc76c10f238f87c05fc77ff617f3b7",
                 "sha2-256": "9c81e9496fd7c631690694881dadd80503500f4e9941b83c2a4b94e042ad22a0"
             },
@@ -10026,13 +10170,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-91948/F4A772D8-6824-47A8-87FF-B940441377C0/iPad_10.2_2021_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-91948/F4A772D8-6824-47A8-87FF-B940441377C0/iPad_10.2_2021_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "6f0a88e5f0c61cab95f1d99bf6f626d5",
                 "sha1": "1625f436535dc348a1c1d016e8d900e6fdfc4ab2",
                 "sha2-256": "04e0d0448ea731d81dcf40ae1c171c468c48da997f8d21278f377cfe02e23413"
             },
@@ -10150,13 +10291,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-92000/156C0A4D-16BE-4977-BC47-6EAB3EFCFC24/iPad_Fall_2020_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-92000/156C0A4D-16BE-4977-BC47-6EAB3EFCFC24/iPad_Fall_2020_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "9611afc4ac2086d60b4d3c0b4163d8ab",
                 "sha1": "0236f674d77fd8ab26ecbc1832d75adddee98a81",
                 "sha2-256": "ee4f3234f35f258f9857b599822b168d874aafacf49fe6bea1a39b8809a04560"
             },
@@ -10498,13 +10636,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-91909/7B4AA432-BB63-4EF1-A78E-432FDA329F3E/iPad_Pro_Spring_2021_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-91909/7B4AA432-BB63-4EF1-A78E-432FDA329F3E/iPad_Pro_Spring_2021_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "b1b3ce4a055d3abf021ccc20ee747bbc",
                 "sha1": "35d05f84f8eb3b248a5b7b277bc319ef5dd2b84d",
                 "sha2-256": "6a27fa0d1c2d6fbf07f0f9b46502ddaaa561501955e6619162135b00bc950570"
             },
@@ -11392,13 +11527,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/071-92013/E0A7C4E2-3400-43D8-A22C-7FC6B7CC1576/iPad_Fall_2021_15.2_19C56_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2021FCSWinter/fullrestores/071-92013/E0A7C4E2-3400-43D8-A22C-7FC6B7CC1576/iPad_Fall_2021_15.2_19C56_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "2d4088d47d7210e9bca4693ee6f25511",
                 "sha1": "d5d4216d99715a1d06520d64e3412154b9ad116c",
                 "sha2-256": "b7492238a14f2f671878bba620a4a3bd6318ec7cd2ef49f595a31378b970ce6f"
             },

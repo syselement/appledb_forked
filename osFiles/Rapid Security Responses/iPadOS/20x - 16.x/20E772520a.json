@@ -2,6 +2,7 @@
     "osStr": "iPadOS",
     "version": "16.4.1 (a)",
     "build": "20E772520a",
+    "restoreVersion": "20.5.252.77.1,0",
     "buildTrain": "SydneyERapid",
     "released": "2023-05-01",
     "rsr": true,
@@ -144,6 +145,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringFCS/patches/032-78191/28A17AF5-DC73-48E1-A404-FB5D00EB048A/com_apple_MobileAsset_SplatSoftwareUpdate/690fd0f0fdf4fdc868b084c6abffacb41a1a6597.zip",
@@ -161,6 +165,9 @@
             "prerequisiteBuild": "20E252",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -180,6 +187,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringFCS/patches/032-78153/BB67B2C0-9DF5-4A7D-9A1D-8891ACB83EA1/com_apple_MobileAsset_SplatSoftwareUpdate/47d67fad0e049f501f4c5ad138b1a1f862cdc873.zip",
@@ -197,6 +207,9 @@
             "prerequisiteBuild": "20E252",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {

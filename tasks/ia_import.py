@@ -6,6 +6,7 @@ import plistlib
 from pathlib import Path
 
 import requests
+from file_downloader import handle_pkg_file
 from link_info import source_has_link
 from sort_os_files import sort_os_file
 from update_links import update_links
@@ -22,7 +23,7 @@ SESSION = requests.Session()
 
 
 def import_ia(
-    ia_url, build=None, recommended_version=None, version=None, released=None, beta=None, rc=None, use_network=True
+    ia_url, build=None, recommended_version=None, version=None, released=None, beta=None, rc=None, use_network=True, add_sha1_hash=False
 ):
     local_path = LOCAL_IA_PATH / Path(Path(ia_url).name)
     local_available = USE_LOCAL_IF_FOUND and local_path.exists()
@@ -69,6 +70,7 @@ def import_ia(
     supported_devices, bridge_devices = get_board_mappings(info_plist['SupportedDeviceModels'])
 
     buildtrain = build_manifest['BuildIdentities'][0]['Info']['BuildTrain']
+    restore_version = build_manifest['BuildIdentities'][0].get('Cryptex1,Version')
     print(f"\tmacOS {recommended_version} ({build})")
     print(f"\tDevice Support: {supported_devices}")
 
@@ -93,6 +95,9 @@ def import_ia(
     if not found_source:
         print("\tAdding new source")
         source = {"deviceMap": supported_devices, "type": "installassistant", "links": [{"url": ia_url, "active": True}]}
+        
+        (hashes, _) = handle_pkg_file(ia_url)
+        source['hashes'] = hashes
 
         if catalog_name:
             source['links'][0]['catalog'] = catalog_name

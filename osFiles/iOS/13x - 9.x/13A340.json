@@ -38,6 +38,24 @@
                 "iPod5,1",
                 "iPod7,1"
             ],
+            "basebandVersions": {
+                "iPad2,2": "04.12.09",
+                "iPad2,3": "3.0.04",
+                "iPad2,6": "9.00.04",
+                "iPad2,7": "9.00.04",
+                "iPad3,2": "5.2.03",
+                "iPad3,3": "5.2.03",
+                "iPad3,5": "9.00.04",
+                "iPad3,6": "9.00.04",
+                "iPad5,4": "4.01.00",
+                "iPhone4,1": "6.0.00",
+                "iPhone5,1": "9.00.04",
+                "iPhone5,2": "9.00.04",
+                "iPhone5,3": "5.00.11",
+                "iPhone5,4": "5.00.11",
+                "iPhone7,1": "4.01.00",
+                "iPhone7,2": "4.01.00"
+            },
             "sources": [
                 {
                     "type": "ipsw",
@@ -543,6 +561,9 @@
             ]
         }
     ],
+    "ipd": {
+        "iPad": "https://secure-appldnld.apple.com/ios9/031-33874-20150916-999926AE-534A-11E5-94F6-67D76CA99CB1/iPadiTunesUpdateReadMe_9.0.ipd"
+    },
     "appledbWebImage": {
         "id": "ios9",
         "align": "left"
@@ -551,6 +572,9 @@
         "iPad5,1",
         "iPad5,2"
     ],
+    "basebandVersions": {
+        "iPad5,2": "4.01.00"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -569,6 +593,7 @@
             ],
             "hashes": {
                 "md5": "dcdb091f92a1490a8078c3b6832b2cb3",
+                "sha1": "6635914defb58dcd37d4ff555440533568bb0ca8",
                 "sha2-256": "b7222211e04d65d13a480943dad36f9c387488cfa2191c446f91363d07c76ced"
             },
             "size": 1971940738
@@ -590,6 +615,7 @@
             ],
             "hashes": {
                 "md5": "50acbadaadc30435e7ea406df0e05f5a",
+                "sha1": "ac24fadbfe695897962c164656f3fd598de5e96c",
                 "sha2-256": "be5bec6debed458a11c6a3689064efa5cfa355e1d80f31cbf77a067d48a0fd9a"
             },
             "size": 2027950405

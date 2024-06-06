@@ -6,6 +6,9 @@
     "released": "2020-11-05",
     "releaseNotes": "https://support.apple.com/HT211807#142",
     "securityNotes": "https://support.apple.com/HT211929",
+    "ipd": {
+        "iPad": "https://updates.cdn-apple.com/2020FallFCS/documentation/001-68013/AC480C53-69F9-4C86-80FF-A787FDDCEA92/iPadiTunesUpdateReadMe.ipd"
+    },
     "appledbWebImage": {
         "id": "ios14",
         "align": "left"
@@ -50,6 +53,27 @@
         "iPad13,1",
         "iPad13,2"
     ],
+    "basebandVersions": {
+        "iPad5,2": "10.00.02",
+        "iPad5,4": "10.00.02",
+        "iPad6,4": "8.02.01",
+        "iPad6,8": "10.00.02",
+        "iPad6,12": "10.00.02",
+        "iPad7,2": "8.02.01",
+        "iPad7,4": "8.02.01",
+        "iPad7,6": "8.02.01",
+        "iPad7,12": "3.01.01",
+        "iPad8,3": "3.01.01",
+        "iPad8,4": "3.01.01",
+        "iPad8,7": "3.01.01",
+        "iPad8,8": "3.01.01",
+        "iPad8,10": "2.02.04",
+        "iPad8,12": "2.02.04",
+        "iPad11,2": "3.01.01",
+        "iPad11,4": "3.01.01",
+        "iPad11,7": "3.01.01",
+        "iPad13,2": "2.02.04"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -63,13 +87,11 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/fullrestores/001-74128/A615939C-0251-4B12-B192-70F2C823CF0B/iPad_64bit_TouchID_14.2_18B92_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallFCS/fullrestores/001-74128/A615939C-0251-4B12-B192-70F2C823CF0B/iPad_64bit_TouchID_14.2_18B92_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "75f13485c2601c21cae1344123b59356",
+                "sha1": "efb1714f542816fb70b3b2bd1410cbc98fa35ff0",
                 "sha2-256": "127a62cb627490ac62bbb6af2ee6460835543d46d64ea43c4ab98f312cce6234"
             },
             "size": 4374237143
@@ -672,13 +694,11 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/fullrestores/001-73579/8A161D63-240C-446D-8ACC-F57D4E54538E/iPadPro_9.7_14.2_18B92_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallFCS/fullrestores/001-73579/8A161D63-240C-446D-8ACC-F57D4E54538E/iPadPro_9.7_14.2_18B92_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "e28c1ea34e6a32dd49cecaf145f76048",
+                "sha1": "8edc26ada3725cfe7cd08c63da0fb5b435bc3fa6",
                 "sha2-256": "7194cb9e761e8d78721fdd86b46a22f90de53ed875102c1a90e9418995baff94"
             },
             "size": 4385185510
@@ -993,13 +1013,11 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/fullrestores/001-74492/870C8435-6B9D-41EF-A9D7-A7CF186163FE/iPadPro_12.9_14.2_18B92_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallFCS/fullrestores/001-74492/870C8435-6B9D-41EF-A9D7-A7CF186163FE/iPadPro_12.9_14.2_18B92_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "1688b3b5ad7ef767d2c5f88ecd9eb0d4",
+                "sha1": "375c69cf78ff2ccb9d87495f0e3eff5af94c89f4",
                 "sha2-256": "3b56aff47628f65b0ad9ac0e36c78803da3908bf9c44ff083668e4fa93aa5979"
             },
             "size": 4558505818
@@ -1316,13 +1334,11 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/fullrestores/001-74176/5A870064-5D61-414B-9653-0650FCC102BF/iPad_64bit_TouchID_ASTC_14.2_18B92_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallFCS/fullrestores/001-74176/5A870064-5D61-414B-9653-0650FCC102BF/iPad_64bit_TouchID_ASTC_14.2_18B92_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "75138657fc0065adb6f7fd85e9d4f7e9",
+                "sha1": "f2531f2f2e7b7a154272139e78ea52ef381cab8f",
                 "sha2-256": "9d5a35b2a0434958a72e9d1efa7af20ce53fa640f1ebc98ff68b0a3f015556f3"
             },
             "size": 4543910618
@@ -1354,6 +1370,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74340/ADE38EFA-C941-4587-BA88-8E961C9459D0/com_apple_MobileAsset_SoftwareUpdate/fc711db1561f3fd1ce2bbdabf9d4db1a46f11ada.zip",
@@ -1373,6 +1392,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74107/5BB91D0B-F07E-4DBE-BFF7-3D744E3550D5/com_apple_MobileAsset_SoftwareUpdate/5c3b9ca5806974bf769c593aa887fdfe7f7139ac.zip",
@@ -1391,6 +1413,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74352/D5110342-DE95-446F-9603-4022CB19EBD7/com_apple_MobileAsset_SoftwareUpdate/53b9d2b3c49f8ae954a127fd6b94b58822c4ac1d.zip",
@@ -1408,6 +1433,9 @@
             ],
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -1428,6 +1456,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74297/9EB0325B-46E2-46AA-BE21-9E2F4E8B7549/com_apple_MobileAsset_SoftwareUpdate/8999c612139904d482979f36a8aa1815b5e90b2c.zip",
@@ -1447,6 +1478,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-73652/21BA0377-71A9-4F08-8F2B-63DFB9E91C9F/com_apple_MobileAsset_SoftwareUpdate/d8f1ac71fdfa96972049f64755b26aa1b6d6a0a0.zip",
@@ -1463,6 +1497,9 @@
             ],
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -1481,6 +1518,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74633/BF8E5210-3BBC-462F-8BAE-5E66855AD0D7/com_apple_MobileAsset_SoftwareUpdate/73882c77c2e46c69821dec0366fd131e728fee24.zip",
@@ -1494,6 +1534,9 @@
             "prerequisiteBuild": "17G68",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -1509,6 +1552,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-73925/5390F7AC-3AF7-4C4C-BBDE-1A2627C31360/com_apple_MobileAsset_SoftwareUpdate/352db912de3ab31e8a04fd8a74907e59cb5f6ec6.zip",
@@ -1522,6 +1568,9 @@
             "prerequisiteBuild": "17G80",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -1537,6 +1586,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-73667/017734C4-D506-4021-B7B6-6519A0E317C9/com_apple_MobileAsset_SoftwareUpdate/7e71dccb3b720d503f61d8460e3894747f98f535.zip",
@@ -1550,6 +1602,9 @@
             "prerequisiteBuild": "18A373",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -1565,6 +1620,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74432/EED06786-3D5A-4A4D-A5F9-CAE0AECB3A51/com_apple_MobileAsset_SoftwareUpdate/bace1cfd4a71e348dd97e06faa2dacb0f149ad6a.zip",
@@ -1578,6 +1636,9 @@
             "prerequisiteBuild": "18A393",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -1593,6 +1654,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74444/D53F14F0-91DC-4B51-9D85-7FA10E835BEF/com_apple_MobileAsset_SoftwareUpdate/7bfc343cd269afd0464a8af6c6542380457c7f0d.zip",
@@ -1607,6 +1671,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74649/638CD754-33DF-4AA4-A149-4F0726D70E96/com_apple_MobileAsset_SoftwareUpdate/30a0d82a153a280d39c79661dd4a7db3506c1222.zip",
@@ -1620,6 +1687,9 @@
             "prerequisiteBuild": "18A8395",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -1640,6 +1710,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-73288/8A93A480-EE91-4CC8-8943-105C43452F73/com_apple_MobileAsset_SoftwareUpdate/71e35b6c4a9d2a77c35233a72f00970c323d8d0d.zip",
@@ -1659,6 +1732,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74152/A2632A26-AAD9-470E-AB3A-990F92922D53/com_apple_MobileAsset_SoftwareUpdate/5e12b852896fc6c8172d3a277b1cec443ca65bc6.zip",
@@ -1677,6 +1753,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74651/6D599ACB-A46F-4B27-9A53-BA4981AE2B69/com_apple_MobileAsset_SoftwareUpdate/8d5958212b7cb570187a56e7b9c0318fe2c3ba97.zip",
@@ -1694,6 +1773,9 @@
             ],
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -1714,6 +1796,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74111/4201D2B3-37F3-494D-8D92-516FF83912D5/com_apple_MobileAsset_SoftwareUpdate/f8277022f7c00735a3d7a42635c7ac8070a6521c.zip",
@@ -1733,6 +1818,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-73998/E39316AA-F99E-4536-AFAF-83AB13F8C497/com_apple_MobileAsset_SoftwareUpdate/f8765735a268ef2a335e91cc0e2e555d431102c6.zip",
@@ -1749,6 +1837,9 @@
             ],
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72sAP"
             ],
             "links": [
                 {
@@ -1767,6 +1858,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74405/082CF2DD-3445-431F-A6EC-34E9FDC6B420/com_apple_MobileAsset_SoftwareUpdate/46313335b57d0caf207ec79c3d341a06b637c9f0.zip",
@@ -1780,6 +1874,9 @@
             "prerequisiteBuild": "17G68",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72sAP"
             ],
             "links": [
                 {
@@ -1795,6 +1892,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-73682/8019362C-AC62-4B0A-922A-3CF8FA123BDB/com_apple_MobileAsset_SoftwareUpdate/0094a650a9a3d3d82867d6152f5977410fe74912.zip",
@@ -1808,6 +1908,9 @@
             "prerequisiteBuild": "17G80",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72sAP"
             ],
             "links": [
                 {
@@ -1823,6 +1926,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74564/C7A242DE-E593-4F8C-BDA1-31E6D8E3D708/com_apple_MobileAsset_SoftwareUpdate/4bc8c3894ceb6d969d02f3d955f19d6cbb20d2e1.zip",
@@ -1836,6 +1942,9 @@
             "prerequisiteBuild": "18A373",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72sAP"
             ],
             "links": [
                 {
@@ -1851,6 +1960,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74666/C8B869F9-A011-409F-9002-606BBEBCAB36/com_apple_MobileAsset_SoftwareUpdate/8f7703bf3de8838e7ff4cbf0f1e4a5a835f18abe.zip",
@@ -1864,6 +1976,9 @@
             "prerequisiteBuild": "18A393",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72sAP"
             ],
             "links": [
                 {
@@ -1879,6 +1994,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-74045/3DC9ED6C-208C-4B65-853F-769A9C24F1CB/com_apple_MobileAsset_SoftwareUpdate/4e452b7ea5f0cf16e429a1699d9d2a9881c458d9.zip",
@@ -1893,6 +2011,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/patches/001-73475/CB3DAC48-E2F6-4396-9FBD-F48A937D3E2E/com_apple_MobileAsset_SoftwareUpdate/bd329ef709b83dab34be186d0b9e31a524a085f5.zip",
@@ -1906,6 +2027,9 @@
             "prerequisiteBuild": "18A8395",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -1927,13 +2051,11 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/fullrestores/001-73951/AD2152C3-1D8C-48A7-86A8-A0DD998075D9/iPad_Pro_HFR_14.2_18B92_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallFCS/fullrestores/001-73951/AD2152C3-1D8C-48A7-86A8-A0DD998075D9/iPad_Pro_HFR_14.2_18B92_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "0563af092e4b3f7c3dc9579ee8736385",
+                "sha1": "23d9f0fbf081e2dd69d05009b1ced98c3a0f903d",
                 "sha2-256": "6292ea7cba958af7d93d2d098fe83b5abc112d9f6fac180b1b21dc1b2b3b0099"
             },
             "size": 4709298070
@@ -2822,13 +2944,11 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/fullrestores/001-73872/03A18015-CCA4-4515-AE93-9B8A29E425D6/iPad_Educational_14.2_18B92_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallFCS/fullrestores/001-73872/03A18015-CCA4-4515-AE93-9B8A29E425D6/iPad_Educational_14.2_18B92_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "593e522c3a0180be842d364f2d8d29af",
+                "sha1": "268060f2b213acbf3a622d55ee99a032941dfbed",
                 "sha2-256": "b55818c1f390bf81fccb348a4bfaded520b30aa39fb75a6238a1c704a66a8dd2"
             },
             "size": 4489490394
@@ -3153,13 +3273,11 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/fullrestores/001-74276/EE7B0ADC-D0C3-4202-9C15-807D2CD29A0E/iPad_Pro_A12X_A12Z_14.2_18B92_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallFCS/fullrestores/001-74276/EE7B0ADC-D0C3-4202-9C15-807D2CD29A0E/iPad_Pro_A12X_A12Z_14.2_18B92_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "a8d65fdf5d331f0628ef4765ba0c3049",
+                "sha1": "dd3c14c34b29e3cfff757876e616d987342f28cb",
                 "sha2-256": "c04af32155c84c6e15181128bd01d8e9351923a50523474d5a4cc81bbfd1f549"
             },
             "size": 5599666113
@@ -4760,13 +4878,11 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/fullrestores/001-73470/D8FF446F-A9EC-41F1-995D-71DDFA9D0903/iPad_Spring_2019_14.2_18B92_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallFCS/fullrestores/001-73470/D8FF446F-A9EC-41F1-995D-71DDFA9D0903/iPad_Spring_2019_14.2_18B92_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "d32c28c7ce7f68cb8459424c3d75de39",
+                "sha1": "ce91689f33eab31a2dd0a43b0404031b07a6dec3",
                 "sha2-256": "8539a259bed5940d5e2e982f312fd7acf9dd61838de70e9d36a040df97cc9591"
             },
             "size": 4981342440
@@ -5369,13 +5485,11 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/fullrestores/001-73271/3EAAC2AD-956F-49F2-9CF7-304B5D4E029E/iPad_Educational_2020_14.2_18B92_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallFCS/fullrestores/001-73271/3EAAC2AD-956F-49F2-9CF7-304B5D4E029E/iPad_Educational_2020_14.2_18B92_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "f2adc9836f846961cb2b8fb085798179",
+                "sha1": "90c5de489b2abf6f9f11d2586721c80625d731a7",
                 "sha2-256": "707de3bf925da983828ac65993c09d4beb4168f8ff11bf927ecfeca2529c6b67"
             },
             "size": 4840936871
@@ -5488,13 +5602,11 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallFCS/fullrestores/001-73498/28141CAE-4EB2-4234-BCD4-96F5F0084AB0/iPad_Fall_2020_14.2_18B92_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallFCS/fullrestores/001-73498/28141CAE-4EB2-4234-BCD4-96F5F0084AB0/iPad_Fall_2020_14.2_18B92_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "885d78f6a12ae49c06f1e9fe25cde414",
+                "sha1": "03163208a1b7ff6ffbac699f22b583539021c4e2",
                 "sha2-256": "e4094acfa71d9b233014091b47491b03923027eb08b5f17a30eb37756d712d8e"
             },
             "size": 4853576785

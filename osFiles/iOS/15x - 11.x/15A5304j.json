@@ -33,6 +33,23 @@
         "iPhone7,2",
         "iPhone8,4"
     ],
+    "basebandVersions": {
+        "iPad4,2": "8.00.04",
+        "iPad4,3": "8.00.04",
+        "iPad4,5": "8.00.04",
+        "iPad4,6": "8.00.04",
+        "iPad4,8": "8.00.04",
+        "iPad4,9": "8.00.04",
+        "iPad5,2": "6.11.01",
+        "iPad5,4": "6.11.01",
+        "iPad6,8": "6.11.01",
+        "iPad6,12": "6.11.01",
+        "iPhone6,1": "8.00.04",
+        "iPhone6,2": "8.00.04",
+        "iPhone7,1": "6.11.01",
+        "iPhone7,2": "6.11.01",
+        "iPhone8,4": "6.11.01"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -851,6 +868,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.0seeds/091-20417-20170626-D304E9C6-5827-11E7-930F-342EC344ED54/com_apple_MobileAsset_SoftwareUpdate/af57013e8df266035bac0804f7298234f1a1b4c8.zip",
@@ -866,6 +886,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -884,6 +907,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.0seeds/091-20292-20170626-450D18CC-5828-11E7-8919-A3D57F942F55/com_apple_MobileAsset_SoftwareUpdate/9751b3b92179158c13b5aa07419930c2cb085522.zip",
@@ -900,6 +926,9 @@
             "prerequisiteBuild": "15A5278f",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -918,6 +947,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios11.0seeds/091-20391-20170626-14427380-5829-11E7-BE8A-43D97F942F55/com_apple_MobileAsset_SoftwareUpdate/12b55622a8c8fe9a1e6b5562b8ff7939b85445a5.zip",
@@ -934,6 +966,9 @@
             "prerequisiteBuild": "15A5304i",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {

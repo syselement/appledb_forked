@@ -2,16 +2,13 @@
 
 import json
 import os
-import re
 import sys
 from pathlib import Path
 
 import dateutil.parser
-import lxml.etree
 import lxml.html
 import requests
 import lxml.etree
-from lxml.etree import _Element as Element
 
 from sort_os_files import sort_os_file  # pylint: disable=no-name-in-module
 
@@ -80,13 +77,12 @@ for download in downloads:
                     os_version = os_item.split(" ")[-1]
                     download_details = [item for item in download['files'] if macos_codenames[str(os_version)] in item['filename']][0]
                     existing_source = [source for source in candidate_data.get('sources', []) if source['type'] == 'dmg' and source['osMap'] == [os_item]]
+                    alternate_source = [source for source in candidate_data.get('sources', []) if source['type'] == 'pkg' and source['osMap'] == [os_item]][0]
                     if existing_source:
                         continue
                     candidate_data['sources'].append({
                         "type": "dmg",
-                        "deviceMap": [
-                            "Safari (macOS)"
-                        ],
+                        "deviceMap": alternate_source['deviceMap'],
                         "osMap": [
                             os_item
                         ],
@@ -100,7 +96,7 @@ for download in downloads:
                     })
                     json.dump(sort_os_file(None, candidate_data), candidate_file.open("w", encoding="utf-8", newline="\n"), indent=4, ensure_ascii=False)
     elif download_name.startswith("Command Line Tools") and process_downloads["Command Line Tools"]:
-        clt_version = download_name.split("Xcode ")[1]
+        clt_version = download_name.split("Xcode ")[1].replace('Release Candidate', 'RC')
         clt_subfolder = f"{clt_version.split(' ')[0].split('.')[0]}.x"
         target_file = Path(f"osFiles/Software/Xcode Command Line Tools/{clt_subfolder}/{clt_version}.json")
         if target_file.exists():

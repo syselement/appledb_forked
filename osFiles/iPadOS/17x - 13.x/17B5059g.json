@@ -41,6 +41,23 @@
         "iPad11,3",
         "iPad11,4"
     ],
+    "basebandVersions": {
+        "iPad5,2": "9.10.00",
+        "iPad5,4": "9.10.00",
+        "iPad6,4": "7.10.01",
+        "iPad6,8": "9.10.00",
+        "iPad6,12": "9.10.00",
+        "iPad7,2": "7.10.01",
+        "iPad7,4": "7.10.01",
+        "iPad7,6": "7.10.01",
+        "iPad7,12": "2.02.08",
+        "iPad8,3": "2.02.08",
+        "iPad8,4": "2.02.08",
+        "iPad8,7": "2.02.08",
+        "iPad8,8": "2.02.08",
+        "iPad11,2": "2.02.08",
+        "iPad11,4": "2.02.08"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -53,10 +70,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/fullrestores/061-26076/DC0554A0-E3AF-11E9-8062-AC77501C810A/iPad_64bit_TouchID_13.2_17B5059g_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019FallSeed/fullrestores/061-26076/DC0554A0-E3AF-11E9-8062-AC77501C810A/iPad_64bit_TouchID_13.2_17B5059g_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -239,10 +252,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/fullrestores/061-26003/55F8BF46-E3AF-11E9-A4B6-C414247954BF/iPadPro_9.7_13.2_17B5059g_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019FallSeed/fullrestores/061-26003/55F8BF46-E3AF-11E9-A4B6-C414247954BF/iPadPro_9.7_13.2_17B5059g_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -342,10 +351,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/fullrestores/061-25965/35B7E5BC-E3B0-11E9-8F39-ECF3938AAED1/iPadPro_12.9_13.2_17B5059g_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019FallSeed/fullrestores/061-25965/35B7E5BC-E3B0-11E9-8F39-ECF3938AAED1/iPadPro_12.9_13.2_17B5059g_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -406,10 +411,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/fullrestores/061-26060/64E42ECA-E3AD-11E9-ABBB-A13292756F57/iPad_64bit_TouchID_ASTC_13.2_17B5059g_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019FallSeed/fullrestores/061-26060/64E42ECA-E3AD-11E9-ABBB-A13292756F57/iPad_64bit_TouchID_ASTC_13.2_17B5059g_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -421,6 +422,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -434,6 +438,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -449,6 +456,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/patches/061-25943/64EFEE5E-E3AD-11E9-B82B-A6B4B0558A77/com_apple_MobileAsset_SoftwareUpdate/18d1f5f847236978badea153f48e011e2f143964.zip",
@@ -462,6 +472,9 @@
             "prerequisiteBuild": "17A5837a",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -477,6 +490,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/patches/061-25902/A21BC584-E3B0-11E9-BF7F-E16D0A3272EA/com_apple_MobileAsset_SoftwareUpdate/81953a65d6f5e3cb91ebed7e49de19a4d74757bf.zip",
@@ -491,6 +507,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/patches/061-25944/F4B8E4FE-E3AE-11E9-B050-B57AC16887F3/com_apple_MobileAsset_SoftwareUpdate/c7ad76d71cf2420aa07615d92ad8c604a8c9aa96.zip",
@@ -504,6 +523,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/patches/061-25958/F520078C-E3AF-11E9-A0A0-EB4E04A66FB5/com_apple_MobileAsset_SoftwareUpdate/a98b532a755fdb7c1d83732c1a7c68111af58a19.zip",
@@ -516,6 +538,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -531,6 +556,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/patches/061-25945/F6C0B4BE-E3B0-11E9-8B9E-D461B841B66F/com_apple_MobileAsset_SoftwareUpdate/ed9ea27accc23bdd56311ed784e47a0e05ce1368.zip",
@@ -544,6 +572,9 @@
             "prerequisiteBuild": "17A5837a",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -559,6 +590,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/patches/061-26016/64F56F1E-E3AD-11E9-838B-F2CF81BF3D0C/com_apple_MobileAsset_SoftwareUpdate/74da6de75d14b16e7d0452fa39b462b4fd9d7db3.zip",
@@ -572,6 +606,9 @@
             "prerequisiteBuild": "17A5844a",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -592,10 +629,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/fullrestores/061-26017/14EBE6CC-E3AF-11E9-8E14-B0D152E2FFF2/iPad_Pro_HFR_13.2_17B5059g_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019FallSeed/fullrestores/061-26017/14EBE6CC-E3AF-11E9-8E14-B0D152E2FFF2/iPad_Pro_HFR_13.2_17B5059g_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -860,10 +893,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/fullrestores/061-26077/0BF6B158-E3B1-11E9-A87A-F4F6C298D1C0/iPad_Educational_13.2_17B5059g_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019FallSeed/fullrestores/061-26077/0BF6B158-E3B1-11E9-A87A-F4F6C298D1C0/iPad_Educational_13.2_17B5059g_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -886,10 +915,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/fullrestores/061-25900/EABB8CFA-E3AD-11E9-84E4-A737A4667E05/iPad_Fall_2018_13.2_17B5059g_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019FallSeed/fullrestores/061-25900/EABB8CFA-E3AD-11E9-84E4-A737A4667E05/iPad_Fall_2018_13.2_17B5059g_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -1237,10 +1262,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019FallSeed/fullrestores/061-25954/AF6ABBFA-E3B0-11E9-BC63-8C0F6EA85385/iPad_Spring_2019_13.2_17B5059g_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019FallSeed/fullrestores/061-25954/AF6ABBFA-E3B0-11E9-BC63-8C0F6EA85385/iPad_Spring_2019_13.2_17B5059g_Restore.ipsw",
                     "active": true
                 }
             ],

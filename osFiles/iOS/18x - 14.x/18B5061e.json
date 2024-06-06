@@ -33,6 +33,29 @@
         "iPhone12,8",
         "iPod9,1"
     ],
+    "basebandVersions": {
+        "iPhone8,1": "8.02.00",
+        "iPhone8,2": "8.02.00",
+        "iPhone8,4": "10.00.01",
+        "iPhone9,1": "8.02.00",
+        "iPhone9,2": "8.02.00",
+        "iPhone9,3": "5.01.00",
+        "iPhone9,4": "5.01.00",
+        "iPhone10,1": "6.02.00",
+        "iPhone10,2": "6.02.00",
+        "iPhone10,3": "6.02.00",
+        "iPhone10,4": "4.01.00",
+        "iPhone10,5": "4.01.00",
+        "iPhone10,6": "4.01.00",
+        "iPhone11,2": "3.01.00",
+        "iPhone11,4": "3.01.00",
+        "iPhone11,6": "3.01.00",
+        "iPhone11,8": "3.01.00",
+        "iPhone12,1": "2.02.00",
+        "iPhone12,3": "2.02.00",
+        "iPhone12,5": "2.02.00",
+        "iPhone12,8": "2.02.00"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -42,10 +65,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/fullrestores/001-52758/91B3E219-06BD-43C6-8393-BA3C88A9EE35/iPhone_4.7_14.2_18B5061e_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallSeed/fullrestores/001-52758/91B3E219-06BD-43C6-8393-BA3C88A9EE35/iPhone_4.7_14.2_18B5061e_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -73,6 +92,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/patches/001-52811/4820464B-28FE-4F52-A8B0-98311BC19985/com_apple_MobileAsset_SoftwareUpdate/26079cf15269f993e54cd9585986b1e2c77652a9.zip",
@@ -86,6 +108,9 @@
             "prerequisiteBuild": "18A5373a",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -101,6 +126,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/patches/001-52812/F15E6944-F25B-45F0-842B-D40B7428EC2E/com_apple_MobileAsset_SoftwareUpdate/0dcb706eed063301e4eae22f53217c46bdcab552.zip",
@@ -114,6 +142,9 @@
             "prerequisiteBuild": "18B5052h",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -131,10 +162,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/fullrestores/001-52784/4BB36E6A-51A2-4102-B713-462926BFF5F6/iPhone_5.5_14.2_18B5061e_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallSeed/fullrestores/001-52784/4BB36E6A-51A2-4102-B713-462926BFF5F6/iPhone_5.5_14.2_18B5061e_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -162,6 +189,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/patches/001-52828/95AA4D96-214E-4133-930D-13757113759E/com_apple_MobileAsset_SoftwareUpdate/3283159906d4efa5e5c8d43b8d83b6071a065fd6.zip",
@@ -175,6 +205,9 @@
             "prerequisiteBuild": "18A5373a",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -190,6 +223,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/patches/001-52862/7FD93C63-C211-42E1-B03E-7A666465604A/com_apple_MobileAsset_SoftwareUpdate/a8e0c87f6f092c3e450ae0cc398915652e15faf3.zip",
@@ -203,6 +239,9 @@
             "prerequisiteBuild": "18B5052h",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -220,10 +259,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/fullrestores/001-52762/822A01E8-D95C-4E2D-849C-5AA38CEF3536/iPhone_4.0_64bit_14.2_18B5061e_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallSeed/fullrestores/001-52762/822A01E8-D95C-4E2D-849C-5AA38CEF3536/iPhone_4.0_64bit_14.2_18B5061e_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -251,6 +286,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/patches/001-52813/1B8F371B-B11E-48B5-BB01-EC4339EF510D/com_apple_MobileAsset_SoftwareUpdate/63f956517afad2984447aa82b32b3f15c66c0d0e.zip",
@@ -264,6 +302,9 @@
             "prerequisiteBuild": "18A5373a",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -279,6 +320,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/patches/001-52748/DFB44EAC-6948-4BE1-BEED-0CAF321D8286/com_apple_MobileAsset_SoftwareUpdate/689807536a509d8b3536860acdcd7a1fa97b740a.zip",
@@ -292,6 +336,9 @@
             "prerequisiteBuild": "18B5052h",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -312,10 +359,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/fullrestores/001-52854/B152A1C7-3C89-46B5-9C28-8166F8233264/iPhone_4.7_P3_14.2_18B5061e_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallSeed/fullrestores/001-52854/B152A1C7-3C89-46B5-9C28-8166F8233264/iPhone_4.7_P3_14.2_18B5061e_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -379,10 +422,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/fullrestores/001-52759/8195406A-37D0-4A32-8FCC-5EEB51F00933/iPhone_5.5_P3_14.2_18B5061e_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallSeed/fullrestores/001-52759/8195406A-37D0-4A32-8FCC-5EEB51F00933/iPhone_5.5_P3_14.2_18B5061e_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -557,10 +596,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/fullrestores/001-52646/23648955-170F-4D02-8028-CA8EAB9544B1/iPhone10,3,iPhone10,6_14.2_18B5061e_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallSeed/fullrestores/001-52646/23648955-170F-4D02-8028-CA8EAB9544B1/iPhone10,3,iPhone10,6_14.2_18B5061e_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -707,10 +742,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/fullrestores/001-52726/1751C64C-3197-4655-83B4-380F35762D69/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.2_18B5061e_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallSeed/fullrestores/001-52726/1751C64C-3197-4655-83B4-380F35762D69/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.2_18B5061e_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -800,10 +831,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/fullrestores/001-52764/03CBC96F-C538-4B96-88E1-152846803CD6/iPhone11,8,iPhone12,1_14.2_18B5061e_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallSeed/fullrestores/001-52764/03CBC96F-C538-4B96-88E1-152846803CD6/iPhone11,8,iPhone12,1_14.2_18B5061e_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -919,10 +946,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/fullrestores/001-52826/4F1FF47C-B213-4970-B35A-87EDC341B4EB/iPhone12,8_14.2_18B5061e_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallSeed/fullrestores/001-52826/4F1FF47C-B213-4970-B35A-87EDC341B4EB/iPhone12,8_14.2_18B5061e_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -979,10 +1002,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020FallSeed/fullrestores/001-52667/87FBD09B-1B62-41D6-AAC0-C7C41FE71677/iPodtouch_7_14.2_18B5061e_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020FallSeed/fullrestores/001-52667/87FBD09B-1B62-41D6-AAC0-C7C41FE71677/iPodtouch_7_14.2_18B5061e_Restore.ipsw",
                     "active": true
                 }
             ],

@@ -19,38 +19,16 @@ urllib3.disable_warnings()
 
 session = requests.session()
 
-# Some builds show up as prerequisites in the zip file, but don't give a response from Pallas in some cases; skip those
-skip_builds = {
-    '19A340': [],
-    '19A344': [],
-    '19B74': [
-        'iPad14,1'
-    ],
-    '19C56': [
-        'iPhone14,2',
-        'iPhone14,3',
-        'iPhone14,4',
-        'iPhone14,5'
-    ],
-    '21A326': [],
-    '21A340': [
-        'iPhone15,4',
-        'iPhone15,5',
-        'iPhone16,1',
-        'iPhone16,2',
-    ],
-    '21A351': [
-        'iPhone15,4',
-        'iPhone15,5',
-        'iPhone16,1',
-        'iPhone16,2',
-    ],
-    '21B74': [
-        'iPhone15,4',
-        'iPhone15,5',
-        'iPhone16,1',
-        'iPhone16,2',
-    ]
+added_builds = {
+    '19A346': ['19A340', '19A345|19A344'],
+    '19B75': ['19B74'],
+    '19C57': ['19C56'],
+    '19G71': ['19-19G69'],
+    '20H19': ['20-20H18'],
+    '21A329': ['21A326'],
+    '21A327': ['21A329'],
+    '21A350': ['21A340', '21A351'],
+    '21B80': ['21B74']
 }
 
 # Ensure known versions of watchOS don't get included in import-ota.txt.
@@ -60,18 +38,6 @@ latest_watch_compatibility_versions = {
     18: '8.8.1',
     20: '9.6.3'
 }
-
-default_mac_devices = [
-    'MacBookAir7,1',    # Intel, only supports up to Monterey
-    'iMac18,1',         # Intel, only supports up to Ventura
-    'MacPro7,1',        # Intel, supports Sonoma
-    'MacBookPro18,1',   # M1 Pro, covers all released Apple Silicon builds
-    'Mac13,1',          # Covers Mac Studio forked build
-    'Mac14,2',          # Covers WWDC 2022 forked builds
-    'Mac14,6',          # Covers Ventura 13.0 forked builds
-    'Mac14,15',         # Covers WWDC 2023 forked builds
-    'Mac15,3'           # Covers M3 forked builds (Ventura and Sonoma)
-]
 
 asset_audiences_overrides = {
     'iPadOS': 'iOS'
@@ -218,10 +184,10 @@ def get_build_version(osStr, build):
             build_data = json.load(build_path.open())
             build_versions[f"{osStr}-{build}"] = build_data['version']
         except:
-            print(osStr)
-            print(build)
             if osStr == 'iPadOS':
                 build_versions[f"{osStr}-{build}"] = get_build_version('iOS', build)
+            elif osStr == 'iOS':
+                build_versions[f"{osStr}-{build}"] = get_build_version('iPadOS', build)
             else:
                 build_versions[f"{osStr}-{build}"] = 'N/A'
 
@@ -244,6 +210,7 @@ def call_pallas(device_name, board_id, os_version, os_build, osStr, audience, is
 
     request = {
         "ClientVersion": 2,
+        "CertIssuanceDay": "2023-12-10",
         "AssetType": f"com.apple.MobileAsset.{asset_type}",
         "AssetAudience": audience,
         # Device name might have an AppleDB-specific suffix; remove this when calling Pallas
@@ -286,7 +253,7 @@ def call_pallas(device_name, board_id, os_version, os_build, osStr, audience, is
             delta_from_beta = re.search(r"(6\d{3})", updated_build)
             if delta_from_beta:
                 updated_build = updated_build.replace(delta_from_beta.group(), str(int(delta_from_beta.group()) - 6000))
-            if build_versions.get(f"{osStr}-{updated_build}"):
+            if build_versions.get(f"{osStr}-{updated_build}") or updated_build in parsed_args.get(osStr, []):
                 continue
 
             if osStr == 'watchOS' and latest_watch_compatibility_versions.get(asset['CompatibilityVersion']) == asset['OSVersion'].removeprefix('9.9.'):
@@ -305,13 +272,30 @@ def call_pallas(device_name, board_id, os_version, os_build, osStr, audience, is
                 ota_list[f"{osStr}-{updated_build}"]['sources'][link] = {
                     "prerequisites": set(),
                     "deviceMap": set(),
+                    "boardMap": set(),
                     "links": [{
                         "url": link
                     }]
                 }
             ota_list[f"{osStr}-{updated_build}"]['sources'][link]["deviceMap"].add(device_name)
+            # iPhone11,4 is weird; nothing comes back from Pallas, but it's in the BuildManifest for the actual zip in this scenario
+            if ota_list[f"{osStr}-{updated_build}"]['sources'][link]["deviceMap"].intersection({"iPhone11,2", "iPhone11,6"}) == {"iPhone11,2", "iPhone11,6"}:
+                ota_list[f"{osStr}-{updated_build}"]['sources'][link]["deviceMap"].add("iPhone11,4")
+            ota_list[f"{osStr}-{updated_build}"]['sources'][link]["boardMap"].add(board_id)
             if asset.get('PrerequisiteBuild'):
                 ota_list[f"{osStr}-{updated_build}"]['sources'][link]['prerequisites'].add(asset['PrerequisiteBuild'])
+                for additional_build in added_builds.get(asset['PrerequisiteBuild'], []):
+                    if '|' in additional_build:
+                        additional_build_split = additional_build.split('|')
+                        if additional_build_split[0] in ota_list[f"{osStr}-{updated_build}"]['sources'][link]['prerequisites']:
+                            continue
+                        ota_list[f"{osStr}-{updated_build}"]['sources'][link]['prerequisites'].add(additional_build_split[1])
+                    elif '-' in additional_build:
+                        additional_build_split = additional_build.split('-')
+                        if updated_build.startswith(additional_build_split[0]):
+                            ota_list[f"{osStr}-{updated_build}"]['sources'][link]['prerequisites'].add(additional_build_split[1])
+                    else:
+                        ota_list[f"{osStr}-{updated_build}"]['sources'][link]['prerequisites'].add(additional_build)
 
             if asset.get('TrainName') and not ota_list[f"{osStr}-{updated_build}"].get('buildTrain'):
                 ota_list[f"{osStr}-{updated_build}"]['buildTrain'] = asset['TrainName']
@@ -336,7 +320,8 @@ for (osStr, builds) in parsed_args.items():
                 audiences.append(audience)
             except:
                 if audience in ['beta', 'public']:
-                    audiences.extend({k:v for k,v in asset_audiences[asset_audiences_overrides.get(osStr, osStr)][audience].items() if int(kern_version) - kernel_marketing_version_offset_map.get(osStr, default_kernel_marketing_version_offset) <= k}.values())
+                    if asset_audiences[asset_audiences_overrides.get(osStr, osStr)].get(audience):
+                        audiences.extend({k:v for k,v in asset_audiences[asset_audiences_overrides.get(osStr, osStr)][audience].items() if int(kern_version) - kernel_marketing_version_offset_map.get(osStr, default_kernel_marketing_version_offset) <= k}.values())
                 else:
                     audiences.append(asset_audiences[asset_audiences_overrides.get(osStr, osStr)].get(audience, audience))
         build_path = list(Path(f"osFiles/{osStr}").glob(f"{kern_version}x*"))[0].joinpath(f"{build}.json")
@@ -352,8 +337,6 @@ for (osStr, builds) in parsed_args.items():
         for device in build_data['deviceMap']:
             if args.devices and device not in args.devices:
                 continue
-            # if osStr == 'macOS' and not args.devices and device not in default_mac_devices:
-            #     continue
             devices.setdefault(device, {
                 'boards': get_board_ids(device),
                 'builds': {}

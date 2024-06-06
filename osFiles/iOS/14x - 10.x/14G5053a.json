@@ -53,6 +53,38 @@
         "iPhone9,4",
         "iPod7,1"
     ],
+    "basebandVersions": {
+        "iPad3,5": "11.60.00",
+        "iPad3,6": "11.60.00",
+        "iPad4,2": "7.60.00",
+        "iPad4,3": "7.60.00",
+        "iPad4,5": "7.60.00",
+        "iPad4,6": "7.60.00",
+        "iPad4,8": "7.60.00",
+        "iPad4,9": "7.60.00",
+        "iPad5,2": "5.62.00",
+        "iPad5,4": "5.62.00",
+        "iPad6,4": "2.61.00",
+        "iPad6,8": "5.62.00",
+        "iPad6,12": "5.62.00",
+        "iPad7,2": "1.91.00",
+        "iPad7,4": "1.91.00",
+        "iPhone5,1": "11.60.00",
+        "iPhone5,2": "11.60.00",
+        "iPhone5,3": "7.60.00",
+        "iPhone5,4": "7.60.00",
+        "iPhone6,1": "7.60.00",
+        "iPhone6,2": "7.60.00",
+        "iPhone7,1": "5.62.00",
+        "iPhone7,2": "5.62.00",
+        "iPhone8,1": "2.61.00",
+        "iPhone8,2": "2.61.00",
+        "iPhone8,4": "5.62.00",
+        "iPhone9,1": "1.91.00",
+        "iPhone9,2": "1.91.00",
+        "iPhone9,3": "1.03.60",
+        "iPhone9,4": "1.03.60"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -521,6 +553,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios10.3.3seeds/091-18467-20170622-C27BEC62-55F2-11E7-BCF6-9CBA7F942F55/com_apple_MobileAsset_SoftwareUpdate/a0c1476834ee2ed8dba1f30d2d881c81e7e0e384.zip",
@@ -537,6 +572,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios10.3.3seeds/091-18500-20170622-C285E8DE-55F2-11E7-891D-B9BA7F942F55/com_apple_MobileAsset_SoftwareUpdate/e11963b10aaf4d869cc114013be529bdf6171fb8.zip",
@@ -552,6 +590,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72sAP"
             ],
             "links": [
                 {
@@ -896,6 +937,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios10.3.3seeds/091-18529-20170622-2C2E0D1A-55F4-11E7-AC3C-1EC27F942F55/com_apple_MobileAsset_SoftwareUpdate/fd9397f9e82b6044a24be1fafd37d59373253ade.zip",
@@ -911,6 +955,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -928,6 +975,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios10.3.3seeds/091-18517-20170622-9D1FCC8A-55F3-11E7-B0DA-4DBF7F942F55/com_apple_MobileAsset_SoftwareUpdate/becb00287b6bd5e758f419c6d9a63178014cb86a.zip",
@@ -943,6 +993,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -960,6 +1013,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios10.3.3seeds/091-18507-20170622-73158C2C-55F3-11E7-90C4-7DBE7F942F55/com_apple_MobileAsset_SoftwareUpdate/7e2ae8e44df78a9b12a8363b70b948af4fdbbdae.zip",
@@ -975,6 +1031,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {

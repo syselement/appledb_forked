@@ -31,6 +31,27 @@
         "iPhone12,5",
         "iPod9,1"
     ],
+    "basebandVersions": {
+        "iPhone8,1": "7.51.00",
+        "iPhone8,2": "7.51.00",
+        "iPhone8,4": "9.52.00",
+        "iPhone9,1": "7.51.00",
+        "iPhone9,2": "7.51.00",
+        "iPhone9,3": "4.02.01",
+        "iPhone9,4": "4.02.01",
+        "iPhone10,1": "5.51.00",
+        "iPhone10,2": "5.51.00",
+        "iPhone10,3": "5.51.00",
+        "iPhone10,4": "3.04.01",
+        "iPhone10,5": "3.04.01",
+        "iPhone10,6": "3.04.01",
+        "iPhone11,2": "2.05.10",
+        "iPhone11,6": "2.05.10",
+        "iPhone11,8": "2.05.10",
+        "iPhone12,1": "1.05.25",
+        "iPhone12,3": "1.05.25",
+        "iPhone12,5": "1.05.25"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -40,10 +61,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-80010/438F6DBC-EFE1-46C1-B9EA-105084D0FB6B/iPhone_4.7_13.4_17E5233g_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020WinterSeed/fullrestores/061-80010/438F6DBC-EFE1-46C1-B9EA-105084D0FB6B/iPhone_4.7_13.4_17E5233g_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -57,6 +74,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/patches/061-80071/1D392ED8-32A2-46DE-8061-9B4278039D94/com_apple_MobileAsset_SoftwareUpdate/35e41f574c6d23f15d396dc4ea31eab6fab9b28d.zip",
@@ -69,6 +89,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -84,6 +107,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/patches/061-80106/1BEE41E3-49C7-4330-AC2F-800985929D67/com_apple_MobileAsset_SoftwareUpdate/1228e7d6bd10d17ef108102f07176e78c31c14b3.zip",
@@ -97,6 +123,9 @@
             "prerequisiteBuild": "17D5050a",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -112,6 +141,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/patches/061-80192/8BAA9405-B9C3-43C9-8BD5-1A2768E4F44F/com_apple_MobileAsset_SoftwareUpdate/1f479057d4b02bb9646cbd32061331a00b83b6f7.zip",
@@ -125,6 +157,9 @@
             "prerequisiteBuild": "17E5223h",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -143,10 +178,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-80098/AEE4681F-BC99-48FD-881F-040D2D6D6888/iPhone_5.5_13.4_17E5233g_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020WinterSeed/fullrestores/061-80098/AEE4681F-BC99-48FD-881F-040D2D6D6888/iPhone_5.5_13.4_17E5233g_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -158,6 +189,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
             ],
             "links": [
                 {
@@ -171,6 +205,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -186,6 +223,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/patches/061-80126/F4073E58-B955-4534-9E88-B57FAD4189AB/com_apple_MobileAsset_SoftwareUpdate/eb0a3eac5381a0c5665d7db5ded9d55a6d1c41c2.zip",
@@ -199,6 +239,9 @@
             "prerequisiteBuild": "17D5050a",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -214,6 +257,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/patches/061-80114/220A1920-033B-449E-A2CB-D333C4A6B585/com_apple_MobileAsset_SoftwareUpdate/f7976272cc9ac3ef53dc00029960bca1661061a2.zip",
@@ -227,6 +273,9 @@
             "prerequisiteBuild": "17E5223h",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -245,10 +294,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-80176/AD05962E-3180-43F0-AAD6-77849306E007/iPhone_4.0_64bit_13.4_17E5233g_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020WinterSeed/fullrestores/061-80176/AD05962E-3180-43F0-AAD6-77849306E007/iPhone_4.0_64bit_13.4_17E5233g_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -260,6 +305,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -273,6 +321,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -288,6 +339,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/patches/061-80217/33ED316D-AC9C-4711-845D-BAF216E1E150/com_apple_MobileAsset_SoftwareUpdate/27535ef145cd71d92f34a4bb4185919ed16e38ae.zip",
@@ -301,6 +355,9 @@
             "prerequisiteBuild": "17D5050a",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -316,6 +373,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/patches/061-80216/C2851109-3E53-49A8-9203-19F49DC2CD7C/com_apple_MobileAsset_SoftwareUpdate/b51fd5bd086b6c092f59ffa876d0580da2274930.zip",
@@ -329,6 +389,9 @@
             "prerequisiteBuild": "17E5223h",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -349,10 +412,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-80208/D413F893-0583-4042-A89D-682363A56F8E/iPhone_4.7_P3_13.4_17E5233g_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020WinterSeed/fullrestores/061-80208/D413F893-0583-4042-A89D-682363A56F8E/iPhone_4.7_P3_13.4_17E5233g_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -413,10 +472,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-80072/E5FDF494-A61B-4B07-867D-8D8EF1D99504/iPhone_5.5_P3_13.4_17E5233g_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020WinterSeed/fullrestores/061-80072/E5FDF494-A61B-4B07-867D-8D8EF1D99504/iPhone_5.5_P3_13.4_17E5233g_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -640,10 +695,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-79993/229BBF54-2862-4E52-ADE0-4CBBAF556625/iPhone10,3,iPhone10,6_13.4_17E5233g_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020WinterSeed/fullrestores/061-79993/229BBF54-2862-4E52-ADE0-4CBBAF556625/iPhone10,3,iPhone10,6_13.4_17E5233g_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -827,10 +878,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-80043/05AA4959-4763-411E-AB57-CCA26EC29A2E/iPhone11,2,iPhone11,6,iPhone12,3,iPhone12,5_13.4_17E5233g_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020WinterSeed/fullrestores/061-80043/05AA4959-4763-411E-AB57-CCA26EC29A2E/iPhone11,2,iPhone11,6,iPhone12,3,iPhone12,5_13.4_17E5233g_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -929,10 +976,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-80057/26483B98-1B22-459D-8DC2-517B9B29D5CB/iPhone11,8,iPhone12,1_13.4_17E5233g_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020WinterSeed/fullrestores/061-80057/26483B98-1B22-459D-8DC2-517B9B29D5CB/iPhone11,8,iPhone12,1_13.4_17E5233g_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -1113,10 +1156,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-80077/458B1548-F29C-4D1A-BBFE-BB04CEF79317/iPodtouch_7_13.4_17E5233g_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2020WinterSeed/fullrestores/061-80077/458B1548-F29C-4D1A-BBFE-BB04CEF79317/iPodtouch_7_13.4_17E5233g_Restore.ipsw",
                     "active": true
                 }
             ],

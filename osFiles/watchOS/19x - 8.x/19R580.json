@@ -1,7 +1,6 @@
 {
     "osStr": "watchOS",
     "version": "8.1.1",
-    "iosVersion": "15.1.1",
     "build": "19R580",
     "buildTrain": "JupiterB",
     "released": "2021-11-18",
@@ -10,6 +9,10 @@
         "Watch6,8",
         "Watch6,9"
     ],
+    "basebandVersions": {
+        "Watch6,8": "4.00.00",
+        "Watch6,9": "4.00.00"
+    },
     "sources": [
         {
             "type": "ota",

@@ -3,6 +3,7 @@
 import argparse
 import json
 import plistlib
+import re
 import zipfile
 from pathlib import Path
 
@@ -13,7 +14,7 @@ import time
 from link_info import source_has_link
 from sort_os_files import sort_os_file
 from update_links import update_links
-from common_update_import import augment_with_keys, create_file, get_board_mappings, OS_MAP
+from common_update_import import all_boards_covered, augment_with_keys, create_file, get_board_mapping_lower_case, get_board_mappings, OS_MAP
 
 # TODO: createAdditionalEntries support (would only work with JSON tho)
 
@@ -26,7 +27,7 @@ SESSION = requests.Session()
 
 
 def import_ota(
-    ota_url, os_str=None, build=None, recommended_version=None, version=None, released=None, beta=None, rc=None, use_network=True, prerequisite_builds=None, device_map=None, rsr=False, known_invalid_url=False
+    ota_url, os_str=None, build=None, recommended_version=None, version=None, released=None, beta=None, rc=None, use_network=True, prerequisite_builds=None, device_map=None, board_map=None, rsr=False, skip_remote=False
 ):
     local_path = LOCAL_OTA_PATH / Path(Path(ota_url).name)
     local_available = USE_LOCAL_IF_FOUND and local_path.exists()
@@ -34,8 +35,12 @@ def import_ota(
     info_plist = None
     build_manifest = None
 
+    # We need per-device details anyway, grab from the full OTA
+    if skip_remote:
+        skip_remote = bool(prerequisite_builds)
+
     counter = 0
-    while not known_invalid_url:
+    while not skip_remote:
         try:
             ota = zipfile.ZipFile(local_path) if local_available else remotezip.RemoteZip(ota_url, initial_buffer_size=256*1024, session=SESSION, timeout=60)
             print(f"\tGetting Info.plist {'from local file' if local_available else 'via remotezip'}")
@@ -71,8 +76,22 @@ def import_ota(
 
     # Get the build, version, and supported devices
     buildtrain = None
+    restore_version = None
+    baseband_map = {}
     if build_manifest:
-        buildtrain = build_manifest['BuildIdentities'][0]['Info']['BuildTrain']
+        # Grab baseband versions and buildtrain (both per device)
+        for identity in build_manifest['BuildIdentities']:
+            board_id = identity['Info']['DeviceClass']
+            buildtrain = buildtrain or identity['Info']['BuildTrain']
+            restore_version = restore_version or identity.get('Ap,OSLongVersion')
+            if 'BasebandFirmware' in identity['Manifest']:
+                path = identity['Manifest']['BasebandFirmware']['Info']['Path']
+                baseband_response = re.match(r'Firmware/[^-]+-([0-9.-]+)\.Release\.bbfw$', path)
+                mapped_device = get_board_mapping_lower_case([board_id])[0]
+                if baseband_response:
+                    baseband_map[mapped_device] = baseband_response.groups(1)[0]
+                else:
+                    print(f"MISSING BASEBAND - {path}")
     if (ota_url.endswith(".ipsw")):
         build = build or info_plist["TargetUpdate"]
         recommended_version = recommended_version or info_plist["ProductVersion"]
@@ -88,11 +107,21 @@ def import_ota(
         if rsr:
             recommended_version = recommended_version + (f" {info_plist['ProductVersionExtra']}" if info_plist.get('ProductVersionExtra') else '')
         # Devices supported specifically in this source
+        supported_boards = []
         if device_map:
             supported_devices = augment_with_keys(device_map)
             bridge_devices = []
+            exclude_board_map = all_boards_covered(device_map, board_map)
+            if not exclude_board_map:
+                supported_boards = board_map
         elif info_plist.get('SupportedDevices'):
             supported_devices = augment_with_keys(info_plist['SupportedDevices'])
+
+            if info_plist.get('SupportedDeviceModels'):
+                exclude_board_map = all_boards_covered(info_plist['SupportedDevices'], info_plist['SupportedDeviceModels'])
+
+                if not exclude_board_map:
+                    supported_boards = info_plist['SupportedDeviceModels']
             bridge_devices = []
         else:
             supported_devices, bridge_devices = get_board_mappings(info_plist['SupportedDeviceModels'])
@@ -109,8 +138,11 @@ def import_ota(
                 if os_str == "iPadOS" and packaging.version.parse(recommended_version.split(" ")[0]) < packaging.version.parse("13.0"):
                     os_str = "iOS"
                 print(f"\t{os_str} {recommended_version} ({build})")
-                print(f"\tPrerequisite: {prerequisite_builds}")
+                if prerequisite_builds:
+                    print(f"\tPrerequisite: {prerequisite_builds}")
                 print(f"\tDevice Support: {supported_devices}")
+                if supported_boards:
+                    print(f"\tBoard Support: {supported_boards}")
                 break
         else:
             if FULL_SELF_DRIVING:
@@ -119,8 +151,14 @@ def import_ota(
                 print(f"\tCouldn't match product types to any known OS: {supported_devices}")
                 os_str = input("\tEnter OS name: ").strip()
 
-    db_file = create_file(os_str, build, FULL_SELF_DRIVING, recommended_version=recommended_version, version=version, released=released, beta=beta, rc=rc, rsr=rsr, buildtrain=buildtrain)
+    if restore_version is None and info_plist and info_plist.get('RestoreVersion'):
+        restore_version = info_plist.get('RestoreVersion')
+
+    db_file = create_file(os_str, build, FULL_SELF_DRIVING, recommended_version=recommended_version, version=version, released=released, beta=beta, rc=rc, rsr=rsr, buildtrain=buildtrain, restore_version=restore_version)
     db_data = json.load(db_file.open(encoding="utf-8"))
+
+    if baseband_map:
+        db_data.setdefault("basebandVersions", {}).update(baseband_map)
 
     db_data.setdefault("deviceMap", []).extend(supported_devices)
 
@@ -136,6 +174,8 @@ def import_ota(
         source = {"deviceMap": supported_devices, "type": "ota", "links": [{"url": ota_url, "active": True}]}
         if prerequisite_builds:
             source["prerequisiteBuild"] = prerequisite_builds
+        if supported_boards:
+            source["boardMap"] = supported_boards
 
         db_data["sources"].append(source)
 
@@ -155,7 +195,7 @@ def import_ota(
     if bridge_version and bridge_devices:
         macos_version = db_data["version"]
         bridge_version = macos_version.replace(macos_version.split(" ")[0], bridge_version)
-        bridge_file = create_file("bridgeOS", info_plist['BridgeVersionInfo']['BridgeProductBuildVersion'], FULL_SELF_DRIVING, recommended_version=bridge_version, released=db_data["released"])
+        bridge_file = create_file("bridgeOS", info_plist['BridgeVersionInfo']['BridgeProductBuildVersion'], FULL_SELF_DRIVING, recommended_version=bridge_version, released=db_data["released"], restore_version=f"{info_plist['BridgeVersionInfo']['BridgeVersion']},0")
         bridge_data = json.load(bridge_file.open(encoding="utf-8"))
         bridge_data["deviceMap"] = bridge_devices
         json.dump(sort_os_file(None, bridge_data), bridge_file.open("w", encoding="utf-8", newline="\n"), indent=4, ensure_ascii=False)
@@ -196,7 +236,7 @@ if __name__ == "__main__":
                         for link in source.get('links', []):
                             try:
                                 files_processed.add(
-                                    import_ota(link["url"], recommended_version=version["version"], version=version["version"], released=version.get("released"), use_network=False, build=version["build"], prerequisite_builds=source.get("prerequisites", []), device_map=source["deviceMap"], known_invalid_url=version.get("bad_link", False))
+                                    import_ota(link["url"], recommended_version=version["version"], version=version["version"], released=version.get("released"), use_network=False, build=version["build"], prerequisite_builds=source.get("prerequisites", []), device_map=source["deviceMap"], board_map=source["boardMap"], skip_remote=True)
                                 )
                             except Exception:
                                 failed_links.append(link["url"])

@@ -69,6 +69,49 @@
         "iPhone11,8",
         "iPod7,1"
     ],
+    "basebandVersions": {
+        "iPad4,2": "10.70.01",
+        "iPad4,3": "10.70.01",
+        "iPad4,5": "10.70.01",
+        "iPad4,6": "10.70.01",
+        "iPad4,8": "10.70.01",
+        "iPad4,9": "10.70.01",
+        "iPad5,2": "7.70.01",
+        "iPad5,4": "7.70.01",
+        "iPad6,4": "5.60.01",
+        "iPad6,8": "7.70.01",
+        "iPad6,12": "7.70.01",
+        "iPad7,2": "5.60.01",
+        "iPad7,4": "5.60.01",
+        "iPad7,6": "5.60.01",
+        "iPad8,3": "1.05.02",
+        "iPad8,4": "1.05.02",
+        "iPad8,7": "1.05.02",
+        "iPad8,8": "1.05.02",
+        "iPad11,2": "1.05.02",
+        "iPad11,4": "1.05.02",
+        "iPhone6,1": "10.70.01",
+        "iPhone6,2": "10.70.01",
+        "iPhone7,1": "7.70.01",
+        "iPhone7,2": "7.70.01",
+        "iPhone8,1": "5.60.01",
+        "iPhone8,2": "5.60.01",
+        "iPhone8,4": "7.70.01",
+        "iPhone9,1": "5.60.01",
+        "iPhone9,2": "5.60.01",
+        "iPhone9,3": "3.03.04",
+        "iPhone9,4": "3.03.04",
+        "iPhone10,1": "3.60.01",
+        "iPhone10,2": "3.60.01",
+        "iPhone10,3": "3.60.01",
+        "iPhone10,4": "2.03.06",
+        "iPhone10,5": "2.03.06",
+        "iPhone10,6": "2.03.06",
+        "iPhone11,2": "1.05.02",
+        "iPhone11,6": "1.05.02",
+        "iPhone11,8": "1.05.02",
+        "iPhone11,4": "1.05.02"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -83,10 +126,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55811/1F5ABE22-62CB-11E9-A7D3-D33C20DEBCAB/iPad_64bit_12.3_16F5139e_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55811/1F5ABE22-62CB-11E9-A7D3-D33C20DEBCAB/iPad_64bit_12.3_16F5139e_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -352,10 +391,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55839/1F796E08-62CB-11E9-9CA7-D93C20DEBCAB/iPad_64bit_TouchID_12.3_16F5139e_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55839/1F796E08-62CB-11E9-9CA7-D93C20DEBCAB/iPad_64bit_TouchID_12.3_16F5139e_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -658,10 +693,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55847/1F78A66C-62CB-11E9-9269-CD3C20DEBCAB/iPadPro_9.7_12.3_16F5139e_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55847/1F78A66C-62CB-11E9-9269-CD3C20DEBCAB/iPadPro_9.7_12.3_16F5139e_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 2960558936
@@ -757,10 +788,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55830/1F993BDE-62CB-11E9-85B3-DB3C20DEBCAB/iPadPro_12.9_12.3_16F5139e_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55830/1F993BDE-62CB-11E9-85B3-DB3C20DEBCAB/iPadPro_12.9_12.3_16F5139e_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -860,10 +887,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55763/1F88AED6-62CB-11E9-81B7-D63C20DEBCAB/iPad_64bit_TouchID_ASTC_12.3_16F5139e_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55763/1F88AED6-62CB-11E9-81B7-D63C20DEBCAB/iPad_64bit_TouchID_ASTC_12.3_16F5139e_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3122116741
@@ -872,6 +895,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71sAP"
             ],
             "links": [
                 {
@@ -885,6 +911,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -900,6 +929,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-55962/5402D2DC-62CF-11E9-B831-EF4920DEBCAB/com_apple_MobileAsset_SoftwareUpdate/1b73881bda8fcd2971e6ea50ccc77e3d2c1772f7.zip",
@@ -913,6 +945,9 @@
             "prerequisiteBuild": "16E5227a",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -928,6 +963,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-56280/E6AA0F4C-62CF-11E9-B62C-6D5B20DEBCAB/com_apple_MobileAsset_SoftwareUpdate/24d51f1c8737604a19d64215781aebb3634088f7.zip",
@@ -942,6 +980,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71tAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-56306/E828301A-62CF-11E9-B71B-AE5B20DEBCAB/com_apple_MobileAsset_SoftwareUpdate/b9a957bb1ed2e8ac4ad3ed67b66fd9a69fe68202.zip",
@@ -955,6 +996,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-55858/80153C68-62D7-11E9-9C4A-7B7D20DEBCAB/com_apple_MobileAsset_SoftwareUpdate/3a62341a13e0dfd9370d774637a7fc74d73b344b.zip",
@@ -967,6 +1011,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -982,6 +1029,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-55911/9B2C576E-62CF-11E9-9280-684F20DEBCAB/com_apple_MobileAsset_SoftwareUpdate/99a30bdcf9f109df047f31378249fcb33c65a7d5.zip",
@@ -995,6 +1045,9 @@
             "prerequisiteBuild": "16E5227a",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -1010,6 +1063,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-56296/EB7E9B8C-62CF-11E9-A302-3B5C20DEBCAB/com_apple_MobileAsset_SoftwareUpdate/5841e083b1be58c0cd7c165745f6fea67dea9f48.zip",
@@ -1023,6 +1079,9 @@
             "prerequisiteBuild": "16F5129d",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -1043,10 +1102,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55927/1F634E7A-62CB-11E9-AF5F-CB3C20DEBCAB/iPad_Pro_HFR_12.3_16F5139e_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55927/1F634E7A-62CB-11E9-AF5F-CB3C20DEBCAB/iPad_Pro_HFR_12.3_16F5139e_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -1313,10 +1368,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55781/1F64F87E-62CB-11E9-993C-D23C20DEBCAB/iPad_Fall_2018_12.3_16F5139e_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55781/1F64F87E-62CB-11E9-993C-D23C20DEBCAB/iPad_Fall_2018_12.3_16F5139e_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -1662,10 +1713,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55940/1F67C0CC-62CB-11E9-864A-CF3C20DEBCAB/iPad_Spring_2019_12.3_16F5139e_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55940/1F67C0CC-62CB-11E9-864A-CF3C20DEBCAB/iPad_Spring_2019_12.3_16F5139e_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3285690577
@@ -1789,10 +1836,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55901/1F87E06E-62CB-11E9-8112-DD3C20DEBCAB/iPhone_4.0_64bit_12.3_16F5139e_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55901/1F87E06E-62CB-11E9-8112-DD3C20DEBCAB/iPhone_4.0_64bit_12.3_16F5139e_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3135197090
@@ -1889,10 +1932,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55825/1F6B62AE-62CB-11E9-8F32-DE3C20DEBCAB/iPhone_5.5_12.3_16F5139e_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55825/1F6B62AE-62CB-11E9-8F32-DE3C20DEBCAB/iPhone_5.5_12.3_16F5139e_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3337853232
@@ -1948,10 +1987,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55984/1F8C46B8-62CB-11E9-A351-DF3C20DEBCAB/iPhone_4.7_12.3_16F5139e_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55984/1F8C46B8-62CB-11E9-A351-DF3C20DEBCAB/iPhone_4.7_12.3_16F5139e_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3176008685
@@ -2002,6 +2037,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-55810/C806FEDA-62D7-11E9-9803-D48120DEBCAB/com_apple_MobileAsset_SoftwareUpdate/9c360c6b243813bd9ac2b801808eb2012d81943a.zip",
@@ -2014,6 +2052,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -2029,6 +2070,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-55930/AACF5900-62CF-11E9-A5E9-5B5220DEBCAB/com_apple_MobileAsset_SoftwareUpdate/0da79f31ce216fa8ad3e9e2472964277c9e98071.zip",
@@ -2042,6 +2086,9 @@
             "prerequisiteBuild": "16E5227a",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -2057,6 +2104,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-56321/108FACCC-62D0-11E9-931A-F16120DEBCAB/com_apple_MobileAsset_SoftwareUpdate/fa8434496e17b7a661a76aa233e2534122b36942.zip",
@@ -2071,6 +2121,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-56281/1107CFC2-62D0-11E9-B589-066220DEBCAB/com_apple_MobileAsset_SoftwareUpdate/74fe8b727ce7dbe028bafc0a6b470a584dc5c37d.zip",
@@ -2084,6 +2137,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-55874/9B836470-62D7-11E9-A873-987F20DEBCAB/com_apple_MobileAsset_SoftwareUpdate/867827329cf4a98d243a3bcd102b6d4be1cf1a2c.zip",
@@ -2096,6 +2152,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -2111,6 +2170,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-55902/AA4D0702-62CF-11E9-8497-2D5220DEBCAB/com_apple_MobileAsset_SoftwareUpdate/246bb3e36c565aa5e51326915ede552cefe3dbf3.zip",
@@ -2124,6 +2186,9 @@
             "prerequisiteBuild": "16E5227a",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -2139,6 +2204,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-56300/0A4F9BCE-62D0-11E9-96ED-916020DEBCAB/com_apple_MobileAsset_SoftwareUpdate/195dfe37faad42b409a94d283f2b6afe5884954f.zip",
@@ -2153,6 +2221,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-56301/0D33D7BA-62D0-11E9-B5D6-3C6120DEBCAB/com_apple_MobileAsset_SoftwareUpdate/ab20f87d573471ddc7c4245bec464b7df7214170.zip",
@@ -2166,6 +2237,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-55916/9E44DD9C-62D7-11E9-A1B6-228020DEBCAB/com_apple_MobileAsset_SoftwareUpdate/f6dd10c9bda203ef89b133c487ed13597b64e86c.zip",
@@ -2178,6 +2252,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -2193,6 +2270,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-55808/AA7C4E9A-62CF-11E9-BB35-435220DEBCAB/com_apple_MobileAsset_SoftwareUpdate/05791afbaee9a52673097bf52252040caa7ab268.zip",
@@ -2206,6 +2286,9 @@
             "prerequisiteBuild": "16E5227a",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -2221,6 +2304,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/patches/041-56332/0F684052-62D0-11E9-B34C-B86120DEBCAB/com_apple_MobileAsset_SoftwareUpdate/f9938ea68cc79f8fa0bc4a34eb968a4628f6c24f.zip",
@@ -2234,6 +2320,9 @@
             "prerequisiteBuild": "16F5129d",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -2254,10 +2343,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55790/1F6F40D6-62CB-11E9-836A-C23C20DEBCAB/iPhone_4.7_P3_12.3_16F5139e_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55790/1F6F40D6-62CB-11E9-836A-C23C20DEBCAB/iPhone_4.7_P3_12.3_16F5139e_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -2315,10 +2400,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55958/1F638BE2-62CB-11E9-BEAF-C33C20DEBCAB/iPhone_5.5_P3_12.3_16F5139e_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55958/1F638BE2-62CB-11E9-BEAF-C33C20DEBCAB/iPhone_5.5_P3_12.3_16F5139e_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -2539,10 +2620,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55748/1F42ADBE-62CB-11E9-9337-C53C20DEBCAB/iPhone10,3,iPhone10,6_12.3_16F5139e_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55748/1F42ADBE-62CB-11E9-9337-C53C20DEBCAB/iPhone10,3,iPhone10,6_12.3_16F5139e_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3623166931
@@ -2720,10 +2797,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55937/1F9ED710-62CB-11E9-8E4D-C73C20DEBCAB/iPhone11,2_12.3_16F5139e_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55937/1F9ED710-62CB-11E9-8E4D-C73C20DEBCAB/iPhone11,2_12.3_16F5139e_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3697493617
@@ -2777,10 +2850,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55972/1F622630-62CB-11E9-A309-C93C20DEBCAB/iPhone11,6_12.3_16F5139e_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestore/041-55972/1F622630-62CB-11E9-A309-C93C20DEBCAB/iPhone11,6_12.3_16F5139e_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -2836,10 +2905,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55740/1F7DCA34-62CB-11E9-8418-E03C20DEBCAB/iPhone11,8_12.3_16F5139e_Restore.ipsw",
                     "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55740/1F7DCA34-62CB-11E9-8418-E03C20DEBCAB/iPhone11,8_12.3_16F5139e_Restore.ipsw",
-                    "active": false
                 }
             ],
             "size": 3462680525
@@ -2893,10 +2958,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-55971/1F707D70-62CB-11E9-9B03-DC3C20DEBCAB/iPodtouch_12.3_16F5139e_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SpringSeed/fullrestores/041-55971/1F707D70-62CB-11E9-9B03-DC3C20DEBCAB/iPodtouch_12.3_16F5139e_Restore.ipsw",
                     "active": false
                 }
             ],

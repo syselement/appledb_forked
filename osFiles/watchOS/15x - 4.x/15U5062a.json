@@ -1,7 +1,6 @@
 {
     "osStr": "watchOS",
     "version": "4.3.2 beta 2",
-    "iosVersion": "11.4.1 beta 2",
     "build": "15U5062a",
     "buildTrain": "GullSeed",
     "released": "2018-06-13",
@@ -18,6 +17,10 @@
         "Watch3,3",
         "Watch3,4"
     ],
+    "basebandVersions": {
+        "Watch3,1": "1.60.00",
+        "Watch3,2": "1.60.00"
+    },
     "sources": [
         {
             "type": "ota",

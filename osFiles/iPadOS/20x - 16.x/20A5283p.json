@@ -2,6 +2,7 @@
     "osStr": "iPadOS",
     "version": "16.0 beta",
     "build": "20A5283p",
+    "restoreVersion": "20.1.283.5.16,0",
     "buildTrain": "SydneySeed",
     "released": "2022-06-06",
     "beta": true,
@@ -59,6 +60,32 @@
         "iPad14,1",
         "iPad14,2"
     ],
+    "basebandVersions": {
+        "iPad6,4": "9.60.08",
+        "iPad6,8": "11.70.00",
+        "iPad6,12": "11.70.00",
+        "iPad7,2": "9.60.01",
+        "iPad7,4": "9.60.01",
+        "iPad7,6": "9.60.08",
+        "iPad7,12": "4.50.01",
+        "iPad8,3": "4.50.01",
+        "iPad8,4": "4.50.01",
+        "iPad8,7": "4.50.01",
+        "iPad8,8": "4.50.01",
+        "iPad8,10": "3.50.03",
+        "iPad8,12": "3.50.03",
+        "iPad11,2": "4.50.01",
+        "iPad11,4": "4.50.01",
+        "iPad11,7": "4.50.01",
+        "iPad12,2": "4.50.01",
+        "iPad13,2": "3.50.03",
+        "iPad13,6": "3.02.00",
+        "iPad13,7": "3.02.00",
+        "iPad13,10": "3.02.00",
+        "iPad13,11": "3.02.00",
+        "iPad13,17": "2.04.00",
+        "iPad14,2": "2.04.00"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -69,7 +96,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPadPro_9.7_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -105,7 +132,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPadPro_12.9_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -143,7 +170,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPad_64bit_TouchID_ASTC_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -183,7 +210,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPad_Pro_HFR_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -221,7 +248,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPad_10.2_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -267,7 +294,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPad_Pro_A12X_A12Z_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -315,7 +342,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPad_Spring_2019_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -353,7 +380,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPad_10.2_2020_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -389,7 +416,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPad_10.2_2021_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -425,7 +452,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPad_Fall_2020_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -467,7 +494,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPad_Pro_Spring_2021_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -509,7 +536,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPad_Spring_2022_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
@@ -545,7 +572,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2022/iPadOS_16_beta/iPad_Fall_2021_16.0_20A5283p_Restore.ipsw",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {

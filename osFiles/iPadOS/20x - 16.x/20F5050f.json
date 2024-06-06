@@ -2,6 +2,7 @@
     "osStr": "iPadOS",
     "version": "16.5 beta 3",
     "build": "20F5050f",
+    "restoreVersion": "20.6.50.5.6,0",
     "buildTrain": "SydneyFSeed",
     "released": "2023-04-25",
     "beta": true,
@@ -65,6 +66,35 @@
         "iPad14,5",
         "iPad14,6"
     ],
+    "basebandVersions": {
+        "iPad6,4": "10.00.00",
+        "iPad6,8": "12.00.00",
+        "iPad6,12": "12.00.00",
+        "iPad7,2": "10.00.00",
+        "iPad7,4": "10.00.00",
+        "iPad7,6": "10.00.00",
+        "iPad7,12": "5.02.02",
+        "iPad8,3": "5.02.02",
+        "iPad8,4": "5.02.02",
+        "iPad8,7": "5.02.02",
+        "iPad8,8": "5.02.02",
+        "iPad8,10": "4.02.01",
+        "iPad8,12": "4.02.01",
+        "iPad11,2": "5.02.02",
+        "iPad11,4": "5.02.02",
+        "iPad11,7": "5.02.02",
+        "iPad12,2": "5.02.02",
+        "iPad13,2": "4.02.01",
+        "iPad13,6": "3.70.01",
+        "iPad13,7": "3.70.01",
+        "iPad13,10": "3.70.01",
+        "iPad13,11": "3.70.01",
+        "iPad13,17": "2.70.01",
+        "iPad13,19": "2.70.01",
+        "iPad14,2": "2.70.01",
+        "iPad14,4": "1.70.02",
+        "iPad14,6": "1.70.02"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -75,10 +105,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-78890/4629653E-9553-4975-A522-CF6200A76BF7/iPadPro_9.7_16.5_20F5050f_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-78890/4629653E-9553-4975-A522-CF6200A76BF7/iPadPro_9.7_16.5_20F5050f_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -187,10 +213,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-78975/45A66946-4D2B-4F59-8F55-87BB49B3DAE3/iPadPro_12.9_16.5_20F5050f_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-78975/45A66946-4D2B-4F59-8F55-87BB49B3DAE3/iPadPro_12.9_16.5_20F5050f_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -302,10 +324,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-78893/43B4AAC3-4FD3-41E6-B5EF-936C277F7EC7/iPad_64bit_TouchID_ASTC_16.5_20F5050f_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-78893/43B4AAC3-4FD3-41E6-B5EF-936C277F7EC7/iPad_64bit_TouchID_ASTC_16.5_20F5050f_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -340,6 +358,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/patches/032-79097/F0F906A3-87E5-4958-9D35-E8155CF1F39F/com_apple_MobileAsset_SoftwareUpdate/b1e87174d750f1d60c92baaffaec934de3226e62.zip",
@@ -357,6 +378,9 @@
             "prerequisiteBuild": "20E5239b",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -376,6 +400,9 @@
             "deviceMap": [
                 "iPad6,11"
             ],
+            "boardMap": [
+                "J71sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/patches/032-79002/CACAF63D-97E2-4F1B-92B9-0E5D51DEDE7C/com_apple_MobileAsset_SoftwareUpdate/881fa22833c9b83d241ea958d04634841ab5bb9c.zip",
@@ -393,6 +420,9 @@
             "prerequisiteBuild": "20F5039e",
             "deviceMap": [
                 "iPad6,11"
+            ],
+            "boardMap": [
+                "J71tAP"
             ],
             "links": [
                 {
@@ -412,6 +442,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/patches/032-79086/26E6EC03-8313-409E-A568-C9194A70246B/com_apple_MobileAsset_SoftwareUpdate/f6edb00b1d7c9c8ab1d8730db3c07f05c8bf8bf9.zip",
@@ -429,6 +462,9 @@
             "prerequisiteBuild": "20E5239b",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -448,6 +484,9 @@
             "deviceMap": [
                 "iPad6,12"
             ],
+            "boardMap": [
+                "J72sAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/patches/032-78867/43B6F79C-1A7A-4180-B8BC-53BB01D963E4/com_apple_MobileAsset_SoftwareUpdate/66f6adad5a001e78c31b165497f6763e6a76ce55.zip",
@@ -465,6 +504,9 @@
             "prerequisiteBuild": "20F5039e",
             "deviceMap": [
                 "iPad6,12"
+            ],
+            "boardMap": [
+                "J72tAP"
             ],
             "links": [
                 {
@@ -489,10 +531,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-78939/15666304-DB95-44FA-9CBD-D2C517BC1A73/iPad_Pro_HFR_16.5_20F5050f_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-78939/15666304-DB95-44FA-9CBD-D2C517BC1A73/iPad_Pro_HFR_16.5_20F5050f_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -748,10 +786,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-79006/5ECA4881-01EC-4931-B63E-B944C99BF027/iPad_10.2_16.5_20F5050f_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-79006/5ECA4881-01EC-4931-B63E-B944C99BF027/iPad_10.2_16.5_20F5050f_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -869,10 +903,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-78954/0FE7C823-2D3D-41FC-880F-8FF2D098D50A/iPad_Pro_A12X_A12Z_16.5_20F5050f_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-78954/0FE7C823-2D3D-41FC-880F-8FF2D098D50A/iPad_Pro_A12X_A12Z_16.5_20F5050f_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -1354,10 +1384,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-79020/979495CC-42E5-4C03-8056-B4416BCC6331/iPad_Spring_2019_16.5_20F5050f_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-79020/979495CC-42E5-4C03-8056-B4416BCC6331/iPad_Spring_2019_16.5_20F5050f_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -1540,10 +1566,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-78906/F4439340-A08F-4FCD-9306-716680DF32AE/iPad_10.2_2020_16.5_20F5050f_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-78906/F4439340-A08F-4FCD-9306-716680DF32AE/iPad_10.2_2020_16.5_20F5050f_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -1652,10 +1674,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-79108/8E837593-3611-4EAF-BFA8-267491A88399/iPad_10.2_2021_16.5_20F5050f_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-79108/8E837593-3611-4EAF-BFA8-267491A88399/iPad_10.2_2021_16.5_20F5050f_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -1763,10 +1781,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-78887/9F1CCC5A-F5FA-4A17-A508-2C3BE6DD97FA/iPad_Fall_2020_16.5_20F5050f_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-78887/9F1CCC5A-F5FA-4A17-A508-2C3BE6DD97FA/iPad_Fall_2020_16.5_20F5050f_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -1881,10 +1895,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-78965/66014D43-7480-44DF-9AAE-AE21C173C875/iPad_Pro_Spring_2021_16.5_20F5050f_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-78965/66014D43-7480-44DF-9AAE-AE21C173C875/iPad_Pro_Spring_2021_16.5_20F5050f_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -2216,10 +2226,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-78961/305A5610-D648-4693-971D-D315DCF1F316/iPad_Spring_2022_16.5_20F5050f_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-78961/305A5610-D648-4693-971D-D315DCF1F316/iPad_Spring_2022_16.5_20F5050f_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -2328,10 +2334,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-79011/3A8FF3C1-CD03-4142-8ED2-4918B8487734/iPad_Fall_2022_16.5_20F5050f_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-79011/3A8FF3C1-CD03-4142-8ED2-4918B8487734/iPad_Fall_2022_16.5_20F5050f_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -2439,10 +2441,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-79017/0EA45BF0-0588-40A8-A0E8-9459FB4B79B4/iPad_Fall_2021_16.5_20F5050f_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-79017/0EA45BF0-0588-40A8-A0E8-9459FB4B79B4/iPad_Fall_2021_16.5_20F5050f_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -2553,10 +2551,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2023SpringSeed/fullrestores/032-78874/F4241764-D51E-4781-901D-99A4ED831C69/iPad14,3,iPad14,4,iPad14,5,iPad14,6_16.5_20F5050f_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2023SpringSeed/fullrestores/032-78874/F4241764-D51E-4781-901D-99A4ED831C69/iPad14,3,iPad14,4,iPad14,5,iPad14,6_16.5_20F5050f_Restore.ipsw",
                     "active": true
                 }
             ],

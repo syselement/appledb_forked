@@ -12,19 +12,13 @@ module.exports = {
       {
         name: "Installing meowbrek2",
         url: "/installing-meowbrek2/",
-        pkgman: "sileo",
-        updateLink: [
-          {
-            text: 'Updating to 15.8.1',
-            link: '/updating-to-15-8-1/'
-          },
-        ]
+        pkgman: "sileo"
       },
     ],
     latestVer: "1.1.7-beta",
     type: "Semi-untethered",
     notes: "Compatible with A11 and earlier devices. Requires TrollStore.",
-    firmwares: ["15.0","15.8.1"]
+    firmwares: ["15.0","15.8.2"]
   },
   compatibility: [
     {
@@ -122,7 +116,8 @@ module.exports = {
         "19H364",
         "19H365",
         "19H370",
-        "19H380"
+        "19H380",
+        "19H384"
       ]
     }
   ]

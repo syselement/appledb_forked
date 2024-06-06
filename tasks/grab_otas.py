@@ -63,7 +63,8 @@ default_mac_devices = [
     'Mac14,2',          # Covers WWDC 2022 forked builds
     'Mac14,6',          # Covers Ventura 13.0 forked builds
     'Mac14,15',         # Covers WWDC 2023 forked builds
-    'Mac15,3'           # Covers M3 forked builds (Ventura and Sonoma)
+    'Mac15,3',          # Covers M3 forked builds (Ventura and Sonoma)
+    'Mac15,12',         # Covers forked 14.3
 ]
 
 asset_audiences_overrides = {
@@ -170,12 +171,16 @@ def generate_restore_version(build_number):
         build_iteration = int(match_groups[2])
         build_suffix = match_groups[3]
 
+        divisor = 1000
+        if build_number.startswith('20G1'):
+            divisor = 10000
+
         restore_pieces = []
 
         restore_pieces.append(kernel_version)
         restore_pieces.append(ord(build_letter) - 64)
-        restore_pieces.append(build_iteration % 1000)
-        restore_pieces.append(int(build_iteration / 1000))
+        restore_pieces.append(build_iteration % divisor)
+        restore_pieces.append(int(build_iteration / divisor))
         restore_pieces.append(ord(build_suffix) - 96 if build_suffix else '0')
 
         restore_versions[build_number] = f"{'.'.join([str(piece) for piece in restore_pieces])},0"
@@ -224,6 +229,7 @@ def call_pallas(device_name, board_id, os_version, os_build, osStr, audience, is
 
     request = {
         "ClientVersion": 2,
+        "CertIssuanceDay": "2023-12-10",
         "AssetType": f"com.apple.MobileAsset.{asset_type}",
         "AssetAudience": audience,
         # Device name might have an AppleDB-specific suffix; remove this when calling Pallas
@@ -260,7 +266,7 @@ def call_pallas(device_name, board_id, os_version, os_build, osStr, audience, is
     for asset in assets:
         if asset.get("AlternateAssetAudienceUUID"):
             additional_audiences.add(asset["AlternateAssetAudienceUUID"])
-        if build_versions.get(f"{osStr}-{asset['Build']}"):
+        if build_versions.get(f"{osStr}-{asset['Build']}") or asset['Build'] in parsed_args.get(osStr, []):
             continue
 
         # ensure deltas from beta builds to release builds are properly filtered out as noise as well if the target build is known
@@ -298,7 +304,8 @@ for (osStr, builds) in parsed_args.items():
                 audiences.append(audience)
             except:
                 if audience in ['beta', 'public']:
-                    audiences.extend({k:v for k,v in asset_audiences[asset_audiences_overrides.get(osStr, osStr)][audience].items() if int(kern_version) - kernel_marketing_version_offset_map.get(osStr, default_kernel_marketing_version_offset) <= k}.values())
+                    if asset_audiences[asset_audiences_overrides.get(osStr, osStr)].get(audience):
+                        audiences.extend({k:v for k,v in asset_audiences[asset_audiences_overrides.get(osStr, osStr)][audience].items() if int(kern_version) - kernel_marketing_version_offset_map.get(osStr, default_kernel_marketing_version_offset) <= k}.values())
                 else:
                     audiences.append(asset_audiences[asset_audiences_overrides.get(osStr, osStr)].get(audience, audience))
         build_path = list(Path(f"osFiles/{osStr}").glob(f"{kern_version}x*"))[0].joinpath(f"{build}.json")
@@ -355,9 +362,9 @@ for (osStr, builds) in parsed_args.items():
                 for current_device in current_devices:
                     devices[current_device]['builds'][prerequisite_build] = get_build_version(osStr, prerequisite_build)
 
-        for audience in audiences:
-            for key, value in devices.items():
-                new_versions = {}
+        for key, value in devices.items():
+            new_versions = {}
+            for audience in audiences:
                 for board in value['boards']:
                     if not args.no_prerequisites:
                         for prerequisite_build, version in value['builds'].items():

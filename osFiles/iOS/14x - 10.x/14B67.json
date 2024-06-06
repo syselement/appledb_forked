@@ -47,6 +47,35 @@
         "iPhone9,4",
         "iPod7,1"
     ],
+    "basebandVersions": {
+        "iPad3,5": "11.01.00",
+        "iPad3,6": "11.01.00",
+        "iPad4,2": "7.01.00",
+        "iPad4,3": "7.01.00",
+        "iPad4,5": "7.01.00",
+        "iPad4,6": "7.01.00",
+        "iPad4,8": "7.01.00",
+        "iPad4,9": "7.01.00",
+        "iPad5,2": "5.26.00",
+        "iPad5,4": "5.26.00",
+        "iPad6,4": "2.36.00",
+        "iPad6,8": "5.26.00",
+        "iPhone5,1": "11.01.00",
+        "iPhone5,2": "11.01.00",
+        "iPhone5,3": "7.01.00",
+        "iPhone5,4": "7.01.00",
+        "iPhone6,1": "7.01.00",
+        "iPhone6,2": "7.01.00",
+        "iPhone7,1": "5.26.00",
+        "iPhone7,2": "5.26.00",
+        "iPhone8,1": "2.36.00",
+        "iPhone8,2": "2.36.00",
+        "iPhone8,4": "5.26.00",
+        "iPhone9,1": "1.24.00",
+        "iPhone9,2": "1.24.00",
+        "iPhone9,3": "1.01.11",
+        "iPhone9,4": "1.01.11"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -58,10 +87,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ios10.1seed/031-81858-20161004-5C6298D2-897D-11E6-BE82-2CDCFDAA783A/iPad_32bit_10.1_14B67_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://appldnld.apple.com/ios10.1seed/031-81858-20161004-5C6298D2-897D-11E6-BE82-2CDCFDAA783A/iPad_32bit_10.1_14B67_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -710,6 +735,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios10.1seed/031-81812-20161004-5D4B00E8-897F-11E6-A016-32DFFDAA783A/com_apple_MobileAsset_SoftwareUpdate/c748e3bb5c94d6fbbd5f0f084ab1ff9b9c31a550.zip",
@@ -725,6 +753,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -742,6 +773,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios10.1seed/031-81837-20161004-5D487DF0-897F-11E6-B673-4ADFFDAA783A/com_apple_MobileAsset_SoftwareUpdate/fafebbb35e28cff43f78721890b4327e7808d9f8.zip",
@@ -757,6 +791,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -795,6 +832,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios10.1seed/031-81848-20161004-9451DC48-8983-11E6-ACA5-EBE4FDAA783A/com_apple_MobileAsset_SoftwareUpdate/1deb1b280c9ba79b09b391346c5c35ff2fb59815.zip",
@@ -810,6 +850,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {

@@ -28,6 +28,24 @@
         "iPhone11,8",
         "iPod9,1"
     ],
+    "basebandVersions": {
+        "iPhone8,1": "6.04.01",
+        "iPhone8,2": "6.04.01",
+        "iPhone8,4": "8.00.02",
+        "iPhone9,1": "6.03.01",
+        "iPhone9,2": "6.03.01",
+        "iPhone9,3": "3.51.00",
+        "iPhone9,4": "3.51.00",
+        "iPhone10,1": "4.03.03",
+        "iPhone10,2": "4.03.03",
+        "iPhone10,3": "4.03.03",
+        "iPhone10,4": "2.51.01",
+        "iPhone10,5": "2.51.01",
+        "iPhone10,6": "2.51.01",
+        "iPhone11,2": "1.53.02",
+        "iPhone11,6": "1.53.02",
+        "iPhone11,8": "1.53.02"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -37,10 +55,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-87504/43EE1B4E-A70E-11E9-9637-A85CC9FE7D43/iPhone_4.7_13.0_17A5534f_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SummerSeed/fullrestores/041-87504/43EE1B4E-A70E-11E9-9637-A85CC9FE7D43/iPhone_4.7_13.0_17A5534f_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -54,6 +68,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/patches/041-87659/6BE72F56-A70D-11E9-A4E0-EE52C9FE7D43/com_apple_MobileAsset_SoftwareUpdate/7e92ec8c22a875cf1680a3ff724293d30845efed.zip",
@@ -66,6 +83,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -81,6 +101,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/patches/041-87692/EE7569BE-A70E-11E9-A9A9-A465C9FE7D43/com_apple_MobileAsset_SoftwareUpdate/abd4c6af4fb86ed7d32674a61c161da0fe425157.zip",
@@ -94,6 +117,9 @@
             "prerequisiteBuild": "17A5508m",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -109,6 +135,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/patches/041-87662/1D38EA02-A70D-11E9-994D-924EC9FE7D43/com_apple_MobileAsset_SoftwareUpdate/56aa264e4d564aaf58dbfce10c4d37ca00889952.zip",
@@ -122,6 +151,9 @@
             "prerequisiteBuild": "17A5522f",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -137,6 +169,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/patches/041-87658/F7893E44-A70F-11E9-8B50-4A72C9FE7D43/com_apple_MobileAsset_SoftwareUpdate/f81529d9fb34eedd95a3c093b2c32fb3f431a2f9.zip",
@@ -150,6 +185,9 @@
             "prerequisiteBuild": "17A5522g",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -168,10 +206,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-87649/61E57008-A70D-11E9-B0C4-8752C9FE7D43/iPhone_5.5_13.0_17A5534f_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SummerSeed/fullrestores/041-87649/61E57008-A70D-11E9-B0C4-8752C9FE7D43/iPhone_5.5_13.0_17A5534f_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -183,6 +217,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
             ],
             "links": [
                 {
@@ -196,6 +233,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -211,6 +251,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/patches/041-87558/A9742DDC-A70E-11E9-B749-4662C9FE7D43/com_apple_MobileAsset_SoftwareUpdate/302974854a6bb67c29ef84e4d60d4e10f6387303.zip",
@@ -224,6 +267,9 @@
             "prerequisiteBuild": "17A5508m",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -239,6 +285,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/patches/041-87487/0A98E50C-A710-11E9-ACB9-F473C9FE7D43/com_apple_MobileAsset_SoftwareUpdate/739139a5e397ed791ccb9a6b3e58b8f8f4bb2735.zip",
@@ -252,6 +301,9 @@
             "prerequisiteBuild": "17A5522f",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -267,6 +319,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/patches/041-87579/188F42F0-A710-11E9-A539-0775C9FE7D43/com_apple_MobileAsset_SoftwareUpdate/5f4cebb2652d97339b1a1d55fbd3c3714c6c0754.zip",
@@ -280,6 +335,9 @@
             "prerequisiteBuild": "17A5522g",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {
@@ -298,10 +356,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-87484/3562DFCC-A710-11E9-ABE5-B976C9FE7D43/iPhone_4.0_64bit_13.0_17A5534f_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SummerSeed/fullrestores/041-87484/3562DFCC-A710-11E9-ABE5-B976C9FE7D43/iPhone_4.0_64bit_13.0_17A5534f_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -313,6 +367,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69AP"
             ],
             "links": [
                 {
@@ -326,6 +383,9 @@
             "type": "ota",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -341,6 +401,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/patches/041-87573/96F29682-A70C-11E9-9F2B-BA41C9FE7D43/com_apple_MobileAsset_SoftwareUpdate/aa33f6fbf9f69ebb1ae909d1cec6a5b5ed05610b.zip",
@@ -354,6 +417,9 @@
             "prerequisiteBuild": "17A5508m",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -369,6 +435,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/patches/041-87535/96FE3F6E-A70C-11E9-A321-D941C9FE7D43/com_apple_MobileAsset_SoftwareUpdate/f5ab01eb8752d5e30092fa7d16f18f48f3c9df6c.zip",
@@ -382,6 +451,9 @@
             "prerequisiteBuild": "17A5522f",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -397,6 +469,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/patches/041-87570/2283902A-A70D-11E9-8324-E24EC9FE7D43/com_apple_MobileAsset_SoftwareUpdate/4ee92e577610367a5dff9e7928a367bc2fb1b8d1.zip",
@@ -410,6 +485,9 @@
             "prerequisiteBuild": "17A5522g",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -430,10 +508,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-87500/9708B9C6-A70C-11E9-A168-DB41C9FE7D43/iPhone_4.7_P3_13.0_17A5534f_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SummerSeed/fullrestores/041-87500/9708B9C6-A70C-11E9-A168-DB41C9FE7D43/iPhone_4.7_P3_13.0_17A5534f_Restore.ipsw",
                     "active": true
                 }
             ],
@@ -494,10 +568,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-87693/46B33720-A70D-11E9-8D2A-EC50C9FE7D43/iPhone_5.5_P3_13.0_17A5534f_Restore.ipsw",
-                    "active": false
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SummerSeed/fullrestores/041-87693/46B33720-A70D-11E9-8D2A-EC50C9FE7D43/iPhone_5.5_P3_13.0_17A5534f_Restore.ipsw",
                     "active": false
                 }
             ],
@@ -746,10 +816,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-87679/96EEDE52-A70C-11E9-B9E9-CA41C9FE7D43/iPhone10,3,iPhone10,6_13.0_17A5534f_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SummerSeed/fullrestores/041-87679/96EEDE52-A70C-11E9-B9E9-CA41C9FE7D43/iPhone10,3,iPhone10,6_13.0_17A5534f_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -987,10 +1053,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-87499/51FB0A86-A70D-11E9-9ABC-C051C9FE7D43/iPhone11,2,iPhone11,6_13.0_17A5534f_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SummerSeed/fullrestores/041-87499/51FB0A86-A70D-11E9-9ABC-C051C9FE7D43/iPhone11,2,iPhone11,6_13.0_17A5534f_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
@@ -1117,10 +1179,6 @@
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-87700/F836C1E6-A70E-11E9-ABF5-2766C9FE7D43/iPhone11,8_13.0_17A5534f_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SummerSeed/fullrestores/041-87700/F836C1E6-A70E-11E9-ABF5-2766C9FE7D43/iPhone11,8_13.0_17A5534f_Restore.ipsw",
-                    "active": true
                 }
             ],
             "size": 4279766677
@@ -1188,10 +1246,6 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-87645/08A70F92-A70D-11E9-A20C-804DC9FE7D43/iPodtouch_7_13.0_17A5534f_Restore.ipsw",
-                    "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2019SummerSeed/fullrestores/041-87645/08A70F92-A70D-11E9-A20C-804DC9FE7D43/iPodtouch_7_13.0_17A5534f_Restore.ipsw",
                     "active": true
                 }
             ],

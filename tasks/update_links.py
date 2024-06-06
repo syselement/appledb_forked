@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
+import base64
 import random
-import sys
 import json
 import queue
 import string
 import threading
 import time
+import argparse
 from pathlib import Path
 from typing import Collection
 from urllib.parse import urlparse
@@ -24,6 +25,7 @@ urllib3.disable_warnings()
 # TODO: Make this configurable
 THREAD_COUNT = 16
 
+DOMAIN_CHECK_LIST = []
 
 success_map = {}
 
@@ -48,12 +50,16 @@ class ProcessFileThread(threading.Thread):
             links = source.setdefault("links", [])
             for link in links:
                 url = link["url"]
+                hostname = urlparse(url).hostname
+                if DOMAIN_CHECK_LIST and hostname not in DOMAIN_CHECK_LIST:
+                    # explicitly not checking this domain
+                    continue
                 if url in success_map:
                     # Skip ones we've already processed
                     link["active"] = success_map[url]
                     continue
 
-                if urlparse(url).hostname in needs_auth or (urlparse(url).hostname in needs_apple_auth and not self.has_apple_auth):
+                if hostname in needs_auth or (hostname in needs_apple_auth and not self.has_apple_auth):
                     # We don't have credentials for this host, so we'll assume it's active and skip it
                     link["active"] = True
                     continue
@@ -69,14 +75,14 @@ class ProcessFileThread(threading.Thread):
 
                 for _ in range(10):
                     try:
-                        if urlparse(url).hostname in no_head:
+                        if hostname in no_head:
                             resp = self.session.get(
                                 url,
                                 headers={"User-Agent": "softwareupdated (unknown version) CFNetwork/808.1.4 Darwin/16.1.0"},
                                 verify=False,
                                 stream=True,
                             )
-                        elif urlparse(url).hostname in needs_apple_auth:
+                        elif hostname in needs_apple_auth:
                             resp = self.session.head(
                                 url.replace('developer.apple.com/services-account/download?path=', 'download.developer.apple.com'),
                                 headers={
@@ -87,7 +93,7 @@ class ProcessFileThread(threading.Thread):
                                 allow_redirects=True,
                             )
                         else:
-                            if urlparse(url).hostname in needs_cache_bust:
+                            if hostname in needs_cache_bust:
                                 suffix = f'?cachebust{random.randint(100, 1000)}'
                             else:
                                 suffix = ''
@@ -106,13 +112,13 @@ class ProcessFileThread(threading.Thread):
                 else:
                     raise Exception(f"Failed to connect to {url}")
 
-                if urlparse(url).hostname in no_head:
+                if hostname in no_head:
                     resp.close()
 
-                if not link.get("active", True) and urlparse(url).hostname in stop_remaking_active:
+                if not link.get("active", True) and hostname in stop_remaking_active:
                     successful_hit = False
                 elif resp.status_code == 200:
-                    successful_hit = 'unauthorized' not in resp.url
+                    successful_hit = 'unauthorized' not in resp.url and not resp.url.endswith("/docs")
                 elif resp.status_code == 403 or resp.status_code == 404:
                     # Dead link
                     successful_hit = False
@@ -127,6 +133,10 @@ class ProcessFileThread(threading.Thread):
                             continue
 
                         source.setdefault("hashes", {})[lcl] = resp.headers[hdr]
+
+                    if "Content-MD5" in resp.headers:
+                        # The hash is encoded as base64, we need to decode it
+                        source.setdefault("hashes", {})["md5"] = base64.b64decode(resp.headers["Content-MD5"]).hex()
 
                     if "ETag" in resp.headers:
                         # TODO: Document what server each ETag format is from
@@ -227,11 +237,20 @@ def update_links(files: Collection[Path], use_network=True):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-f', '--folders', nargs='+')
+    parser.add_argument('-d', '--domains', nargs='+')
+    parser.add_argument('-t', '--thread-count', type=int, default=16)
+    args = parser.parse_args()
+    THREAD_COUNT = args.thread_count
     files = []
-    if len(sys.argv) > 1:
-        for path in sys.argv[1:]:
+    if args.folders:
+        for path in args.folders:
             files.extend(list(Path(f"osFiles/{path}").rglob("*.json")))
     else:
         files.extend(list(Path("osFiles").rglob("*.json")))
+
+    if args.domains:
+        DOMAIN_CHECK_LIST = args.domains
     
     update_links(files)

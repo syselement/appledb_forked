@@ -44,7 +44,38 @@
                 "iPhone14,4",
                 "iPhone14,5",
                 "iPod9,1"
-            ]
+            ],
+            "basebandVersions": {
+                "iPhone8,1": "9.01.00",
+                "iPhone8,2": "9.01.00",
+                "iPhone8,4": "11.01.02",
+                "iPhone9,1": "9.01.00",
+                "iPhone9,2": "9.01.00",
+                "iPhone9,3": "6.02.02",
+                "iPhone9,4": "6.02.02",
+                "iPhone10,1": "7.02.00",
+                "iPhone10,2": "7.02.00",
+                "iPhone10,3": "7.02.00",
+                "iPhone10,4": "5.02.02",
+                "iPhone10,5": "5.02.02",
+                "iPhone10,6": "5.02.02",
+                "iPhone11,2": "4.03.02",
+                "iPhone11,4": "4.03.02",
+                "iPhone11,6": "4.03.02",
+                "iPhone11,8": "4.03.02",
+                "iPhone12,1": "3.02.01",
+                "iPhone12,3": "3.02.01",
+                "iPhone12,5": "3.02.01",
+                "iPhone12,8": "3.02.01",
+                "iPhone13,1": "2.53.01",
+                "iPhone13,2": "2.53.01",
+                "iPhone13,3": "2.53.01",
+                "iPhone13,4": "2.53.01",
+                "iPhone14,2": "1.59.03",
+                "iPhone14,3": "1.59.03",
+                "iPhone14,4": "1.59.03",
+                "iPhone14,5": "1.59.03"
+            }
         }
     ],
     "releaseNotes": "https://support.apple.com/HT212788#154",
@@ -90,6 +121,38 @@
         "iPhone14,6",
         "iPod9,1"
     ],
+    "basebandVersions": {
+        "iPhone8,1": "9.01.00",
+        "iPhone8,2": "9.01.00",
+        "iPhone8,4": "11.01.02",
+        "iPhone9,1": "9.01.00",
+        "iPhone9,2": "9.01.00",
+        "iPhone9,3": "6.02.02",
+        "iPhone9,4": "6.02.02",
+        "iPhone10,1": "7.02.00",
+        "iPhone10,2": "7.02.00",
+        "iPhone10,3": "7.02.00",
+        "iPhone10,4": "5.02.02",
+        "iPhone10,5": "5.02.02",
+        "iPhone10,6": "5.02.02",
+        "iPhone11,2": "4.03.02",
+        "iPhone11,4": "4.03.02",
+        "iPhone11,6": "4.03.02",
+        "iPhone11,8": "4.03.02",
+        "iPhone12,1": "3.02.01",
+        "iPhone12,3": "3.02.01",
+        "iPhone12,5": "3.02.01",
+        "iPhone12,8": "3.02.01",
+        "iPhone13,1": "2.53.01",
+        "iPhone13,2": "2.53.01",
+        "iPhone13,3": "2.53.01",
+        "iPhone13,4": "2.53.01",
+        "iPhone14,2": "1.59.03",
+        "iPhone14,3": "1.59.03",
+        "iPhone14,4": "1.59.03",
+        "iPhone14,5": "1.59.03",
+        "iPhone14,6": "1.00.04"
+    },
     "sources": [
         {
             "type": "ipsw",
@@ -100,13 +163,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09873/62085973-255F-40E0-98DA-4772A001B8FF/iPhone_4.7_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09873/62085973-255F-40E0-98DA-4772A001B8FF/iPhone_4.7_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "135b18ff1b0d32de069d2a69fd10400c",
                 "sha1": "dda7fe4bdec5d4e3e87aebff898460c8be2ab358",
                 "sha2-256": "a0af2f5d2a54be2d1828d298c8daf58c6c3654d9dc71f2e14d237e1251a210b2"
             },
@@ -135,6 +195,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68428/9A509359-0C69-40C4-8E01-4EFB84892C4B/com_apple_MobileAsset_SoftwareUpdate/1b4566ac1ebbbc7293da7f8a3112641b1923add7.zip",
@@ -152,6 +215,9 @@
             "prerequisiteBuild": "17A577",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -176,6 +242,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68270/E3003D05-CB9C-4790-B66F-015BD7B867BB/com_apple_MobileAsset_SoftwareUpdate/e4f780eb7df68eb8a0f4823d0e8380ade372b6e6.zip",
@@ -199,6 +268,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68633/17BC70BC-B254-4171-AD09-6412F2202551/com_apple_MobileAsset_SoftwareUpdate/03d276471b6e2b39c221a577bfc2ff3f8900ec02.zip",
@@ -221,6 +293,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68152/FCD6D4D9-236B-4AA0-ADF5-22CBED6E2178/com_apple_MobileAsset_SoftwareUpdate/042282306e0d7b49763473346ec2a78fc65eb4aa.zip",
@@ -242,6 +317,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -266,6 +344,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68295/CCE7D984-C44A-491D-9EC5-6E231AC6C1C5/com_apple_MobileAsset_SoftwareUpdate/784eaac0931d8d61a979bcd3c24f9076f00d658f.zip",
@@ -289,6 +370,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68987/6EEF6E49-B261-4FF5-9009-955796F93331/com_apple_MobileAsset_SoftwareUpdate/506d968624ad7581cc512a752a92d10157d364a3.zip",
@@ -310,6 +394,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-69000/9138736D-4CAD-49CE-AA2D-E81AD697D4C8/com_apple_MobileAsset_SoftwareUpdate/2f7d6d12a8ff7adb9f53cbdb186fe42d27ee275c.zip",
@@ -330,6 +417,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -353,6 +443,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68998/4A3EBA08-A39C-427C-B9F3-052060338AA6/com_apple_MobileAsset_SoftwareUpdate/88011c5fbd27d8cbf4fbd7972819ff313e1c4059.zip",
@@ -374,6 +467,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -398,6 +494,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68927/FAA3D582-8694-489E-BAA6-C8BA69A90BF9/com_apple_MobileAsset_SoftwareUpdate/c70f57d1d254802528d318f4fa2c691763eb651f.zip",
@@ -420,6 +519,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -444,6 +546,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68798/3062EC91-08C5-4584-BDE1-8ADEB60CCD6E/com_apple_MobileAsset_SoftwareUpdate/3992e5f443104aa50463157ff7b76609d514c717.zip",
@@ -467,6 +572,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68315/ADBD2F94-8622-441F-A04B-AAD21E135E7E/com_apple_MobileAsset_SoftwareUpdate/641ac950f1ba23b3e2cd48a0b3fd0ce6c719e8e5.zip",
@@ -489,6 +597,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68910/32618A1D-3A4F-4CBC-BE46-F8C21FB7DF76/com_apple_MobileAsset_SoftwareUpdate/ba8f6749ed868f8e4921ca9ac0428501c94a0932.zip",
@@ -510,6 +621,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -534,6 +648,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68611/72B7AF20-BEAC-4226-9DE8-3AF25032ADC7/com_apple_MobileAsset_SoftwareUpdate/3230967fe571aa24c4073de18439b68f2e12ecc5.zip",
@@ -557,6 +674,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68904/37544CC8-F3AF-4C0B-9FD1-32D812D70F51/com_apple_MobileAsset_SoftwareUpdate/1db4c3da8884ff9d2c0ca61da4a42eb4fb01c091.zip",
@@ -575,6 +695,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68414/C6035248-5A6A-48D3-88C3-73DBB9484896/com_apple_MobileAsset_SoftwareUpdate/87ab45bc767e0a43db287c524f8725929d84d6c2.zip",
@@ -592,6 +715,9 @@
             "prerequisiteBuild": "18H107",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -617,6 +743,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68465/1D60BD4B-7FEB-4143-8EA9-C5AE66D0CAA5/com_apple_MobileAsset_SoftwareUpdate/f641382c84fe34b7de7a2f12d7ff9786b2a734ec.zip",
@@ -641,6 +770,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68166/F93563B9-65DB-4039-A6C1-CABB36CEA0E9/com_apple_MobileAsset_SoftwareUpdate/918982df5e89f7472d4012c5f0853f718e522f46.zip",
@@ -662,6 +794,9 @@
             ],
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71AP"
             ],
             "links": [
                 {
@@ -685,6 +820,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68509/DCFA6A12-B281-4610-BCED-EAD6F88B6AE0/com_apple_MobileAsset_SoftwareUpdate/49c2525722074f63971172475e6002d656db906a.zip",
@@ -702,6 +840,9 @@
             "prerequisiteBuild": "19D50",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71AP"
             ],
             "links": [
                 {
@@ -721,6 +862,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71mAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68512/6550F3FE-00B2-461D-9A7D-EE7A7312C0C3/com_apple_MobileAsset_SoftwareUpdate/aa5261d9baa280d5371bb820531977704ef11646.zip",
@@ -739,6 +883,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-69111/D3C27A97-A68C-4984-B802-712E71D73C35/com_apple_MobileAsset_SoftwareUpdate/390712ddf4afc5383666910d4d6e25d338016338.zip",
@@ -756,6 +903,9 @@
             "prerequisiteBuild": "19D52",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -778,13 +928,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09725/F58608CE-2979-4A4C-B167-CF55FC5D880F/iPhone_5.5_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09725/F58608CE-2979-4A4C-B167-CF55FC5D880F/iPhone_5.5_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "a5d84c4083206b8a2c688a84b1fbad6f",
                 "sha1": "5b9923186b1e547fae377965a9100443e3d2b93f",
                 "sha2-256": "524094023680d4ba8c383cc34d64920603f92606469d328c985ed02e30e9873a"
             },
@@ -815,24 +962,6 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68575/2D6338B6-4E72-4DB8-943E-4983B4F0C142/com_apple_MobileAsset_SoftwareUpdate/817a9c0adbc135fd083a89e4cab97723097075b9.zip",
-                    "active": true
-                }
-            ],
-            "hashes": {
-                "sha1": "8a5920c6d2a65f79edfae588c5bbed3ba5211a78",
-                "sha2-256": "ecaaabb8259874a94dd154f9195aaf3e71ef4e949faecbf1d7c39edaca84060f"
-            },
-            "size": 3489483947
-        },
-        {
-            "type": "ota",
-            "prerequisiteBuild": "17A577",
-            "deviceMap": [
-                "iPhone8,2"
-            ],
-            "links": [
-                {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68255/D708F378-2596-435F-82B0-6D58E7D08396/com_apple_MobileAsset_SoftwareUpdate/6e09ba8643bc2d11a8362a8230232d1b3168e593.zip",
                     "active": true
                 }
@@ -845,26 +974,24 @@
         },
         {
             "type": "ota",
-            "prerequisiteBuild": [
-                "17A844",
-                "17A854",
-                "17A860",
-                "17A878"
-            ],
+            "prerequisiteBuild": "17A577",
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68240/E00DF69C-C1D1-43CB-898A-C32F768A402D/com_apple_MobileAsset_SoftwareUpdate/264e2281a18f83ae06f03544fa8660fe950d947b.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68575/2D6338B6-4E72-4DB8-943E-4983B4F0C142/com_apple_MobileAsset_SoftwareUpdate/817a9c0adbc135fd083a89e4cab97723097075b9.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "9e369ae34a5b389800de5e753a52fc4eed439418",
-                "sha2-256": "7441f588d83de14eed6397d0e4b689998913f9a3a4454952978fe11819da753f"
+                "sha1": "8a5920c6d2a65f79edfae588c5bbed3ba5211a78",
+                "sha2-256": "ecaaabb8259874a94dd154f9195aaf3e71ef4e949faecbf1d7c39edaca84060f"
             },
-            "size": 3475243451
+            "size": 3489483947
         },
         {
             "type": "ota",
@@ -892,24 +1019,28 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "17B84",
-                "17B102",
-                "17B111"
+                "17A844",
+                "17A854",
+                "17A860",
+                "17A878"
             ],
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68210/E3C60BC0-B0B6-40A1-84CD-77A31866C30A/com_apple_MobileAsset_SoftwareUpdate/60e4aa914ea0f4e347f012524604f8d15c8d9971.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68240/E00DF69C-C1D1-43CB-898A-C32F768A402D/com_apple_MobileAsset_SoftwareUpdate/264e2281a18f83ae06f03544fa8660fe950d947b.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "db1e10a7502c5cf7fa73586ecd302e60a67cc942",
-                "sha2-256": "e42a8ed29b91b3103dcc4eba4cf8aaf01a33856fb7cf7ac4f6e885dabccdedb7"
+                "sha1": "9e369ae34a5b389800de5e753a52fc4eed439418",
+                "sha2-256": "7441f588d83de14eed6397d0e4b689998913f9a3a4454952978fe11819da753f"
             },
-            "size": 3376360078
+            "size": 3475243451
         },
         {
             "type": "ota",
@@ -936,25 +1067,27 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "17C54",
-                "17D50",
-                "17E255",
-                "17E262"
+                "17B84",
+                "17B102",
+                "17B111"
             ],
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68272/202D8021-E13F-48E5-B515-7D570A2F3611/com_apple_MobileAsset_SoftwareUpdate/242d9a60cbeea670b391985d902a242e1f136a6e.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68210/E3C60BC0-B0B6-40A1-84CD-77A31866C30A/com_apple_MobileAsset_SoftwareUpdate/60e4aa914ea0f4e347f012524604f8d15c8d9971.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "f108b94998e37b33046ac24148f70a24b7fd26d1",
-                "sha2-256": "d4f65c02883f8b871a6b3ff525225ee407cdcaa0193dfa34dd6f885dc21f37cc"
+                "sha1": "db1e10a7502c5cf7fa73586ecd302e60a67cc942",
+                "sha2-256": "e42a8ed29b91b3103dcc4eba4cf8aaf01a33856fb7cf7ac4f6e885dabccdedb7"
             },
-            "size": 3375739932
+            "size": 3376360078
         },
         {
             "type": "ota",
@@ -982,23 +1115,28 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "17F75",
-                "17F80"
+                "17C54",
+                "17D50",
+                "17E255",
+                "17E262"
             ],
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68243/25D766D4-32D1-46D7-93FC-70377E65EF78/com_apple_MobileAsset_SoftwareUpdate/a98b666665e6de11c69a21d3466ed3176ee1f2b4.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68272/202D8021-E13F-48E5-B515-7D570A2F3611/com_apple_MobileAsset_SoftwareUpdate/242d9a60cbeea670b391985d902a242e1f136a6e.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "0a01e5edb1258cb0355dee13104a9e515c1619fc",
-                "sha2-256": "4ae712f7408b0f16b4c0f1f04ad8487999729bc8a262d5b97d82706c6f05a994"
+                "sha1": "f108b94998e37b33046ac24148f70a24b7fd26d1",
+                "sha2-256": "d4f65c02883f8b871a6b3ff525225ee407cdcaa0193dfa34dd6f885dc21f37cc"
             },
-            "size": 3333861701
+            "size": 3375739932
         },
         {
             "type": "ota",
@@ -1024,24 +1162,26 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "17G68",
-                "17G80",
-                "17H35"
+                "17F75",
+                "17F80"
             ],
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-69031/AE9B150E-A0C9-40FF-89A7-1BF06C177865/com_apple_MobileAsset_SoftwareUpdate/56f69de9b735d64855dfd0f94ca72c0c899c8710.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68243/25D766D4-32D1-46D7-93FC-70377E65EF78/com_apple_MobileAsset_SoftwareUpdate/a98b666665e6de11c69a21d3466ed3176ee1f2b4.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "569e2dc46af6f52391106723b364c64e046e19d1",
-                "sha2-256": "2f93e9afdf832e3f46ddb4bf675efe626e483fd47dedf0b1edf08a105d9d2374"
+                "sha1": "0a01e5edb1258cb0355dee13104a9e515c1619fc",
+                "sha2-256": "4ae712f7408b0f16b4c0f1f04ad8487999729bc8a262d5b97d82706c6f05a994"
             },
-            "size": 3338466397
+            "size": 3333861701
         },
         {
             "type": "ota",
@@ -1068,25 +1208,27 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "18A373",
-                "18A393",
-                "18A8395",
-                "18B92"
+                "17G68",
+                "17G80",
+                "17H35"
             ],
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68192/C38D6AB5-0C5A-41EA-85A9-712611FA9918/com_apple_MobileAsset_SoftwareUpdate/82b6013eb5b655a56f4d176559722baed9e41b85.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-69031/AE9B150E-A0C9-40FF-89A7-1BF06C177865/com_apple_MobileAsset_SoftwareUpdate/56f69de9b735d64855dfd0f94ca72c0c899c8710.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "475977e038764f59c2ca03835f8343e2febf84c6",
-                "sha2-256": "ad2dadabe75bb76738979dc4a51b7aacb9af0b760d5be2cfee3f37dc53750707"
+                "sha1": "569e2dc46af6f52391106723b364c64e046e19d1",
+                "sha2-256": "2f93e9afdf832e3f46ddb4bf675efe626e483fd47dedf0b1edf08a105d9d2374"
             },
-            "size": 2766454128
+            "size": 3338466397
         },
         {
             "type": "ota",
@@ -1114,25 +1256,28 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "18C66",
-                "18D52",
-                "18D61",
-                "18D70"
+                "18A373",
+                "18A393",
+                "18A8395",
+                "18B92"
             ],
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68788/6E634E3F-17F4-4032-9612-859C41E7697F/com_apple_MobileAsset_SoftwareUpdate/e65f2c339cf37861fbfbede96c48bc26f167b019.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68192/C38D6AB5-0C5A-41EA-85A9-712611FA9918/com_apple_MobileAsset_SoftwareUpdate/82b6013eb5b655a56f4d176559722baed9e41b85.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "0a9448689fa3b801e47f9bc2d89b856070e18116",
-                "sha2-256": "c83a68a6d4c9f2ffd104a0b194e269bfe8efab154c914b5d6417b0827b312846"
+                "sha1": "475977e038764f59c2ca03835f8343e2febf84c6",
+                "sha2-256": "ad2dadabe75bb76738979dc4a51b7aacb9af0b760d5be2cfee3f37dc53750707"
             },
-            "size": 2577884029
+            "size": 2766454128
         },
         {
             "type": "ota",
@@ -1160,24 +1305,28 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "18E199",
-                "18E212",
-                "18F72"
+                "18C66",
+                "18D52",
+                "18D61",
+                "18D70"
             ],
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68218/015D69D3-3095-4E8C-9C89-6DC02810CA3E/com_apple_MobileAsset_SoftwareUpdate/2e0e14e95b638933a343ec186e7b83bf8806ddd5.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68788/6E634E3F-17F4-4032-9612-859C41E7697F/com_apple_MobileAsset_SoftwareUpdate/e65f2c339cf37861fbfbede96c48bc26f167b019.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "7ff4cd9773910901cac8676bc7ac4db0451339f7",
-                "sha2-256": "6bf23bbb793ec2293696406b27e00f92ae852f5e7b41b7e698f12fbad92a01cc"
+                "sha1": "0a9448689fa3b801e47f9bc2d89b856070e18116",
+                "sha2-256": "c83a68a6d4c9f2ffd104a0b194e269bfe8efab154c914b5d6417b0827b312846"
             },
-            "size": 2517016438
+            "size": 2577884029
         },
         {
             "type": "ota",
@@ -1204,25 +1353,27 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "18G69",
-                "18G82",
-                "18G90",
-                "18H17"
+                "18E199",
+                "18E212",
+                "18F72"
             ],
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68702/93449F3A-3A47-4B0C-AF96-1EA135272D02/com_apple_MobileAsset_SoftwareUpdate/d60f8fb0902d019c714a89da4a29ad9737209d1e.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68218/015D69D3-3095-4E8C-9C89-6DC02810CA3E/com_apple_MobileAsset_SoftwareUpdate/2e0e14e95b638933a343ec186e7b83bf8806ddd5.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "86f16a571b4ab600c73dbe24111d21ecd7a569f8",
-                "sha2-256": "b28ad44a770c6ebc1c28efcb56274df0e5f9a8a527661d628ccde1f6d27b3480"
+                "sha1": "7ff4cd9773910901cac8676bc7ac4db0451339f7",
+                "sha2-256": "6bf23bbb793ec2293696406b27e00f92ae852f5e7b41b7e698f12fbad92a01cc"
             },
-            "size": 2493150377
+            "size": 2517016438
         },
         {
             "type": "ota",
@@ -1249,21 +1400,29 @@
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "18H107",
+            "prerequisiteBuild": [
+                "18G69",
+                "18G82",
+                "18G90",
+                "18H17"
+            ],
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68398/9F7FE3F4-793A-40A2-BB1D-410DB6D8EF1F/com_apple_MobileAsset_SoftwareUpdate/769e4fec4a1adc67b44bb130713debb735182270.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68702/93449F3A-3A47-4B0C-AF96-1EA135272D02/com_apple_MobileAsset_SoftwareUpdate/d60f8fb0902d019c714a89da4a29ad9737209d1e.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "1b7fbf6f675e4a3d5f98b30fc6315ed3232ad4e9",
-                "sha2-256": "40ee809a34181ea165c75847942440c8c355cf96fe9e0e653f6801585c2c8e81"
+                "sha1": "86f16a571b4ab600c73dbe24111d21ecd7a569f8",
+                "sha2-256": "b28ad44a770c6ebc1c28efcb56274df0e5f9a8a527661d628ccde1f6d27b3480"
             },
-            "size": 2449366404
+            "size": 2493150377
         },
         {
             "type": "ota",
@@ -1285,27 +1444,24 @@
         },
         {
             "type": "ota",
-            "prerequisiteBuild": [
-                "19A340",
-                "19A344",
-                "19A346",
-                "19A348",
-                "19A404"
-            ],
+            "prerequisiteBuild": "18H107",
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68279/D38DFA30-0D13-437A-B460-49D0A11D5A19/com_apple_MobileAsset_SoftwareUpdate/e2c893038db2a1c922248a9ea087bb2b4ecb6024.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68398/9F7FE3F4-793A-40A2-BB1D-410DB6D8EF1F/com_apple_MobileAsset_SoftwareUpdate/769e4fec4a1adc67b44bb130713debb735182270.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "d332db02cc16bd172799d8f1f7d9dcb204f63987",
-                "sha2-256": "bf92f2bac99448e0931c447eff3cc4553fece73ce829d191ed1d2a745df80474"
+                "sha1": "1b7fbf6f675e4a3d5f98b30fc6315ed3232ad4e9",
+                "sha2-256": "40ee809a34181ea165c75847942440c8c355cf96fe9e0e653f6801585c2c8e81"
             },
-            "size": 1462687533
+            "size": 2449366404
         },
         {
             "type": "ota",
@@ -1334,24 +1490,29 @@
         {
             "type": "ota",
             "prerequisiteBuild": [
-                "19B74",
-                "19C56",
-                "19C63"
+                "19A340",
+                "19A344",
+                "19A346",
+                "19A348",
+                "19A404"
             ],
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68789/AED18985-6D23-41BA-9055-653E28CD6903/com_apple_MobileAsset_SoftwareUpdate/bcdb592b7edd0c381ea3b11cd7c92df704cd6baf.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68279/D38DFA30-0D13-437A-B460-49D0A11D5A19/com_apple_MobileAsset_SoftwareUpdate/e2c893038db2a1c922248a9ea087bb2b4ecb6024.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "5649e9f50abe136797f2864572f6baf5ba8d3b18",
-                "sha2-256": "86760e0fda1bcc3b24ad882e46036531c11f355231cee78c247d72f7b18c3dc4"
+                "sha1": "d332db02cc16bd172799d8f1f7d9dcb204f63987",
+                "sha2-256": "bf92f2bac99448e0931c447eff3cc4553fece73ce829d191ed1d2a745df80474"
             },
-            "size": 1272631495
+            "size": 1462687533
         },
         {
             "type": "ota",
@@ -1377,21 +1538,28 @@
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "19D50",
+            "prerequisiteBuild": [
+                "19B74",
+                "19C56",
+                "19C63"
+            ],
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68155/6B7B747D-8433-4BAE-8C76-BA8146DC1C69/com_apple_MobileAsset_SoftwareUpdate/6c4106057d14f8b4c28c963f185d488b1152c2d5.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68789/AED18985-6D23-41BA-9055-653E28CD6903/com_apple_MobileAsset_SoftwareUpdate/bcdb592b7edd0c381ea3b11cd7c92df704cd6baf.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "4f07fcb22926035a2bf0fbb4af8d1985b7722d69",
-                "sha2-256": "c5f4a77193824252e950ec37f98ef48a95bd0e7833a1d6fc401964542f5c4623"
+                "sha1": "5649e9f50abe136797f2864572f6baf5ba8d3b18",
+                "sha2-256": "86760e0fda1bcc3b24ad882e46036531c11f355231cee78c247d72f7b18c3dc4"
             },
-            "size": 977117856
+            "size": 1272631495
         },
         {
             "type": "ota",
@@ -1413,21 +1581,24 @@
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "19D52",
+            "prerequisiteBuild": "19D50",
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-69132/BABE6FD5-47E0-436A-A8B7-612C5B8EFFF8/com_apple_MobileAsset_SoftwareUpdate/77347c165846ed1dc6a788ff56c6e0c559c3a5fa.zip",
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68155/6B7B747D-8433-4BAE-8C76-BA8146DC1C69/com_apple_MobileAsset_SoftwareUpdate/6c4106057d14f8b4c28c963f185d488b1152c2d5.zip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "1b245003ac5a9f67adf52fd8e701a0f6ab540335",
-                "sha2-256": "d631f80a5779ecc9a9448cebc6409cd0b32d1033d4fb3046733f837e3cc3f509"
+                "sha1": "4f07fcb22926035a2bf0fbb4af8d1985b7722d69",
+                "sha2-256": "c5f4a77193824252e950ec37f98ef48a95bd0e7833a1d6fc401964542f5c4623"
             },
-            "size": 976782050
+            "size": 977117856
         },
         {
             "type": "ota",
@@ -1448,6 +1619,27 @@
             "size": 971929813
         },
         {
+            "type": "ota",
+            "prerequisiteBuild": "19D52",
+            "deviceMap": [
+                "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66AP"
+            ],
+            "links": [
+                {
+                    "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-69132/BABE6FD5-47E0-436A-A8B7-612C5B8EFFF8/com_apple_MobileAsset_SoftwareUpdate/77347c165846ed1dc6a788ff56c6e0c559c3a5fa.zip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "1b245003ac5a9f67adf52fd8e701a0f6ab540335",
+                "sha2-256": "d631f80a5779ecc9a9448cebc6409cd0b32d1033d4fb3046733f837e3cc3f509"
+            },
+            "size": 976782050
+        },
+        {
             "type": "ipsw",
             "deviceMap": [
                 "iPhone8,4"
@@ -1456,13 +1648,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09861/334A0D32-2F1C-49C3-9304-4D032FFDBB7A/iPhone_4.0_64bit_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09861/334A0D32-2F1C-49C3-9304-4D032FFDBB7A/iPhone_4.0_64bit_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "aa02c664fd825b07c7bbba305cf1002d",
                 "sha1": "51e42103ad63867c70ea15f1710b32475d9f2ecb",
                 "sha2-256": "a7f670af6a0b1e24aa872151d05d75ed0392b769547f125f2345c0841b27b7b5"
             },
@@ -1491,6 +1680,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68844/294E2ED1-1623-4CB4-A5E2-C998A273534C/com_apple_MobileAsset_SoftwareUpdate/b327c272c40d32d6e05e46fd7297b934b908cf57.zip",
@@ -1514,6 +1706,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68291/031FECAF-9BB8-4FE3-8DB7-61155A28EFDE/com_apple_MobileAsset_SoftwareUpdate/d0d6bd29617b808c244719ad1013b6333c0f05f2.zip",
@@ -1535,6 +1730,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -1559,6 +1757,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68251/0D61439B-FBA5-49D6-8575-3CB5AD7B93AE/com_apple_MobileAsset_SoftwareUpdate/dbb2b20509433f1ce243ac2d914c27683a985d1f.zip",
@@ -1579,6 +1780,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -1601,6 +1805,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -1625,6 +1832,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68282/78564E24-295F-4945-9CC2-107E4D8398D9/com_apple_MobileAsset_SoftwareUpdate/b6da41a6ee47e673c659d2f086a633bf33a2aab0.zip",
@@ -1648,6 +1858,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68362/43AED97F-7905-4F40-BF86-277636A5D79D/com_apple_MobileAsset_SoftwareUpdate/407023c4dd982a22a69bc5d4c5e97f52ee2d0dd5.zip",
@@ -1669,6 +1882,9 @@
             ],
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -1693,6 +1909,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68241/63E74BA3-7013-46D8-B81A-1AFE387B2686/com_apple_MobileAsset_SoftwareUpdate/06b666f2aa0f4ed074381afd6d27949f6213a5f9.zip",
@@ -1710,6 +1929,9 @@
             "prerequisiteBuild": "18H107",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -1735,6 +1957,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68968/4CC2066B-8C00-4692-9A9D-C2828237FDE2/com_apple_MobileAsset_SoftwareUpdate/7223cebbb4663200bb9b0c3e062c459710349697.zip",
@@ -1757,6 +1982,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68866/B7D46BCB-260F-4DA1-83C8-0F530EAE1AEF/com_apple_MobileAsset_SoftwareUpdate/cf8c1200fa47a5f1533ddcfb442aba641feada05.zip",
@@ -1775,6 +2003,9 @@
             "deviceMap": [
                 "iPhone8,4"
             ],
+            "boardMap": [
+                "N69uAP"
+            ],
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/patches/002-68591/B770BA74-0DB4-4181-A64A-C06EC97182AD/com_apple_MobileAsset_SoftwareUpdate/015f383afcf25593dae6286a6c7914e90e0c27a9.zip",
@@ -1792,6 +2023,9 @@
             "prerequisiteBuild": "19D52",
             "deviceMap": [
                 "iPhone8,4"
+            ],
+            "boardMap": [
+                "N69uAP"
             ],
             "links": [
                 {
@@ -1817,13 +2051,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09921/F0628DB5-DEAC-40CE-825B-0C0DC684ED8C/iPhone_4.7_P3_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09921/F0628DB5-DEAC-40CE-825B-0C0DC684ED8C/iPhone_4.7_P3_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "63432407f3964a23a993757d384d96c9",
                 "sha1": "f5d84bb24ee3faf3417df1a21c15eea6c2437dbb",
                 "sha2-256": "70c9801abd6344219b120d7f1f7fe772339c6ee7a9d4c23c535e875f5387ad8e"
             },
@@ -2181,13 +2412,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09703/18F22991-7453-4326-B5A3-72A9D2D5D355/iPhone_5.5_P3_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09703/18F22991-7453-4326-B5A3-72A9D2D5D355/iPhone_5.5_P3_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "0f1c4621cf6862c6375c70b351d4a4fc",
                 "sha1": "444d9cc01d29d64850fa3e2070fb956e86e530f5",
                 "sha2-256": "cf541d4fd2f42e7c9a11c5c0b907fb821c43a48694faf3f8e29e396e4d889e60"
             },
@@ -3823,13 +4051,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09661/51A3C446-9140-48F9-9190-3DFD963CA63D/iPhone10,3,iPhone10,6_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09661/51A3C446-9140-48F9-9190-3DFD963CA63D/iPhone10,3,iPhone10,6_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "d7a699fb3fa30bb5310c2a8141a5bf82",
                 "sha1": "540de5660931a7d2552a79bfc80f0b98a14e56bf",
                 "sha2-256": "f908d35bd7dcb819f68805f6b1105ff0d4ede27aacec9efa8c28da8c05ae5746"
             },
@@ -5146,13 +5371,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09912/70903831-EF2A-453E-8105-A78B6491E5A8/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09912/70903831-EF2A-453E-8105-A78B6491E5A8/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "61f49a28a01d85a3d2838aeca3cc017e",
                 "sha1": "70a782eace266e6564cfea5d4b78d6a1b3f923de",
                 "sha2-256": "792a4cef30f92c7a6e1086ed072898f624206739cdacb71e6e217a2a1d33a50a"
             },
@@ -5829,13 +6051,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09727/6589F152-3F6B-416F-AF14-CE91E02A4250/iPhone11,8,iPhone12,1_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09727/6589F152-3F6B-416F-AF14-CE91E02A4250/iPhone11,8,iPhone12,1_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "e88fe97ede6d7d825cd53f2ee385854f",
                 "sha1": "0d75599b37a3109b7b149da1563115bde115b44d",
                 "sha2-256": "aef66762fb4d4f82c7ff169b9cd7584ce9d74a0230186ebca3997a2984806d3e"
             },
@@ -7148,13 +7367,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09695/0CFF5CC4-6198-4D0E-B0BB-A8B27CE8AF6A/iPhone12,8_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09695/0CFF5CC4-6198-4D0E-B0BB-A8B27CE8AF6A/iPhone12,8_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "864d9be52bf19a555ee4e658b6728022",
                 "sha1": "ee7bc244d8f8fa5bd0f110f1c3a913afa785f3b3",
                 "sha2-256": "214a307529b40d16cd7f4fbef9030160f2fab9cdb34b8ea7200773becea1912c"
             },
@@ -7441,13 +7657,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09737/FD2B742C-BB28-4C2C-85F2-9025A049256A/iPhone13,1_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09737/FD2B742C-BB28-4C2C-85F2-9025A049256A/iPhone13,1_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "a4ac3a1ff6417273711bb02a9ec35ecb",
                 "sha1": "a2122905bab0b55030e851e664bd7aaf5c5c5232",
                 "sha2-256": "8e93510e31d69aceb5d53afdf64be3760ecad8d52cf3013ead27a1637bb1edfb"
             },
@@ -7673,13 +7886,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09751/6A0C4384-D3E8-4755-9146-761309C9233E/iPhone13,2,iPhone13,3_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09751/6A0C4384-D3E8-4755-9146-761309C9233E/iPhone13,2,iPhone13,3_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "e69e998b4b6c92885ad6cc110374551b",
                 "sha1": "e84ca8f30c48a9c3a3f2562f234f274fe3bbdcf8",
                 "sha2-256": "6378a474bbd7b3daa5951046c6ce2a96da4f5ee0cc41af726cb3f4cf990b8c73"
             },
@@ -8098,13 +8308,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09680/3FAC2C82-2A94-44DB-8973-69E20E61A8DF/iPhone13,4_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09680/3FAC2C82-2A94-44DB-8973-69E20E61A8DF/iPhone13,4_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "5fce8f502b0d2d9c8554df611834c6ac",
                 "sha1": "11b8fbdc61bf3ff96e998dcfb4f581c74841a3b1",
                 "sha2-256": "cd6190602b138875c583fb2ea4f97bf6b2500d7b96dc8ef05b6542816e132417"
             },
@@ -8329,13 +8536,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09884/114A42ED-D46C-4C3E-85FF-74F33C19AC11/iPhone14,2_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09884/114A42ED-D46C-4C3E-85FF-74F33C19AC11/iPhone14,2_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "225be72f30ddb42c09883cb5dde01c25",
                 "sha1": "f1ad1837b45a1a3f8a253903626051cf3127f884",
                 "sha2-256": "9559d307aacce5842aec89961efa6cb9115d09d6be676facbcd3a4972c4483a0"
             },
@@ -8452,13 +8656,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09848/ED6BD67B-C276-4EA8-B0BD-7B1D63E22647/iPhone14,3_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09848/ED6BD67B-C276-4EA8-B0BD-7B1D63E22647/iPhone14,3_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "1064e098e8337c0846fc085664dc0e6f",
                 "sha1": "6f95bad36be2d3c1febbb7572791cad94a193e02",
                 "sha2-256": "f33137dd9c610fff06038e7e7d2abcfe1c266c8fbaaa51152476148c1972c887"
             },
@@ -8575,13 +8776,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09673/2541AEC9-8566-4865-956B-5E5232964A75/iPhone14,4_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09673/2541AEC9-8566-4865-956B-5E5232964A75/iPhone14,4_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "d07edc0c76c26b65f5036fc466f8fd31",
                 "sha1": "4f11fee189f77cb2d0a2d9617da7013412e3539e",
                 "sha2-256": "613190596885d84e8e1b8f371b39dd6fa84cc6d383b2ce83e71b16bdf90ab152"
             },
@@ -8698,13 +8896,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09898/09F4A167-B58C-4FE3-B0C3-7200E2F501E6/iPhone14,5_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09898/09F4A167-B58C-4FE3-B0C3-7200E2F501E6/iPhone14,5_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "717ffaabfe8f33c1878325284041e233",
                 "sha1": "2d85cc012d01dbd092d16948afa9186c492ed5d1",
                 "sha2-256": "218ab0b5eb18dc0326b6091f23f97335b750c6763b7be66ac369c8bd7128a03d"
             },
@@ -8821,13 +9016,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09790/177AE196-6D87-47EC-A21C-4263D106992A/iPhone14,6_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09790/177AE196-6D87-47EC-A21C-4263D106992A/iPhone14,6_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "df68d7fb8d6dc98df72b71f802ee9279",
                 "sha1": "340790f8660a7c78f791f42ec35284ecf96ac241",
                 "sha2-256": "b75a78bb659277461189946838573eae5eee1a540737c4a681058603cdf3523b"
             },
@@ -8859,13 +9051,10 @@
                 {
                     "url": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/071-09817/D664167E-2B1F-478C-A8C2-9FC2C31A7598/iPodtouch_7_15.4_19E241_Restore.ipsw",
                     "active": true
-                },
-                {
-                    "url": "http://updates-http.cdn-apple.com/2022FCSWinter/fullrestores/071-09817/D664167E-2B1F-478C-A8C2-9FC2C31A7598/iPodtouch_7_15.4_19E241_Restore.ipsw",
-                    "active": true
                 }
             ],
             "hashes": {
+                "md5": "4de5d80e95dd398797157f072f4a386d",
                 "sha1": "2f7ef4b87f6442d8edcecf36879546309a4eb90f",
                 "sha2-256": "37a71f1d67d79db5772276016a9fa4166fb6fc1da3ada5e22b61d4a659774d71"
             },

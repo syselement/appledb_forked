@@ -52,6 +52,36 @@
         "iPod5,1",
         "iPod7,1"
     ],
+    "basebandVersions": {
+        "iPad2,2": "04.12.09",
+        "iPad2,3": "3.0.04",
+        "iPad2,6": "10.00.00",
+        "iPad2,7": "10.00.00",
+        "iPad3,2": "6.0.00",
+        "iPad3,3": "6.0.00",
+        "iPad3,5": "10.00.00",
+        "iPad3,6": "10.00.00",
+        "iPad4,2": "6.01.00",
+        "iPad4,3": "6.01.00",
+        "iPad4,5": "6.01.00",
+        "iPad4,6": "6.01.00",
+        "iPad4,8": "6.01.00",
+        "iPad4,9": "6.01.00",
+        "iPad5,2": "4.52.00",
+        "iPad5,4": "4.52.00",
+        "iPad6,8": "4.52.00",
+        "iPhone4,1": "6.0.00",
+        "iPhone5,1": "10.00.00",
+        "iPhone5,2": "10.00.00",
+        "iPhone5,3": "6.01.00",
+        "iPhone5,4": "6.01.00",
+        "iPhone6,1": "6.01.00",
+        "iPhone6,2": "6.01.00",
+        "iPhone7,1": "4.52.00",
+        "iPhone7,2": "4.52.00",
+        "iPhone8,1": "1.23.00",
+        "iPhone8,2": "1.23.00"
+    },
     "sources": [
         {
             "type": "ota",
@@ -688,6 +718,9 @@
             "deviceMap": [
                 "iPhone8,1"
             ],
+            "boardMap": [
+                "N71AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios9.2.1/031-46372-20160104-47424870-A752-11E5-8AC4-E5F49FDF2184/com_apple_MobileAsset_SoftwareUpdate/92e7c9f774b7bf862d17e1e68cd9cf65f90bc074.zip",
@@ -704,6 +737,9 @@
             "prerequisiteBuild": "13D11",
             "deviceMap": [
                 "iPhone8,1"
+            ],
+            "boardMap": [
+                "N71mAP"
             ],
             "links": [
                 {
@@ -722,6 +758,9 @@
             "deviceMap": [
                 "iPhone8,2"
             ],
+            "boardMap": [
+                "N66AP"
+            ],
             "links": [
                 {
                     "url": "http://appldnld.apple.com/ios9.2.1/031-46360-20160104-37768E24-A752-11E5-B6CB-FAF19FDF2184/com_apple_MobileAsset_SoftwareUpdate/ba8aba35ea4a8413eb38f163b9b92e1a4ceb93ec.zip",
@@ -738,6 +777,9 @@
             "prerequisiteBuild": "13D11",
             "deviceMap": [
                 "iPhone8,2"
+            ],
+            "boardMap": [
+                "N66mAP"
             ],
             "links": [
                 {

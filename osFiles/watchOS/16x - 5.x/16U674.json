@@ -1,7 +1,6 @@
 {
     "osStr": "watchOS",
     "version": "5.3.7",
-    "iosVersion": "12.4.7",
     "build": "16U674",
     "buildTrain": "GlorySecGraceF",
     "released": "2020-05-18",
@@ -21,6 +20,12 @@
         "Watch4,3",
         "Watch4,4"
     ],
+    "basebandVersions": {
+        "Watch3,1": "2.60.02",
+        "Watch3,2": "2.60.02",
+        "Watch4,3": "1.04.05",
+        "Watch4,4": "1.04.05"
+    },
     "sources": [
         {
             "type": "ota",
