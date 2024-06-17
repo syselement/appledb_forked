@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import json
 import plistlib
 import random
 from pathlib import Path
@@ -18,6 +17,7 @@ VARIATION_CATALOG_MAPS = {
     'beta': 'public-beta'
 }
 
+max_version = int(sorted([str(x).split(" - ")[1] for x in list(Path('osFiles/macOS').glob("*"))])[-2].removesuffix('.x'))
 
 SESSION = requests.session()
 
@@ -32,7 +32,7 @@ else:
 links = set()
 
 mac_versions = [args.min_version]
-if args.beta:
+if args.beta and args.min_version < max_version:
     mac_versions.append(args.min_version + 1)
 
 for mac_version in mac_versions:
