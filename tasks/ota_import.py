@@ -68,7 +68,8 @@ def import_ota(
 
                     info_plist = plistlib.loads(ota.read("Info.plist"))
                     manifest_paths = [f for f in ota.namelist() if f.endswith("BuildManifest.plist")]
-                    build_manifest = plistlib.loads(ota.read(manifest_paths[0]))
+                    if manifest_paths:
+                        build_manifest = plistlib.loads(ota.read(manifest_paths[0]))
 
                     if info_plist.get('MobileAssetProperties'):
                         info_plist = info_plist['MobileAssetProperties']
@@ -117,6 +118,7 @@ def import_ota(
         recommended_version = recommended_version or info_plist["ProductVersion"]
         supported_devices = [info_plist["ProductType"]]
         bridge_devices = []
+        supported_boards = []
         prerequisite_builds = prerequisite_builds or (info_plist.get('BaseUpdate') if info_plist else [])
     else:
         build = build or info_plist["Build"]
@@ -221,7 +223,7 @@ def import_ota(
         bridge_version = macos_version.replace(macos_version.split(" ")[0], bridge_version)
         bridge_file = create_file("bridgeOS", info_plist['BridgeVersionInfo']['BridgeProductBuildVersion'], FULL_SELF_DRIVING, recommended_version=bridge_version, released=db_data["released"], restore_version=f"{info_plist['BridgeVersionInfo']['BridgeVersion']},0")
         bridge_data = json.load(bridge_file.open(encoding="utf-8"))
-        bridge_data["deviceMap"] = bridge_devices
+        bridge_data["deviceMap"] = list(set(bridge_data.get("deviceMap", [])).union(bridge_devices))
         json.dump(sort_os_file(None, bridge_data), bridge_file.open("w", encoding="utf-8", newline="\n"), indent=4, ensure_ascii=False)
     return db_file
 
