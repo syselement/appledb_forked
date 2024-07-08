@@ -74,7 +74,7 @@ for download in downloads:
 
         for candidate_file in Path(f"osFiles/Software/Safari/{safari_subfolder}").glob("*.json"):
             candidate_data = json.load(candidate_file.open(encoding="utf-8"))
-            if candidate_data["version"] == safari_version:
+            if candidate_data["version"].replace(".0 ", " ") == safari_version:
                 candidate_data["releaseNotes"] = release_notes_link
                 for os_item in candidate_data["osMap"]:
                     os_version = os_item.split(" ")[-1]
@@ -153,7 +153,7 @@ for download in downloads:
 
         json.dump(sort_os_file(None, json_data), target_file.open("w", encoding="utf-8", newline="\n"), indent=4, ensure_ascii=False)
         update_links([target_file])
-    elif download_name.startswith("Kernel Debug Kit") and process_downloads["Kernel Debug Kit"]:
+    elif "Debug Kit" in download_name and process_downloads["Kernel Debug Kit"]:
         kdk_build = download_name.replace(" 89541", "").split(" ")[-1].split(".")[0]
         target_file = list(Path("osFiles/macOS").rglob(f"{kdk_build}.json"))
         if not target_file:
