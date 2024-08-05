@@ -73,7 +73,8 @@ asset_audiences = {
             12: '298e518d-b45e-4d36-94be-34a63d6777ec',
             13: '683e9586-8a82-4e5f-b0e7-767541864b8b',
             14: '77c3bd36-d384-44e8-b550-05122d7da438',
-            15: '98df7800-8378-4469-93bf-5912da21a1e1'
+            15: '98df7800-8378-4469-93bf-5912da21a1e1',
+            15.1: '1831c3e6-1dc4-4f6b-a9dc-7ae6a41d9af4'
         },
         'public': {
             12: '9f86c787-7c59-45a7-a79a-9c164b00f866',
@@ -275,14 +276,21 @@ def call_pallas(device_name, board_id, os_version, os_build, os_str, audience, i
                 continue
             link = f"{asset['__BaseURL']}{asset['__RelativePath']}"
             if not ota_list.get(f"{os_str}-{updated_build}"):
-                ota_list[f"{os_str}-{updated_build}"] = {
+                base_details = {
                     'osStr': os_str,
                     'version': cleaned_os_version,
                     'released': parsed_response['PostingDate'],
                     'build': updated_build,
                     'buildTrain': asset.get('TrainName'),
+                    'restoreVersion': asset.get('RestoreVersion'),
                     'sources': {}
                 }
+                if asset.get('BridgeVersionInfo'):
+                    base_details['bridgeVersionInfo'] = {
+                        'BridgeProductBuildVersion': asset['BridgeVersionInfo']['BridgeProductBuildVersion'],
+                        'BridgeVersion': asset["BridgeVersionInfo"]["BridgeVersion"]
+                    }
+                ota_list[f"{os_str}-{updated_build}"] = base_details
             if not ota_list[f"{os_str}-{updated_build}"]['sources'].get(link):
                 ota_list[f"{os_str}-{updated_build}"]['sources'][link] = {
                     "prerequisites": set(),
