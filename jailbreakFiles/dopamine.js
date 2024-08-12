@@ -15,13 +15,13 @@ module.exports = {
         pkgman: "sileo",
         updateLink: [
           {
-            text: 'Updating to 15.8.2',
-            link: '/updating-to-15-8-2/'
+            text: 'Updating to 15.8.3',
+            link: '/updating-to-15-8-3/'
           },
         ]
       }
     ],
-    latestVer: "2.1.6",
+    latestVer: "2.2.2",
     icon: "/assets/images/jb-icons/dopamine.png",
     notes: "Supports all devices on 15.0 to 16.5. Supports M1 devices and A14 and earlier devices on 16.5.1. Supports A11 and earlier devices on 16.6 to 16.6.1",
     type: "Semi-Untethered",
