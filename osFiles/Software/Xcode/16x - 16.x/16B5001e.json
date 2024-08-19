@@ -1,10 +1,10 @@
 {
     "osStr": "Xcode",
-    "version": "16.0 beta 5",
-    "build": "16A5221g",
-    "released": "2024-08-06",
+    "version": "16.1 beta",
+    "build": "16B5001e",
+    "released": "2024-08-12",
     "beta": true,
-    "releaseNotes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes",
+    "releaseNotes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-16_1-release-notes",
     "deviceMap": [
         "Xcode"
     ],
@@ -15,14 +15,14 @@
     "sdks": [
         {
             "osStr": "iOS",
-            "version": "18.0 beta 5",
-            "build": "22A5326g",
+            "version": "18.1 beta 2",
+            "build": "22B5023b",
             "beta": true
         },
         {
             "osStr": "macOS",
-            "version": "15.0 beta 5",
-            "build": "24A5309c",
+            "version": "15.1 beta 2",
+            "build": "24B5024b",
             "beta": true
         },
         {
@@ -56,14 +56,14 @@
             ],
             "links": [
                 {
-                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_16_beta_5/Xcode_16_beta_5.xip",
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_16.1_beta/Xcode_16.1_beta.xip",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "fc57b98bde42196a1af1f9452419a9d848d4fdb1"
+                "sha1": "0ecc3cc5640ee37036422a89497e41544aecf320"
             },
-            "size": 2830217705
+            "size": 2832649480
         }
     ]
 }
