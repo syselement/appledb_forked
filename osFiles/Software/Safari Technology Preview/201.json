@@ -24,7 +24,7 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/STP/062-54079-20240814-ccbf7c3b-e910-419c-8750-697b8db409c9/SafariTechnologyPreview.dmg",
-                    "active": true
+                    "active": false
                 }
             ],
             "size": 154632589
@@ -40,7 +40,7 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/STP/062-53159-20240814-fa4294b2-b705-4091-957c-9924d2525397/SafariTechnologyPreview.dmg",
-                    "active": true
+                    "active": false
                 }
             ],
             "size": 164642806
