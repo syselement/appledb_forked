@@ -51,12 +51,12 @@
                 {
                     "url": "https://swcdn.apple.com/content/downloads/22/44/062-64532-A_8ZUYHHL1CD/5k16t2hk8h964hzwr1w7l2lpu4464ipfi8/BridgeOSUpdateCustomer.pkg",
                     "catalog": "dev-beta",
-                    "active": true
+                    "active": false
                 },
                 {
                     "url": "https://swcdn.apple.com/content/downloads/15/13/062-64532-A_QAHIMQ9V7E/oxi1vhapv7odiy7ghiu7zpredi4h5wdwt5/BridgeOSUpdateCustomer.pkg",
                     "catalog": "public-beta",
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -129,7 +129,7 @@
                 {
                     "url": "https://swcdn.apple.com/content/downloads/03/31/062-37377-A_AR81KWYJ5B/vdnq1u9gxs6qks52bnpw6uiim2vnlxkprb/BridgeOSUpdateCustomer.pkg",
                     "catalog": "dev-beta",
-                    "active": true
+                    "active": false
                 },
                 {
                     "url": "https://swcdn.apple.com/content/downloads/62/57/062-37377-A_JRECO3GC8J/533oyl2934ml05gtps3lo7m6aagm1rlj5l/BridgeOSUpdateCustomer.pkg",
