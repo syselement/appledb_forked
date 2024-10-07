@@ -1,7 +1,8 @@
 {
     "osStr": "bridgeOS",
     "version": "7.4",
-    "build": "20P4111",
+    "build": "20P4119",
+    "restoreVersion": "20.16.4119.0.0,0",
     "internal": true,
     "deviceMap": [
         "iBridge2,1",
