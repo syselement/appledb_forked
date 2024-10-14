@@ -28,7 +28,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/Safari/Safari_18.1_for_macOS_Sonoma_and_Safari_18.1_for_macOS_Ventura_beta_2/Safari_18.1_for_macOS_Ventura_beta_2.dmg",
-                    "active": true
+                    "active": false
                 }
             ],
             "size": 176082840
@@ -44,7 +44,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/Safari/Safari_18.1_for_macOS_Sonoma_and_Safari_18.1_for_macOS_Ventura_beta_2/Safari_18.1_for_macOS_Sonoma_beta_2.dmg",
-                    "active": true
+                    "active": false
                 }
             ],
             "size": 179312649
@@ -60,7 +60,7 @@
             "links": [
                 {
                     "url": "https://swcdn.apple.com/content/downloads/56/05/062-90575-A_HDTX7E7EAG/qay7s42b489wcef9kun2lmin918lg26sn1/Safari18.1VenturaAutoSeed.pkg",
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -81,7 +81,7 @@
             "links": [
                 {
                     "url": "https://swcdn.apple.com/content/downloads/61/53/062-90577-A_RYMELYBLIS/gtr65jp1eicp8rhdazvssjh2dvy3rjzdwu/Safari18.1SonomaAutoSeed.pkg",
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
