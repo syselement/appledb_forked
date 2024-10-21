@@ -55,17 +55,15 @@ latest_watch_compatibility_versions = {
 }
 
 default_mac_devices = [
-    'MacBookAir7,1',    # Intel, only supports up to Monterey
     'iMac18,1',         # Intel, only supports up to Ventura
     'MacBookAir8,1',    # Intel, only supports up to Sonoma
     'MacPro7,1',        # Intel, supports Sequoia
     'MacBookPro18,1',   # M1 Pro, covers all released Apple Silicon builds
-    'Mac13,1',          # Covers Mac Studio forked build
-    'Mac14,2',          # Covers WWDC 2022 forked builds
+    'Mac14,2',          # Covers Monterey 12.4 (WWDC 2022) forked builds
     'Mac14,6',          # Covers Ventura 13.0 forked builds
-    'Mac14,15',         # Covers WWDC 2023 forked builds
-    'Mac15,3',          # Covers M3 forked builds (Ventura and Sonoma)
-    'Mac15,12',         # Covers forked 14.3
+    'Mac14,15',         # Covers Ventura 13.3/13.4 (WWDC 2023) forked builds
+    'Mac15,3',          # Covers Ventura 13.5/13.6.2 and Sonoma 14.1 forked builds
+    'Mac15,12',         # Covers Sonoma 14.3 forked builds
 ]
 
 asset_audiences_overrides = {
@@ -327,7 +325,7 @@ for (os_str, builds) in parsed_args.items():
                 if audience in ['beta', 'public']:
                     if target_asset_audiences.get(audience):
                         kern_offset = kernel_marketing_version_offset_map.get(os_str, default_kernel_marketing_version_offset)
-                        audiences.extend({k:v for k,v in target_asset_audiences[audience].items() if int(kern_version) - kern_offset <= k}.values())
+                        audiences.extend({k:v for k,v in target_asset_audiences[audience].items() if (k == 12 and int(kern_version) - kern_offset == 15) or int(kern_version) - kern_offset <= k}.values())
                 else:
                     audiences.append(target_asset_audiences.get(audience, audience))
         build_path = list(Path(f"osFiles/{os_str}").glob(f"{kern_version}x*"))[0].joinpath(f"{build}.json")

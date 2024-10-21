@@ -1,7 +1,13 @@
 {
-    "name": "Unreleased iPad",
+    "name": "iPad mini (A17 Pro) Wi-Fi + Cellular",
     "identifier": "iPad16,2",
     "soc": "A17 Pro",
     "arch": "arm64e",
-    "type": "Unreleased iPad"
+    "type": "iPad mini",
+    "board": "J411AP",
+    "model": [
+        "A2995",
+        "A2996"
+    ],
+    "released": "2024-10-23"
 }
