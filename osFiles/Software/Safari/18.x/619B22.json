@@ -24,7 +24,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/Safari/Safari_18.1_for_macOS_Sonoma_and_Safari_18.1_for_macOS_Ventura_beta_4/Safari_18.1_for_macOS_Sonoma_beta_4.dmg",
-                    "active": true
+                    "active": false
                 }
             ],
             "size": 180865374
@@ -40,7 +40,7 @@
             "links": [
                 {
                     "url": "https://swcdn.apple.com/content/downloads/22/04/072-08829-A_LE6X6EQP3F/c0bodk7gkg02a3wjkqvsbzwc171n9xde00/Safari18.1SonomaAutoSeed.pkg",
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
