@@ -1,11 +1,11 @@
 {
     "osStr": "macOS",
-    "version": "15.1 beta 6",
-    "build": "24B5070a",
-    "restoreVersion": "24.2.70.5.1,0",
-    "bridgeOSBuild": "22P51066a",
-    "buildTrain": "GlowBSeed",
-    "released": "2024-10-07",
+    "version": "15.2 beta 2",
+    "build": "24C5073e",
+    "restoreVersion": "24.3.73.5.5,0",
+    "bridgeOSBuild": "22P52075c",
+    "buildTrain": "GlowCSeed",
+    "released": "2024-11-04",
     "beta": true,
     "appledbWebImage": {
         "id": "Sequoia",
@@ -45,6 +45,15 @@
         "Mac15,11",
         "Mac15,12",
         "Mac15,13",
+        "Mac16,1",
+        "Mac16,2",
+        "Mac16,3",
+        "Mac16,5",
+        "Mac16,6",
+        "Mac16,7",
+        "Mac16,8",
+        "Mac16,10",
+        "Mac16,11",
         "MacBookAir9,1",
         "MacBookAir10,1",
         "MacBookPro15,1-2018",
@@ -101,6 +110,15 @@
                 "Mac15,11",
                 "Mac15,12",
                 "Mac15,13",
+                "Mac16,1",
+                "Mac16,2",
+                "Mac16,3",
+                "Mac16,5",
+                "Mac16,6",
+                "Mac16,7",
+                "Mac16,8",
+                "Mac16,10",
+                "Mac16,11",
                 "MacBookAir10,1",
                 "MacBookPro17,1",
                 "MacBookPro18,1",
@@ -112,15 +130,15 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/fullrestores/072-00383/7EB106DF-9B03-4C2A-ACD1-997B0BFF9364/UniversalMac_15.1_24B5070a_Restore.ipsw",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/fullrestores/072-11046/F7A6FD60-0556-437D-88B6-6F2DD2CD8B96/UniversalMac_15.2_24C5073e_Restore.ipsw",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "3678b0363dd38e2a73ea0c1255a0eab4476e4f7e",
-                "sha2-256": "c14c1017f72fa12d17d5efffd3fe87845784b2191a627ebc9e925c8a21c9817e"
+                "sha1": "0e67ba8649541dbafde03dfadd563155eb00b5a4",
+                "sha2-256": "d66c8e9c8a688ac8ab26bd4c657d7fd78a3469c4c9e3c9f78b00d3ae5548decf"
             },
-            "size": 15734880172
+            "size": 16529788046
         },
         {
             "type": "installassistant",
@@ -158,6 +176,15 @@
                 "Mac15,11",
                 "Mac15,12",
                 "Mac15,13",
+                "Mac16,1",
+                "Mac16,2",
+                "Mac16,3",
+                "Mac16,5",
+                "Mac16,6",
+                "Mac16,7",
+                "Mac16,8",
+                "Mac16,10",
+                "Mac16,11",
                 "MacBookAir9,1",
                 "MacBookAir10,1",
                 "MacBookPro15,1-2018",
@@ -184,20 +211,20 @@
             ],
             "links": [
                 {
-                    "url": "https://swcdn.apple.com/content/downloads/32/18/072-00427-A_0Y1QWM403R/4en5movroyu3znjuskhq61r5kjkj3vcyma/InstallAssistant.pkg",
+                    "url": "https://swcdn.apple.com/content/downloads/13/38/072-11038-A_8VILF7KGLR/ekuwqfer80bkta2a6l6hn9flavknip4edt/InstallAssistant.pkg",
                     "catalog": "dev-beta",
-                    "active": false
+                    "active": true
                 },
                 {
-                    "url": "https://swcdn.apple.com/content/downloads/08/10/072-00427-A_P7FF5OC802/2eoz5hj6ld1hn48n6yypgte2gds7e0dpvh/InstallAssistant.pkg",
+                    "url": "https://swcdn.apple.com/content/downloads/10/34/072-11038-A_TGR6W7K3M5/4spyivl2qgnl5f93tuxe6hidk9y21677rf/InstallAssistant.pkg",
                     "catalog": "public-beta",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
-                "sha1": "24fd43e8101ef2beb8125d498bfee5ef75ef4579"
+                "sha1": "9ae1a4ceca5b27600d8a4e20851c312531364891"
             },
-            "size": 14527790012
+            "size": 15324884308
         },
         {
             "type": "ota",
@@ -235,6 +262,15 @@
                 "Mac15,11",
                 "Mac15,12",
                 "Mac15,13",
+                "Mac16,1",
+                "Mac16,2",
+                "Mac16,3",
+                "Mac16,5",
+                "Mac16,6",
+                "Mac16,7",
+                "Mac16,8",
+                "Mac16,10",
+                "Mac16,11",
                 "MacBookAir9,1",
                 "MacBookAir10,1",
                 "MacBookPro15,1-2018",
@@ -261,19 +297,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00382/977E48F7-AC36-4181-B5DC-3D01B0995D33/com_apple_MobileAsset_MacSoftwareUpdate/a69b79e89f4ba2afe7aa2d8cc31379274d53e1d6.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11025/1DDCD91A-43CE-440A-A3BA-E720EB516DC0/com_apple_MobileAsset_MacSoftwareUpdate/34ccfe6919c5f607515951d8cef4b854ae40273859b2d2b64bd8e23a02105b15.aea",
+                    "decryptionKey": "k21S2S6Qw1qEBFG6QTlmLJF60aWf4JSagHUNxJM5FZE=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "a69b79e89f4ba2afe7aa2d8cc31379274d53e1d6",
-                "sha2-256": "cb4eecabf5dbd7141d0ebbb29018ad12fc99b2ced061adc981c77b387ed39894"
+                "sha1": "7a6c563e918a6ad6f4b08dc6dd1ebf09e3dd9832",
+                "sha2-256": "60253be36dba53147de570cd4de7dcf019096210e9fb23644a7d16725f73f16f"
             },
-            "size": 14505143930
+            "size": 15300820992
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "21H1313",
+            "prerequisiteBuild": "22H217",
             "deviceMap": [
                 "iMac19,1",
                 "iMac19,2",
@@ -298,223 +335,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00384/99F2685B-65D0-48B1-B21F-3C86BAE57692/com_apple_MobileAsset_MacSoftwareUpdate/a63f8c30b2796149d2db063cf206bfdceb7c6289.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11015/03A538A7-F1CD-47F0-BF0C-DE4195B1DE71/com_apple_MobileAsset_MacSoftwareUpdate/88cd89acea431278b1f05c14ed3ee190067ed93c551ddb56d15cef57f60027bc.aea",
+                    "decryptionKey": "aozAej2b9oIFM+r2ZE3/perPzg1p6O2J410ZSskI8Q8=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "a63f8c30b2796149d2db063cf206bfdceb7c6289",
-                "sha2-256": "6e4b449c7fcc3477087377b0b3720015802ac43dc5cc69ccf0a793cfaa89f1ab"
+                "sha1": "4f439e99261a2108242a2034d61370be92336202",
+                "sha2-256": "e19ae0c2e7252ad37dc79bfff1088caaad0064124b234944046306c198905d13"
             },
-            "size": 7387162698
+            "size": 6777995264
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "21H1313",
-            "deviceMap": [
-                "iMac21,1",
-                "iMac21,2",
-                "Mac13,1",
-                "Mac13,2",
-                "Mac14,2",
-                "Mac14,7",
-                "MacBookAir10,1",
-                "MacBookPro17,1",
-                "MacBookPro18,1",
-                "MacBookPro18,2",
-                "MacBookPro18,3",
-                "MacBookPro18,4",
-                "Macmini9,1",
-                "VirtualMac2,1"
-            ],
-            "links": [
-                {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00370/40913E8A-55A7-4BB2-A054-CBA4E43B6657/com_apple_MobileAsset_MacSoftwareUpdate/3d1176f9ce4604ea82d6aad82a3adbca124edee5.zip",
-                    "active": true
-                }
-            ],
-            "hashes": {
-                "sha1": "3d1176f9ce4604ea82d6aad82a3adbca124edee5",
-                "sha2-256": "5f2e54d91f1c85f766a8e7e91f8ce013fa10dd893c411fc2b47b07913a23a6b0"
-            },
-            "size": 10050414699
-        },
-        {
-            "type": "ota",
-            "prerequisiteBuild": "21H1317",
-            "deviceMap": [
-                "iMac19,1",
-                "iMac19,2",
-                "iMac20,1",
-                "iMac20,2",
-                "iMacPro1,1",
-                "MacBookAir9,1",
-                "MacBookPro15,1-2018",
-                "MacBookPro15,1-2019",
-                "MacBookPro15,2-2018",
-                "MacBookPro15,2-2019",
-                "MacBookPro15,3-2018",
-                "MacBookPro15,3-2019",
-                "MacBookPro15,4",
-                "MacBookPro16,1",
-                "MacBookPro16,2",
-                "MacBookPro16,3",
-                "MacBookPro16,4",
-                "Macmini8,1",
-                "MacPro7,1",
-                "MacPro7,1-Rack"
-            ],
-            "links": [
-                {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00377/72AAA962-54F5-4C08-8258-ECFDDD924FCB/com_apple_MobileAsset_MacSoftwareUpdate/2bda337c7380443dabf565852fdd1525ca941afa.zip",
-                    "active": true
-                }
-            ],
-            "hashes": {
-                "sha1": "2bda337c7380443dabf565852fdd1525ca941afa",
-                "sha2-256": "e0ace64e128d284cac3d3e702b9812a12351e10c8edd6a85156a991b7ebcea32"
-            },
-            "size": 7387069421
-        },
-        {
-            "type": "ota",
-            "prerequisiteBuild": "21H1317",
-            "deviceMap": [
-                "iMac21,1",
-                "iMac21,2",
-                "Mac13,1",
-                "Mac13,2",
-                "Mac14,2",
-                "Mac14,7",
-                "MacBookAir10,1",
-                "MacBookPro17,1",
-                "MacBookPro18,1",
-                "MacBookPro18,2",
-                "MacBookPro18,3",
-                "MacBookPro18,4",
-                "Macmini9,1",
-                "VirtualMac2,1"
-            ],
-            "links": [
-                {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00372/D0291337-5F9A-482A-B24D-4561FFD14BF1/com_apple_MobileAsset_MacSoftwareUpdate/04582be559e4e6ad5ee5d4dd0159a66262cf10d5.zip",
-                    "active": true
-                }
-            ],
-            "hashes": {
-                "sha1": "04582be559e4e6ad5ee5d4dd0159a66262cf10d5",
-                "sha2-256": "ff0968793c61e9facfd876d2eb89de3de490d045651cc72d0dbd67c16e554281"
-            },
-            "size": 10050708086
-        },
-        {
-            "type": "ota",
-            "prerequisiteBuild": "21H1320",
-            "deviceMap": [
-                "iMac19,1",
-                "iMac19,2",
-                "iMac20,1",
-                "iMac20,2",
-                "iMacPro1,1",
-                "MacBookAir9,1",
-                "MacBookPro15,1-2018",
-                "MacBookPro15,1-2019",
-                "MacBookPro15,2-2018",
-                "MacBookPro15,2-2019",
-                "MacBookPro15,3-2018",
-                "MacBookPro15,3-2019",
-                "MacBookPro15,4",
-                "MacBookPro16,1",
-                "MacBookPro16,2",
-                "MacBookPro16,3",
-                "MacBookPro16,4",
-                "Macmini8,1",
-                "MacPro7,1",
-                "MacPro7,1-Rack"
-            ],
-            "links": [
-                {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00376/A5E56CF7-345D-4AC6-87CE-FD1DC668E151/com_apple_MobileAsset_MacSoftwareUpdate/9a2d9b0c641da7ec6160f02cd45610ee6261912d.zip",
-                    "active": true
-                }
-            ],
-            "hashes": {
-                "sha1": "9a2d9b0c641da7ec6160f02cd45610ee6261912d",
-                "sha2-256": "d5004e1c456bdfc599878478780ccd08c30228dcce6c8c0925c6ae0d52cc3ba2"
-            },
-            "size": 7386777534
-        },
-        {
-            "type": "ota",
-            "prerequisiteBuild": "21H1320",
-            "deviceMap": [
-                "iMac21,1",
-                "iMac21,2",
-                "Mac13,1",
-                "Mac13,2",
-                "Mac14,2",
-                "Mac14,7",
-                "MacBookAir10,1",
-                "MacBookPro17,1",
-                "MacBookPro18,1",
-                "MacBookPro18,2",
-                "MacBookPro18,3",
-                "MacBookPro18,4",
-                "Macmini9,1",
-                "VirtualMac2,1"
-            ],
-            "links": [
-                {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00391/185456DE-0529-4202-8FBF-2AEFEBCA8111/com_apple_MobileAsset_MacSoftwareUpdate/4b526b163c86b36140c04e3e418ae123e4af60aa.zip",
-                    "active": true
-                }
-            ],
-            "hashes": {
-                "sha1": "4b526b163c86b36140c04e3e418ae123e4af60aa",
-                "sha2-256": "9179584770565ca502bda266621bbed738f808341836733ea1aa4cb0adbaf49a"
-            },
-            "size": 10050932161
-        },
-        {
-            "type": "ota",
-            "prerequisiteBuild": "22H121",
-            "deviceMap": [
-                "iMac19,1",
-                "iMac19,2",
-                "iMac20,1",
-                "iMac20,2",
-                "iMacPro1,1",
-                "MacBookAir9,1",
-                "MacBookPro15,1-2018",
-                "MacBookPro15,1-2019",
-                "MacBookPro15,2-2018",
-                "MacBookPro15,2-2019",
-                "MacBookPro15,3-2018",
-                "MacBookPro15,3-2019",
-                "MacBookPro15,4",
-                "MacBookPro16,1",
-                "MacBookPro16,2",
-                "MacBookPro16,3",
-                "MacBookPro16,4",
-                "Macmini8,1",
-                "MacPro7,1",
-                "MacPro7,1-Rack"
-            ],
-            "links": [
-                {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00378/FB51FA61-E25E-4318-A96E-DA884A0E083B/com_apple_MobileAsset_MacSoftwareUpdate/a25f280dca2081df5a38eb711340f08c435d0e3d.zip",
-                    "active": true
-                }
-            ],
-            "hashes": {
-                "sha1": "a25f280dca2081df5a38eb711340f08c435d0e3d",
-                "sha2-256": "c9ebd06316ce40e24c99a42fc29c47300985847a21b438d841d8655f84098fe6"
-            },
-            "size": 6339519639
-        },
-        {
-            "type": "ota",
-            "prerequisiteBuild": "22H121",
+            "prerequisiteBuild": "22H217",
             "deviceMap": [
                 "iMac21,1",
                 "iMac21,2",
@@ -547,19 +381,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00431/4B32F061-9219-4657-BBC8-CAF5C2306CB7/com_apple_MobileAsset_MacSoftwareUpdate/e468eac626407bc8d3324d0ae1636443e8fafe55.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11039/E7597309-3923-493E-8437-0ECDC47A0DF2/com_apple_MobileAsset_MacSoftwareUpdate/3c507fe61863758fd518f0550fd8904be671897d1962775ca951cf36ac35574c.aea",
+                    "decryptionKey": "8rRqsURCNzXM3Os23LILWnaDiG4WRjtmEcMrsdeP29E=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "e468eac626407bc8d3324d0ae1636443e8fafe55",
-                "sha2-256": "47ae6ec652cb1f2725e4c1b7014e7ff7ff2a3a9e8826b635a0b58aafe9653bca"
+                "sha1": "4734bdf02f7897c6bf40dd03db2c9fba62f42553",
+                "sha2-256": "3a604e93dc8b419da5014cf34d87ed89403a1da85b22cf7a2c317807fb72661f"
             },
-            "size": 9090740831
+            "size": 9797894144
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "22H123",
+            "prerequisiteBuild": "22H220",
             "deviceMap": [
                 "iMac19,1",
                 "iMac19,2",
@@ -584,19 +419,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00366/50B666EB-23EB-4B7B-A23B-165F77E6891C/com_apple_MobileAsset_MacSoftwareUpdate/3dd36d61d9d4231a4e2d3950dc5b6038ffa8c4f9.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11036/BDD7E1C3-4052-46CF-9373-3582D8E5EC47/com_apple_MobileAsset_MacSoftwareUpdate/3e3f28df9054de8bc4a8c688758e418000eab8022bd727f93b54da4f7af5039f.aea",
+                    "decryptionKey": "Qta6fIHxJv3Su3Nx3JdDRt+lIsZQ+Zp613wnmP3lFpE=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "3dd36d61d9d4231a4e2d3950dc5b6038ffa8c4f9",
-                "sha2-256": "6bd533db188792759656b731cb12a5ab9ccec99d73a3acaa8cf86084857fb089"
+                "sha1": "215b4a4d3aeb100a751bd6edd8a318b44715bf93",
+                "sha2-256": "487adb7f57c694cefa312aa7366a336fed6052b3f66c204a2d99252254d974aa"
             },
-            "size": 6340047191
+            "size": 6777995264
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "22H123",
+            "prerequisiteBuild": "22H220",
             "deviceMap": [
                 "iMac21,1",
                 "iMac21,2",
@@ -629,19 +465,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00430/B33CDCDE-180E-4D47-8188-D4BB7299F1F0/com_apple_MobileAsset_MacSoftwareUpdate/d215a526c5e51f8c62156cbfd2dcc01f1563de37.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11018/38389DC6-5C7C-476A-870A-E6051EC7D33C/com_apple_MobileAsset_MacSoftwareUpdate/2430d0d203c2b738eef945412992886ab368fb25471f2445ca53699558889522.aea",
+                    "decryptionKey": "QXI/q2WTcARxddSaFFH/leK5/Uc6gIhMbFlHlOXyqQ8=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "d215a526c5e51f8c62156cbfd2dcc01f1563de37",
-                "sha2-256": "668a52ad56c9f6a2441da1bf4023ac0670894930a74bb2eb5b1c903a94f040e7"
+                "sha1": "ed8fa4d93d0d47e8ac99fec80b2ac0fa9d7a34e6",
+                "sha2-256": "05e78bb4c3327de7600ce94af7999ac23ce91c60a83572726cc8d88e93c50758"
             },
-            "size": 9090652436
+            "size": 9797894144
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "22H210",
+            "prerequisiteBuild": "22H221",
             "deviceMap": [
                 "iMac19,1",
                 "iMac19,2",
@@ -666,19 +503,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00447/C4936D97-6AEB-4A31-8722-967FDBEF20F1/com_apple_MobileAsset_MacSoftwareUpdate/37e4387f7c2e8f653b158d3d649ad27b21ec111c.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11037/22BC1343-566E-4C48-A8E5-E7FF2DE899E8/com_apple_MobileAsset_MacSoftwareUpdate/c78ed1241b2ed8ec998883331d4503627e0843966e2c36cbde62c93103d8accf.aea",
+                    "decryptionKey": "hvsqxhMdS64GAQZYkG7oaoMhoAByh4QChsPnBsnRE/o=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "37e4387f7c2e8f653b158d3d649ad27b21ec111c",
-                "sha2-256": "efc200d0b8ad74d48b5cbfca2a257da07ea77269de926af3d5dd5aba114c3cbd"
+                "sha1": "4ce40581f0deb74ba0c6b69aabc6d7c5e32e994b",
+                "sha2-256": "74ec18d5d0919c355d02b543992c59a070c2c4d2e792c637cbc111162c329f5e"
             },
-            "size": 6339706564
+            "size": 6777995264
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "22H210",
+            "prerequisiteBuild": "22H221",
             "deviceMap": [
                 "iMac21,1",
                 "iMac21,2",
@@ -711,19 +549,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00387/07F5BE93-7189-4B93-9F2B-3B9B346008A5/com_apple_MobileAsset_MacSoftwareUpdate/5c2a845584302b205f61dd0f4923bb8e1a8c87b3.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11035/A5C6270A-DDC5-4FDC-A155-7BBA9082DC1E/com_apple_MobileAsset_MacSoftwareUpdate/e817c21b617f492468c07f38cbc6817859b03eacecbbcdd7d91cc7501f95aa6d.aea",
+                    "decryptionKey": "OQHQpcJ+hQ8xNCFEACc/FMd1cWDdCfuo/fWmKxwDpRM=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "5c2a845584302b205f61dd0f4923bb8e1a8c87b3",
-                "sha2-256": "c45cd93a1d20f20079e5532bf27d027c1e6dc04d260a9ae64abdb36fc6c1a369"
+                "sha1": "eee297dac4b01bbb5ffe5b38f5ce7ac69bd2fec5",
+                "sha2-256": "5b44021bb86d36b69c485b4203044d82d98cd6756650a4524956bb8cc7e296db"
             },
-            "size": 9092313368
+            "size": 9797894144
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "23H122",
+            "prerequisiteBuild": "23H218",
             "deviceMap": [
                 "iMac19,1",
                 "iMac19,2",
@@ -748,19 +587,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00432/F0C49C91-E12F-48E7-9D79-B9706632F0DD/com_apple_MobileAsset_MacSoftwareUpdate/4f8ba29949c9c7fa28b9a020d826be69a95c5547.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11034/31F0B5A3-8BCE-4F06-AB57-A9109AA28092/com_apple_MobileAsset_MacSoftwareUpdate/04690793709a3434bb45b9a48d15cbd4187eec1a56146985b6eb6071b16c173b.aea",
+                    "decryptionKey": "QU4pICGEOxQNdvUSii+SJ5HVs6U1f+QtFQHR2nPhiBQ=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "4f8ba29949c9c7fa28b9a020d826be69a95c5547",
-                "sha2-256": "4ac57359941f5cd04b9ab8c7ee2f2052e87bc553006194f95525eaa7fa311974"
+                "sha1": "3f1a47ea571abbcf83bd2fe2b2b4b753f21a180f",
+                "sha2-256": "440ad017c417986689c335a8e9a2de8d2e95ba03ad721bc9c7db63f560578edb"
             },
-            "size": 4457527194
+            "size": 4898947072
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "23H122",
+            "prerequisiteBuild": "23H218",
             "deviceMap": [
                 "iMac21,1",
                 "iMac21,2",
@@ -801,19 +641,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00444/208DA02F-27F4-4DA0-A28D-6055D3939AE6/com_apple_MobileAsset_MacSoftwareUpdate/dd083307466b2ed5af95bb96ce9b28282420f60a.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11022/1983EA2C-BD94-4139-A483-594FD4E84665/com_apple_MobileAsset_MacSoftwareUpdate/439ef3588779cd5d834357e1c255f5acb565e1b56c2fc143495c55da11e016a6.aea",
+                    "decryptionKey": "a9T9Od7u3e5gARNuZmoMXawa8y1/BcWjHS4kXD26qWA=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "dd083307466b2ed5af95bb96ce9b28282420f60a",
-                "sha2-256": "60e5f8a7a521e27c90bd57ea9abd58b77b0382c3d26f3bdf44a51fc2af2bdafb"
+                "sha1": "59486646fac0fcd8687d57bbc2c0c295dd550168",
+                "sha2-256": "6f5029f4b4933164e3507f2aa64c3b3fb98bcd2f16db4323a2c3c5b8a7237ce1"
             },
-            "size": 6713682844
+            "size": 7516192768
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "23H124",
+            "prerequisiteBuild": "23H221",
             "deviceMap": [
                 "iMac19,1",
                 "iMac19,2",
@@ -838,19 +679,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00375/CF133E9A-F468-43DB-AFF7-E1FE81EFC577/com_apple_MobileAsset_MacSoftwareUpdate/a9ee6634eaa2720cd75dd3f02d21873a05b1a464.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11042/6DEE3BBD-6625-4ED6-AAA4-FEA3EB0033FD/com_apple_MobileAsset_MacSoftwareUpdate/2fa041c8890383ca2f26df4dcc9f48d21fe8d75ac8a7a104541cbe7c8b54ce9f.aea",
+                    "decryptionKey": "i4S/V1SlHVgyRegt2Ddj+pDNKhtlm8NtmTF2mWcjlRk=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "a9ee6634eaa2720cd75dd3f02d21873a05b1a464",
-                "sha2-256": "66b69fa3ef6738863b1b89ef92add30aabf87eb76317bf8b3cfba6544f601279"
+                "sha1": "104988c90cb127f8bf0199d94b6ec2f26b145050",
+                "sha2-256": "9acd0fa7df99bd05ee0ebe6142362cf1dbbcb21049aaf61bf07446d10174edca"
             },
-            "size": 4457437096
+            "size": 4898947072
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "23H124",
+            "prerequisiteBuild": "23H221",
             "deviceMap": [
                 "iMac21,1",
                 "iMac21,2",
@@ -891,19 +733,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00364/3B9E348B-9515-4CB7-BDA5-6C6BA20362B8/com_apple_MobileAsset_MacSoftwareUpdate/bb3419d4dd0f207f3fc7c1a469461df7090cad1e.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11044/F10E54C0-3DA5-4829-BB45-9295FFAF2F91/com_apple_MobileAsset_MacSoftwareUpdate/42e5a3bc1d751896db15616c07f452f2a8b02784e766bd06fb0c6014dbea2b38.aea",
+                    "decryptionKey": "0IaeRDn6fVrCbJqJlvdiR1TNb/Pvnd9d3oNmP5YH5BA=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "bb3419d4dd0f207f3fc7c1a469461df7090cad1e",
-                "sha2-256": "b572500779bb8ba35680f5431fe93bdf4cf3f6ed9536abb8215c2cc3868d4622"
+                "sha1": "d4be0517916bd0e1aeb81b006302225462f472c5",
+                "sha2-256": "5cf099921623b234205a2c316cd571be36b1c5de99153941b6573b3d9b3440cb"
             },
-            "size": 6712627501
+            "size": 7516192768
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "23H209",
+            "prerequisiteBuild": "23H222",
             "deviceMap": [
                 "iMac19,1",
                 "iMac19,2",
@@ -928,19 +771,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00385/E2745794-9F64-431B-BDD9-B2FCEF01DAC5/com_apple_MobileAsset_MacSoftwareUpdate/83b84caf306da6a997a85e98f3d1c527a67f3e52.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11032/3F03FAAD-21E1-4858-B91D-D82B73000AD6/com_apple_MobileAsset_MacSoftwareUpdate/0b78dcd015d93003d0bc973a4c8d434e70d9fba093231ba190988307a6b8cf64.aea",
+                    "decryptionKey": "ITZTPbzlgyXc/g+AI1zHD6UZRFWw2X84wVI8hrx4OM0=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "83b84caf306da6a997a85e98f3d1c527a67f3e52",
-                "sha2-256": "ac4fe3f86c70e55bcabedae4b44719601b8b6fb3ccc3079cf3023d0594d9c7c1"
+                "sha1": "d4628d9f95646675d0a7a5b1c3e81ba3ebf1ed9d",
+                "sha2-256": "2c4780efcb54430e691f9dee8afbcbc2ad75e94fa4d9ee081119ac2e4419d5f7"
             },
-            "size": 4457483789
+            "size": 4898947072
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "23H209",
+            "prerequisiteBuild": "23H222",
             "deviceMap": [
                 "iMac21,1",
                 "iMac21,2",
@@ -981,19 +825,43 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00373/324B3F9D-E685-462C-AE24-ACFA005DF1DE/com_apple_MobileAsset_MacSoftwareUpdate/dea4cda712839b9e5c75cd37fec749da6f51c0cf.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11013/20218338-F3E8-4466-8E1C-A730C1B18057/com_apple_MobileAsset_MacSoftwareUpdate/96db2474d4383553cdca14d77c78a455edd39e17ab015769a2ad55ca5bd11fa1.aea",
+                    "decryptionKey": "i48GQCim8iEkvEAr6F85CbkMG59cf/OINuNLwUbstxE=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "dea4cda712839b9e5c75cd37fec749da6f51c0cf",
-                "sha2-256": "88feaf8eff024958010fe0c4e0448632631b4d572c16f297bbfbdd000a16edf0"
+                "sha1": "5541b8cacdf92d7deee1aaebbf2f1a849616068a",
+                "sha2-256": "c82956515d4c6f95f89a70d4161600c10f14b8186fcf88e98ce24b3ef32d9738"
             },
-            "size": 6713121974
+            "size": 7516192768
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "24A335",
+            "prerequisiteBuild": "24A8332",
+            "deviceMap": [
+                "Mac16,1",
+                "Mac16,2",
+                "Mac16,3",
+                "Mac16,10",
+                "VirtualMac2,1"
+            ],
+            "links": [
+                {
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-16844/02594730-E0B4-4537-8365-6B3D1D015F8B/com_apple_MobileAsset_MacSoftwareUpdate/faca675689490f77b0aaa94a8e65cc766fc60bc4faf58b353ad7d778eb218140.aea",
+                    "decryptionKey": "mhou9gyId3KHed3Nc52VXy2VOC3+soEyh7WP7DsdsU4=",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "e683c0f7efc406bbeac97ae4f796bd457ba77cc0",
+                "sha2-256": "b84f5c2830f08aac3af7a4f93de30b554ee4ae9ccddd25917347d0f2e8a5c748"
+            },
+            "size": 3959422976
+        },
+        {
+            "type": "ota",
+            "prerequisiteBuild": "24B5070a",
             "deviceMap": [
                 "iMac19,1",
                 "iMac19,2",
@@ -1018,19 +886,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00363/E260150F-2122-4D40-BCA9-B355ADB9390B/com_apple_MobileAsset_MacSoftwareUpdate/49fd53b2b0e37c474a96c29046c6ccbde82feac9.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11028/4EA22A54-7BA2-4277-A34E-AEF0FDCE25F1/com_apple_MobileAsset_MacSoftwareUpdate/08c4bec064c1198d4488189d3cea8186844ac0053111b46fc17a2867b37a3747.aea",
+                    "decryptionKey": "MBbuXIDZzqYyLth4rWzXDO6xpHs/pXk2yegP4QodeME=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "49fd53b2b0e37c474a96c29046c6ccbde82feac9",
-                "sha2-256": "b2c541c710a63442fc479431adcb1301cee6bd3f8b5b1b16fc72f0c11b588e73"
+                "sha1": "34f50f241ded2ddba99f1d0989c2e5f384a044a6",
+                "sha2-256": "372a4f6aa801cd25fd56875f3c259ccc48c6eaf6f9fcdfd0135856483e662c44"
             },
-            "size": 1847645457
+            "size": 2147483648
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "24A335",
+            "prerequisiteBuild": "24B5070a",
             "deviceMap": [
                 "iMac21,1",
                 "iMac21,2",
@@ -1071,19 +940,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00369/3E07C9B6-99CC-48D2-9246-45BB072B498C/com_apple_MobileAsset_MacSoftwareUpdate/1f947f81039dba61dee8e6a5ffcdaa38d944269b.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11021/2F23BF1C-A037-4B14-BCD0-C818C65EFF45/com_apple_MobileAsset_MacSoftwareUpdate/ac0aff1dfefcd65701d4738d20114e2f53af5469e68cee3d05a84894ee9292c3.aea",
+                    "decryptionKey": "T6D6X6ED6sLmNrqYD7s/eoovtZTBQrtnabI0P9uboIM=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "1f947f81039dba61dee8e6a5ffcdaa38d944269b",
-                "sha2-256": "32882a7a70fa91581c635587690dada861199d4c4df8256e115c353c8df85331"
+                "sha1": "bc327110292d1b66360a7c6c682d1f05a214be55",
+                "sha2-256": "6a99dbace147f3645b8a12c9a61ab693bdabe1e8a735027f552a90c818cf3125"
             },
-            "size": 2920765754
+            "size": 3623878656
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "24A348",
+            "prerequisiteBuild": "24B5077a",
             "deviceMap": [
                 "iMac19,1",
                 "iMac19,2",
@@ -1108,19 +978,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-03177/A42E7BDF-E34D-4F21-BA51-EA0CC763BFAC/com_apple_MobileAsset_MacSoftwareUpdate/6666493442320ba9868f1e21c6b76ebc5a083955.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11045/FF3CD199-61EB-417C-9373-74211024B029/com_apple_MobileAsset_MacSoftwareUpdate/00c96aed28d38afe502fd93bea0f431eafa1ef46adef219988771e6f8555d396.aea",
+                    "decryptionKey": "f+Ia2btmvArc24HMmelkHzUfdxsNmL82KjKlraehRoA=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "6666493442320ba9868f1e21c6b76ebc5a083955",
-                "sha2-256": "b764422d1d3b2097f64230ac4af51031a8b9bb1c5cb9a9bdbb98e535c065cef4"
+                "sha1": "d328f71a5969e07ee34e176055811c41a22d198e",
+                "sha2-256": "667ce1e3c5be8414f0e68bcf83b3111cd0fac801e4a0af56e693105d44d48416"
             },
-            "size": 1846126351
+            "size": 2147483648
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "24A348",
+            "prerequisiteBuild": "24B5077a",
             "deviceMap": [
                 "iMac21,1",
                 "iMac21,2",
@@ -1161,19 +1032,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-03178/C4A86D42-CF44-4385-B2EC-7F61ABEF7FCE/com_apple_MobileAsset_MacSoftwareUpdate/c0a087a52b121ba1595e970ecb34eae6208e1c12.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11024/6FB8E2A1-C68B-41C8-BB8D-E87C5F8DF0E9/com_apple_MobileAsset_MacSoftwareUpdate/d177a22ca3e1547ddb8b0eaebbd7641da2ee9f2b8284d9798a2f2203c9a58bee.aea",
+                    "decryptionKey": "RNgiFTprqG6D8X1obYyRw5MBMy6fCetAQxs0K+OsOO0=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "c0a087a52b121ba1595e970ecb34eae6208e1c12",
-                "sha2-256": "60024173954c6751cd1d6b233d34eb0cf69cfa63edeafe55ca4fc7b8d7f8939d"
+                "sha1": "e1a33d0480a8c136d03f6b82a00558e733c00056",
+                "sha2-256": "8f930c8ce7ea2ba4bbaa9cb2e08daa2d8dc0c5b5b12f8882ac84e939456410ce"
             },
-            "size": 2922144285
+            "size": 3623878656
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "24B5046f",
+            "prerequisiteBuild": "24B82",
             "deviceMap": [
                 "iMac19,1",
                 "iMac19,2",
@@ -1198,19 +1070,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00365/5E0E3D00-A168-4BB2-9438-12F2CC988125/com_apple_MobileAsset_MacSoftwareUpdate/38ab7510c0bd784fa0e09082ba5b0bf535fa1627.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11040/58FC28BE-15F9-4629-93A9-2CD95088A07C/com_apple_MobileAsset_MacSoftwareUpdate/8ecb00f21581629f06373f768d29aaf34637e9ef0e01831b8230a75218a85849.aea",
+                    "decryptionKey": "/QQnhaIAAkqQhOz0YBE5t5kkqNI4Wxk9j8lQuIYFo70=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "38ab7510c0bd784fa0e09082ba5b0bf535fa1627",
-                "sha2-256": "e1c2592709abc82e55f546a270505d8f4c310e2cb0b1fd5b71d9ae2517527c22"
+                "sha1": "aa8333438de25ec04e1419eab74a9ee8fda258ba",
+                "sha2-256": "6a1cda7ddacccef0ebc6e6333dfd0c21f4581b6a493d0495c8b9c0d82fe3052c"
             },
-            "size": 1479202900
+            "size": 2147483648
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "24B5046f",
+            "prerequisiteBuild": "24B82",
             "deviceMap": [
                 "iMac21,1",
                 "iMac21,2",
@@ -1251,19 +1124,48 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00371/EA801E03-4C89-4A44-A635-87513DB5EEE9/com_apple_MobileAsset_MacSoftwareUpdate/4f736c8d79ef47edbe92033c4db39cd9b2d8f750.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-11029/B55BF58E-704E-4536-AD63-8F4F40181B1B/com_apple_MobileAsset_MacSoftwareUpdate/be342f9353bf5899a5e58fe13d213bff288d6074626dee86447c6936820b2b88.aea",
+                    "decryptionKey": "a2/seAvkYfo4jZxaROMR7g+wJBU3CR8nKngs8wapC58=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "4f736c8d79ef47edbe92033c4db39cd9b2d8f750",
-                "sha2-256": "bd72e2ddf0aeb8b4028b7112b325a3154cf801ff6240cab69d8184e3a789b6b9"
+                "sha1": "58065eaba5ce4a9a610f64b278954ccb646e2d66",
+                "sha2-256": "6c86e23c3bc1d77f2e91fcf4fc5b7143dff5e8243d92ab1090b5c6d9fa75b088"
             },
-            "size": 2478970918
+            "size": 3623878656
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "24B5055e",
+            "prerequisiteBuild": "24B2082",
+            "deviceMap": [
+                "Mac16,1",
+                "Mac16,2",
+                "Mac16,3",
+                "Mac16,5",
+                "Mac16,6",
+                "Mac16,7",
+                "Mac16,8",
+                "Mac16,10",
+                "Mac16,11",
+                "VirtualMac2,1"
+            ],
+            "links": [
+                {
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-16845/6294EE84-C96A-4472-93BF-7BB54929EB79/com_apple_MobileAsset_MacSoftwareUpdate/a4e078757c169692d948da4e641d66e733d9566c89040d32998f979352f7c0d1.aea",
+                    "decryptionKey": "TmQfztFVRau/mJInK/5tG0fupinrEhMXofgdFHlKWPk=",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "c1f4ba22df58191c57ae1c37e58756f0c7fe5968",
+                "sha2-256": "de83cdb3be7bea455151718b6c8e35f6f7c82377eb463ad8b7fb3373ef8b9aa3"
+            },
+            "size": 3422552064
+        },
+        {
+            "type": "ota",
+            "prerequisiteBuild": "24B83",
             "deviceMap": [
                 "iMac19,1",
                 "iMac19,2",
@@ -1288,19 +1190,20 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00388/70F68A64-EA11-4BBE-85CF-9760D7651CFF/com_apple_MobileAsset_MacSoftwareUpdate/b293a1222a07cfd203db41f16b2db97b1a275200.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-13216/BE2288E1-6237-4D4B-852E-A107332DE2E1/com_apple_MobileAsset_MacSoftwareUpdate/cec5fa999a52edb28d8dba4a2093e887479d3d0a33545d97240fa16bbdd6c660.aea",
+                    "decryptionKey": "bV1+Dg9mGeNKDrZD+rC1PcNEFGn3j+xmg3Lf8/VVpWk=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "b293a1222a07cfd203db41f16b2db97b1a275200",
-                "sha2-256": "f7c8df8866d0269c3b990461e1b6ea3a5d4ea018359dc70bb57c81ad80f1f739"
+                "sha1": "d98972b80718d5280f4b0179509f8cab4ee88835",
+                "sha2-256": "73609146b9ba5d47b69a1b31d9ded74dc55e61d3c2b7192d68ad23541a66a962"
             },
-            "size": 1285466695
+            "size": 2147483648
         },
         {
             "type": "ota",
-            "prerequisiteBuild": "24B5055e",
+            "prerequisiteBuild": "24B83",
             "deviceMap": [
                 "iMac21,1",
                 "iMac21,2",
@@ -1341,15 +1244,97 @@
             ],
             "links": [
                 {
-                    "url": "https://updates.cdn-apple.com/2024FallSeed/patches/072-00374/E2E482D6-FC20-438E-9F36-6E1A3DDDA939/com_apple_MobileAsset_MacSoftwareUpdate/4ab0a207d8e4aef6456f03bd916998fd72c40a73.zip",
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-13217/EA299D7E-CB17-4D5D-92A5-C12B9C0CB2BC/com_apple_MobileAsset_MacSoftwareUpdate/4bfd4315bbcca133d0eb2f374e5cedabea966868f836f2e7eb136d1f05eb3dad.aea",
+                    "decryptionKey": "GuSi7gcAB5oLHoX5QUebKCy2V2oZQqafkSqIPE5ZRBs=",
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "4ab0a207d8e4aef6456f03bd916998fd72c40a73",
-                "sha2-256": "0d9ea49af8974f6e58329626467bed168f1ea1ec07a303ec8897ae26a69af3b6"
+                "sha1": "139efc7217d5c18c0dce9dacab0dd87c69c5d85a",
+                "sha2-256": "4cacf5e8c854cb474a232a350728938480a3fff47c01eeec2c0c17a092ee06cf"
             },
-            "size": 2208676541
+            "size": 3623878656
+        },
+        {
+            "type": "ota",
+            "prerequisiteBuild": "24B2083",
+            "deviceMap": [
+                "Mac16,1",
+                "Mac16,2",
+                "Mac16,3",
+                "Mac16,5",
+                "Mac16,6",
+                "Mac16,7",
+                "Mac16,8",
+                "Mac16,10",
+                "Mac16,11",
+                "VirtualMac2,1"
+            ],
+            "links": [
+                {
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-16843/2AE9FCC7-F944-4C3D-91F1-F748F264729C/com_apple_MobileAsset_MacSoftwareUpdate/6af0cd969aa47fdf5abfc6e0ad8b2cbde8e1de3bb9713f06aaf974a274d7c1f9.aea",
+                    "decryptionKey": "SyH8mJlG6HbhQ+/r3rdgdFQGFoFmZDG+I1f6LtqDJc8=",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "e4d44c067d15bf4397f3a5a294e998aaf0de7cf8",
+                "sha2-256": "727e4a0e26d5657aa05457e968f60555ff44101cdf83d9093e781e7bd49b990c"
+            },
+            "size": 3422552064
+        },
+        {
+            "type": "ota",
+            "prerequisiteBuild": "24C5057p",
+            "deviceMap": [
+                "iMac21,1",
+                "iMac21,2",
+                "Mac13,1",
+                "Mac13,2",
+                "Mac14,2",
+                "Mac14,3",
+                "Mac14,5",
+                "Mac14,6",
+                "Mac14,7",
+                "Mac14,8",
+                "Mac14,8-Rack",
+                "Mac14,9",
+                "Mac14,10",
+                "Mac14,12",
+                "Mac14,13",
+                "Mac14,14",
+                "Mac14,15",
+                "Mac15,3",
+                "Mac15,4",
+                "Mac15,5",
+                "Mac15,6",
+                "Mac15,7",
+                "Mac15,8",
+                "Mac15,9",
+                "Mac15,10",
+                "Mac15,11",
+                "Mac15,12",
+                "Mac15,13",
+                "MacBookAir10,1",
+                "MacBookPro17,1",
+                "MacBookPro18,1",
+                "MacBookPro18,2",
+                "MacBookPro18,3",
+                "MacBookPro18,4",
+                "Macmini9,1"
+            ],
+            "links": [
+                {
+                    "url": "https://updates.cdn-apple.com/2024FallSeed/mobileassets/072-13219/D429F60B-C44D-4694-A3B7-16612373DDAD/com_apple_MobileAsset_MacSoftwareUpdate/db72513f538aa6d6335a9d71c5f5191b377a57da851b3a022d22b28d59bde596.aea",
+                    "decryptionKey": "81/dCqhQngBT/yrL3LoKPIPBAfClH46y6wrrb3+lnQw=",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "f4aed9cec498e77478e7359ee42c2f9d0db34d2a",
+                "sha2-256": "0409c714d4aaa9d1c11c475f6668f7428b51b3bbae87cf4b0b6c401843a2f94e"
+            },
+            "size": 3087007744
         },
         {
             "type": "kdk",
@@ -1387,6 +1372,15 @@
                 "Mac15,11",
                 "Mac15,12",
                 "Mac15,13",
+                "Mac16,1",
+                "Mac16,2",
+                "Mac16,3",
+                "Mac16,5",
+                "Mac16,6",
+                "Mac16,7",
+                "Mac16,8",
+                "Mac16,10",
+                "Mac16,11",
                 "MacBookAir9,1",
                 "MacBookAir10,1",
                 "MacBookPro15,1-2018",
@@ -1413,11 +1407,11 @@
             ],
             "links": [
                 {
-                    "url": "https://developer.apple.com/services-account/download?path=/macOS/Kernel_Debug_Kit_15.1_build_24B5070a/Kernel_Debug_Kit_15.1_build_24B5070a.dmg",
+                    "url": "https://developer.apple.com/services-account/download?path=/macOS/Kernel_Debug_Kit_15.2_build_24C5073e/Kernel_Debug_Kit_15.2_build_24C5073e.dmg",
                     "active": true
                 }
             ],
-            "size": 800404628
+            "size": 924544821
         }
     ]
 }
