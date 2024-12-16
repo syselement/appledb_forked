@@ -10,5 +10,8 @@
     },
     "deviceMap": [
         "iPhone3,3"
-    ]
+    ],
+    "basebandVersions": {
+        "iPhone3,3": "0.2.07"
+    }
 }
