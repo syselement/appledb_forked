@@ -1,10 +1,10 @@
 {
     "osStr": "bridgeOS",
-    "version": "9.2 beta 3",
-    "build": "22P52089a",
-    "restoreVersion": "22.16.12089.5.1,0",
-    "buildTrain": "GlowBridgeCSeed",
-    "released": "2024-11-20",
+    "version": "9.3 beta",
+    "build": "22P53034a",
+    "restoreVersion": "22.16.13034.5.1,0",
+    "buildTrain": "GlowBridgeDSeed",
+    "released": "2024-12-16",
     "beta": true,
     "deviceMap": [
         "iBridge2,1",
@@ -47,20 +47,20 @@
             ],
             "links": [
                 {
-                    "url": "https://swcdn.apple.com/content/downloads/32/59/072-35576-A_KMYTCY7BOD/dqlbq37xhyr48onicxrzy55hevz10mk28d/BridgeOSUpdateCustomer.pkg",
+                    "url": "https://swcdn.apple.com/content/downloads/54/52/072-29309-A_5ZVGY42H2T/5intrdqgatjfygu8a3l2uly3r1jdrxze8d/BridgeOSUpdateCustomer.pkg",
                     "catalog": "dev-beta",
-                    "active": false
+                    "active": true
                 },
                 {
-                    "url": "https://swcdn.apple.com/content/downloads/61/58/072-35576-A_BHY04244YC/rlnb6xn9x13i58zppiro4od33oa1sy31pf/BridgeOSUpdateCustomer.pkg",
+                    "url": "https://swcdn.apple.com/content/downloads/08/55/072-29309-A_D2NBM63N7J/1ibakdgorjgyfn07nzc12h4auncp8l4tso/BridgeOSUpdateCustomer.pkg",
                     "catalog": "public-beta",
-                    "active": false
+                    "active": true
                 }
             ],
             "hashes": {
-                "sha1": "6e4cada0f984db80f15ab551e0b74dbbf22c4abd"
+                "sha1": "416425a67a97b48fd0dffb3606d3e488cee379c7"
             },
-            "size": 542064321
+            "size": 542144093
         }
     ]
 }
