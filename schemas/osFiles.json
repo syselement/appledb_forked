@@ -7,7 +7,7 @@
     "additionalProperties": false,
     "properties": {
         "osStr":         {"type": "string"},
-        "version":       {"type": "string"},
+        "version":       {"type": "string", "not": { "pattern": "FIXME" }},
         "iosVersion":    {"type": "string"},
         "safariVersion": {
             "anyOf": [
@@ -118,7 +118,7 @@
                 "additionalProperties": false,
                 "required": ["type", "links", "deviceMap"],
                 "properties": {
-                    "type": {"enum": ["ipsw", "ota", "update", "kdk", "installassistant", "combo", "pkg", "aar", "dmg", "exe", "appx", "apk", "xip", "tar", "bin"]},
+                    "type": {"enum": ["ipsw", "ota", "update", "kdk", "installassistant", "combo", "pkg", "aar", "dmg", "exe", "appx", "apk", "xip", "tar", "bin", "ipa"]},
                     "deviceMap": {"$ref": "#/properties/deviceMap"},
                     "boardMap": {
                         "type": "array",
